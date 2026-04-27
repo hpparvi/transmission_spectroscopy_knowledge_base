@@ -1,6 +1,6 @@
 # CLAUDE.md — Wiki Schema
 
-This vault is a personal, encyclopedic wiki on transmission spectroscopy of exoplanet atmospheres. You (the LLM) are its maintainer. The human curates sources and asks questions; you do all writing.
+This vault is a personal, encyclopedic wiki on exoplanet atmospheric characterization — primarily **transmission** spectroscopy, with **emission** (secondary-eclipse and phase-curve) results included when they bear directly on the same targets or questions. You (the LLM) are its maintainer. The human curates sources and asks questions; you do all writing.
 
 **You own:** `wiki/`, `index.md`, `log.md`, `analyses/`.
 **You must not modify:** `raw/` (immutable source PDFs), `CLAUDE.md` (propose edits; don't silently rewrite), `docs/` (design artifacts).
@@ -72,13 +72,24 @@ ingested: 2026-04-22
 ---
 ```
 
+Optional extended fields (use when the paper's claims warrant finer distinction):
+
+- `species_tentative: [<formula>, ...]` — species inferred but not claimed as confirmed detections.
+- `species_ruled_out: [<formula>, ...]` — species or atmospheric scenarios the paper rules out.
+- `codes: [<toolname>, ...]` — specific codes or pipelines used, for cross-reference with `wiki/codes/`.
+
 ### Target pages — rich frontmatter
+
+Target pages are split between planets (`kind: planet`) and host stars (`kind: star`). For planets a `class:` field selects the broad category and determines the unit convention. For stars `class:` is the Morgan–Keenan spectral type.
+
+**Planet — gas giant:**
 
 ```yaml
 ---
 type: target
-kind: planet                # planet | star
-host_star: WASP-39          # omit for stars
+kind: planet
+class: gas-giant            # terrestrial | sub-neptune | neptune | gas-giant
+host_star: WASP-39
 mass_mjup: 0.28
 radius_rjup: 1.27
 period_days: 4.055
@@ -88,7 +99,52 @@ tags: [hot-jupiter, inflated]
 ---
 ```
 
-For stars: use `kind: star`, drop `host_star`, and use `mass_msun`, `radius_rsun`, `teff_k`, `feh_dex` in place of the planetary properties.
+**Planet — terrestrial:**
+
+```yaml
+---
+type: target
+kind: planet
+class: terrestrial          # terrestrial | sub-neptune | neptune | gas-giant
+host_star: GJ1132
+mass_mearth: 1.66
+radius_rearth: 1.30
+period_days: 1.628931
+teq_k: 529
+discovery_year: 2015
+tags: [super-earth, rocky-planet, m-dwarf-host]
+---
+```
+
+**Unit convention for planets** (tied to `class:` — do not mix Earth and Jupiter units on the same page):
+
+| `class:` value | Mass field    | Radius field    |
+|----------------|---------------|-----------------|
+| `terrestrial`  | `mass_mearth` | `radius_rearth` |
+| `sub-neptune`  | `mass_mearth` | `radius_rearth` |
+| `neptune`      | `mass_mjup`   | `radius_rjup`   |
+| `gas-giant`    | `mass_mjup`   | `radius_rjup`   |
+
+`period_days`, `teq_k`, and `discovery_year` are class-independent.
+
+**Host star:**
+
+```yaml
+---
+type: target
+kind: star
+class: M                    # A | F | G | K | M | other
+mass_msun: 0.18
+radius_rsun: 0.21
+teff_k: 3270
+feh_dex: -0.12
+tags: [m-dwarf, planet-host]
+---
+```
+
+For stars: drop `host_star:` (it's meaningless), use `mass_msun`, `radius_rsun`, `teff_k`, `feh_dex` in place of the planetary properties, and use `class:` for the MK spectral type (prefer `other` to inventing e.g. `L` or `T` entries until a brown-dwarf host case arises).
+
+Only `type:` is strictly required across all pages; `class:` is strongly recommended but omissible when unknown.
 
 ### All other types — minimal frontmatter
 
@@ -153,6 +209,23 @@ One-sentence placement in context (type, host, first characterization).
 - Host: [[<star>]]
 ```
 
+### Target (stub + synthesis — intermediate state)
+
+When a target has 2 papers (short of the hub promotion threshold) but the second materially updates the first, extend the stub with a one-paragraph `## Observations to date` section narrating the arc. Full hub promotion still waits for user approval.
+
+```markdown
+# <Target>
+
+One-sentence placement in context (type, host, first characterization).
+
+## Observations to date
+One-paragraph narrative tracing the paper-by-paper story (first characterization, follow-up, any supersession).
+
+## See also
+- Host: [[<star>]]
+- Papers: [[<bibkey_newest>]], [[<bibkey_older>]]
+```
+
 ### Target (hub, promoted from stub)
 
 ```markdown
@@ -200,13 +273,13 @@ Hubs of these types gain sections like `## Variants`, `## History`, `## Trade-of
 
 ## Operations
 
-You handle three canonical operations.
+You handle three canonical operations. These are sequential, local, and context-light — do not spawn subagents or invoke `superpowers:*` skills for ingest / query / lint; they add latency without value in this workflow.
 
 ### Ingest — triggered by the user dropping a PDF into `raw/papers/` and asking you to ingest it
 
 1. Confirm the PDF exists; read the full text.
 2. Extract: authors, year, venue (journal or arXiv id), targets, instruments, methods, species, key results, caveats, open questions. Propose a bibkey (`<year>_<first-author>_<shortslug>`).
-3. **Pause.** Present a ~10-line bulleted summary to the user. Ask if the emphasis is right. Accept corrections before writing anything.
+3. **Pause.** Present a ~10–15-bullet summary to the user. Where emphasis is genuinely ambiguous (TL;DR framing, which entities warrant stubs, how to handle ruled-out or tentative species, etc.), surface focused decision questions alongside your recommendations. Accept corrections before writing anything.
 4. Rename the PDF to `<bibkey>.pdf` if it isn't already.
 5. Create `wiki/papers/<bibkey>.md` from the paper template.
 6. For each referenced entity, create a stub if missing or update the existing page. Stubs get a stub template; hub pages get a new bullet or section, not a rewrite.
@@ -260,6 +333,7 @@ When ingestion reveals a claim that conflicts with existing wiki prose:
 
 ### Stale claims
 
+- **Paper pages are frozen at ingest time.** A paper page captures what that paper claimed; never rewrite it when a later paper supersedes the claim. Supersessions are recorded on the target/hub page's `## Observations to date` and via a `## Tensions` entry on the *superseding* paper's page.
 - A new paper contradicting existing prose → tension entry, not silent rewrite.
 - Hub pages maintain chronology (`## Observations to date`, `## History`) so supersessions are visible.
 - Concept/method ledes may be updated in place when the newer understanding is clearly correct; log the change and add a one-line impact note on the superseding paper's page.
@@ -267,6 +341,15 @@ When ingestion reveals a claim that conflicts with existing wiki prose:
 ### Broken links
 
 When you write a `[[link]]` to a non-existent page, create the stub immediately using the stub template. Broken links that appear later (e.g., after a rename) become lint findings, not silent drops.
+
+### Referencing not-yet-ingested papers
+
+Tensions and related-work sections often need to cite papers that are not yet in the wiki (the user has not ingested them). The citation-style rule "never cite a paper without a page" still applies — so:
+
+- Name the paper in prose with a `(not yet ingested)` suffix. E.g., `Swain et al. 2021 (HST/WFC3; not yet ingested)`.
+- Do **not** create a `[[link]]` to the missing paper, and do **not** fabricate a paper stub for it.
+- The factual-claim chain resolves via the *citing* paper's page (which does exist), not the referenced paper's.
+- If the referenced paper is later ingested, a lint pass converts matching prose references to `[[bibkey]]` links.
 
 ## Hard rules
 
@@ -326,6 +409,14 @@ Append-only, grep-friendly.
 ## [2026-04-22] schema | loosened frontmatter requirements on species pages
 **Reason:** ingestion was stalling on unknown abundance values; made abundance_ppm optional
 ```
+
+**Additional structured fields** that may appear in `ingest` / `lint` / `schema` entries beyond the canonical examples above:
+
+- `**Tension flagged:** [[entity]] — claim A ([[paperA]]) vs claim B ([[paperB]])` — new tension introduced by this ingest.
+- `**Tension update:** <what changed>` — reinforcement or partial resolution of an existing tension.
+- `**Supersession note:** <claim> superseded by [[newer paper]]; [[older paper]] page preserved as-is per § Stale claims.`
+- `**Promotion candidacy:** [[entity]] crosses threshold (<counts>). Not promoted per "never automatic"; awaits user approval at next lint.`
+- `**Emphasis decisions (user-approved):**` followed by a short bulleted list — framing / scope choices made during the ingest.
 
 **Rules:** append only. Never rewrite past entries. Corrections become new entries.
 
