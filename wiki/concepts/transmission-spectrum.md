@@ -6,9 +6,11 @@ tags: [observable, terminator-atmosphere]
 
 # Transmission spectrum
 
-The wavelength-dependent apparent planet radius Rp(λ) (or transit depth (Rp/R⋆)²(λ)) measured through [[transmission-spectroscopy]]. Features encode absorption and scattering by the day–night terminator atmosphere, modulated by cloud/haze opacity and — for M-dwarf hosts especially — potential [[stellar-contamination]] from unocculted heterogeneities.
+The wavelength-dependent apparent planet radius Rp(λ) (or transit depth (Rp/R⋆)²(λ)) measured through [[transmission-spectroscopy]]. Features encode absorption and scattering by the day–night terminator atmosphere, modulated by cloud/haze opacity and — for M-dwarf hosts especially — potential [[stellar-contamination]] from unocculted heterogeneities. Brown 2001 ([[2001_Brown_TransmissionDiagnostics]]) introduced the equivalent **spectrum ratio** formulation R(λ) = F_transit / F_out as the natural observable; the two formulations carry the same physical content.
 
 ## Papers
+- [[2001_Brown_TransmissionDiagnostics]] — introduces the formal spectrum-ratio R(λ) framework; foundational definition of the observable.
+- [[2000_Seager_TheoryTransmission]] — first quantitative predictions for transmission-spectrum amplitudes (~10⁻⁴–10⁻³ relative to stellar flux); foundational geometry.
 - [[2025_Bennett_GJ1132b]] — four-visit coadded GJ 1132 b transmission spectrum best fit by a flat line; demonstrates [[multi-visit-stacking]] as a rocky-planet detection discriminator.
 - [[2025_Alam_L168-9b]] — first broadband 3–12 μm (NIR + MIR) transmission spectrum of a rocky exoplanet; featureless.
 - [[2025_Alderson_TOI-776b]] — two-visit NIRSpec G395H transmission spectrum of TOI-776 b; flat after detector-offset correction.

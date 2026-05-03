@@ -10,3 +10,5 @@ Self-consistent grid of cool-dwarf model atmospheres and emergent spectra (A. R.
 
 ## Papers
 - [[2025_Rathcke_TRAPPIST1bc]] — used (via [[speclib]]) for 1- to 4-component photospheric fits to TRAPPIST-1's out-of-transit JWST spectrum; the cool component pegs at the 2000 K grid floor and is therefore quoted as an upper limit.
+- [[2025_Connors_MIRI-15um]] — SPHINX stellar models recalibrated against measured F1500W flux because defaults overestimate TRAPPIST-1 mid-IR flux; used for bare-rock baseline comparisons.
+- [[2026_Holmberg_GJ3473b]] — SPHINX (alongside BT-Settl) for the GJ 3473 stellar atmosphere model at MIRI F1500W.

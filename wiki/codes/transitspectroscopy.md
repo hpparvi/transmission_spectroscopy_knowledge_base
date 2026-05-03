@@ -13,3 +13,4 @@ A JWST NIRSpec time-series reduction pipeline (Espinoza 2022; not yet ingested. 
 - [[2025_Fisher_TOI1685b]] — cross-check reduction for five TOI-1685 b G395H transits.
 - [[2024_Gressier_L98-59d]] — primary reduction for the L 98-59 d G395H transit; primary spectrum in the atmospheric retrievals.
 - [[2024_Banerjee_L98-59d]] — primary reduction adopted for the companion retrieval analysis on the same transit.
+- [[2025_Gressier_WASP17b]] — one of three independent reductions (alongside [[supreme-SPOON]] and [[Ahsoka]]) for the WASP-17 b NIRISS/SOSS secondary eclipse.

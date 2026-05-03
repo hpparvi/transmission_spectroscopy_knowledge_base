@@ -17,3 +17,4 @@ An end-to-end JWST time-series reduction pipeline (Alderson et al. 2022, 2023; n
 - [[2024_Scarsdale_L98-59c]] — one of two independent reductions (alongside [[Eureka]]) for L 98-59 c COMPASS spectrum.
 - [[2024_Alderson_TOI-836b]] — primary reduction (alongside [[Eureka]]) for TOI-836 b.
 - [[2023_May_GJ1132b]] — one of three independent reductions for GJ 1132 b G395H data.
+- [[2025_Gordon_COMPASS-G395H]] — sole pipeline for the uniform reanalysis of seven COMPASS targets; introduces the **RPF-PCA systematics model** (PCA of relative pixel fluxes, fit as a 6-vector basis) as a new default for low-groups-per-integration NIRSpec G395H observations.

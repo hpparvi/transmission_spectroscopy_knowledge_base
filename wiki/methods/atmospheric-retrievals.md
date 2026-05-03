@@ -9,6 +9,13 @@ tags: [bayesian, inverse-problem, core-method]
 Bayesian inversion of an exoplanet [[transmission-spectrum]] (or emission spectrum) to recover posterior distributions over composition, temperature structure, cloud properties, and (optionally) [[stellar-contamination]] parameters. A forward model maps parameters → spectrum; a sampler (nested sampling or MCMC) explores the posterior. Model comparison via Bayes factors quantifies support for specific species or scenarios.
 
 ## Papers
+- [[2026_Radica_WASP96b]] — four free-chemistry retrieval frameworks (POSEIDON, PyratBay, NEMESISPY, Aurora) cross-compared on WASP-96 b plus self-consistent ScCHIMERA + Photochem grids.
+- [[2026_Heinke_HATP12b]] — ARCiS retrievals across all combinations of JWST NIRISS+NIRSpec+MIRI and HST/STIS+WFC3 in an information-content framework on HAT-P-12 b.
+- [[2026_Ashtari_HATS75b]] — POSEIDON free-chemistry + chemical-equilibrium retrievals on HATS-75 b within a TLS / atmosphere-vs-stellar-contamination framework.
+- [[2025_LustigYaeger_WASP17b]] — POSEIDON v1.2 free-chemistry retrievals on iESR-PIE WASP-17 b dayside + nightside; tentative SO₂, CH₄, H₂O, CO₂ on the nightside; energy-balance fit gives A_B = 0.42 and recirculation f = 0.54.
+- [[2025_Gressier_WASP17b]] — TauREx 3.1 + POSEIDON cross-checked retrievals on WASP-17 b NIRISS/SOSS dayside; H₂O at 6.4σ supersolar; FeH tentative at 3σ; non-inverted T–P preferred.
+- [[2026_RoyPerez_WASP39b]] — PSG + MultiNest retrievals on six independent reductions of the WASP-39 b NIRSpec PRISM ERS dataset; documents up to 2 dex pipeline-induced variation in retrieved abundances.
+- [[2021_Mugnai_GJ1132b]] — [[TauREX3]] + MultiNest Bayesian retrieval on five HST WFC3 G141 transits of GJ 1132 b; cloud-only flat model favored; all tested molecular species ruled out.
 - [[2025_Teske_TOI561b]] — [[HyDRo]] + [[GENESIS]] emission retrievals on TOI-561 b secondary eclipses; volatile-rich secondary atmospheres fit the depressed dayside temperature; bare-rock high-albedo scenario cannot be excluded.
 - [[2025_Fisher_TOI1685b]] — BeAR nested-sampling retrievals; MMW ≳ 10 at ~5σ from the flat NIRSpec G395H transmission spectrum of TOI-1685 b.
 - [[2025_PiauletGhorayeb_TRAPPIST1d]] — [[SCARLET]] retrievals on TRAPPIST-1 d PRISM spectrum; H₂-dominated and cloud-free terrestrial scenarios excluded.

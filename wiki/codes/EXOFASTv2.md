@@ -10,3 +10,4 @@ A Markov-chain Monte Carlo code for simultaneously fitting transit photometry an
 
 ## Papers
 - [[2024_Xue_GJ1132b]] — system parameters for the GJ 1132 system derived with EXOFASTv2 and used as priors for the MIRI/LRS eclipse analysis.
+- [[2026_Coy_HD3167b]] — system parameters for HD 3167 refined with EXOFASTv2 prior to the MIRI/LRS eclipse analysis.

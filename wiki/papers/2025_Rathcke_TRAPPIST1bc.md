@@ -12,7 +12,7 @@ species_detected: []
 species_tentative: []
 species_ruled_out: []
 codes: [Frida, speclib, spotter, SPHINX]
-tags: [trappist-1, m-dwarf-host, terrestrial, stellar-contamination, methodology, jwst, jwst-go-2420]
+tags: [trappist-1, m-dwarf-host, terrestrial, stellar-contamination, methodology, jwst]
 ingested: 2026-04-24
 ---
 
@@ -40,7 +40,7 @@ A proof of concept for a **model-independent**, **epoch-specific** stellar-conta
 - **Reduction:** custom pipeline [[Frida]] — uses only stage-1 of the STScI `jwst` pipeline; from stage 2 on it is independent. Custom bad-pixel masking, column-wise 1/f removal, preamp reset-noise removal, group-difference rate calculation (preferred over up-the-ramp fitting at low group counts), 5σ time-series cosmic-ray identification, optimal extraction with a smoothed-median PSF weight.
 - **White-light fit:** joint two-planet `t0`, `P`, `Rp/R★`, `a/R★`, `i` with Gaussian priors from Agol et al. 2021. Shared quadratic limb-darkening (Kipping 2013 reparameterization), linear-trend systematics, squared-exponential GP, and a white-noise term — 17 free parameters, MCMC via `emcee` on 341 30-integration time bins. See Table 1 of the paper for priors and posteriors.
 - **Spectroscopic fits:** per-bin fits with white-light wavelength-independent parameters and GP hyperparameters fixed; planet radii, linear-trend coefficients, and limb-darkening floated.
-- **Out-of-transit photospheric modeling:** the Narrett et al. 2024 / Rackham & de Wit 2024 framework — see [[stellar-contamination-modeling]]. SPHINX-grid (A. R. Iyer et al. 2023) spectra interpolated in T_eff with `[Fe/H]` and `log g` fixed to Agol 2021 values. 1- to 4-component photospheres tested on five sub-baseline spectra (S1–S5) and the full out-of-transit mean (S_all), with 2MASS fluxes as a constraint and a fitted JWST flux scale factor. Uncertainties **not** inflated for model-fidelity, deliberately, to expose temporal trends.
+- **Out-of-transit photospheric modeling:** the Narrett et al. 2024 / Rackham & de Wit 2024 framework — see [[stellar-contamination-modeling]]. [[SPHINX]]-grid (A. R. Iyer et al. 2023) spectra interpolated via [[speclib]] in T_eff with `[Fe/H]` and `log g` fixed to Agol 2021 values. Stellar-surface chord visualization with [[spotter]]. 1- to 4-component photospheres tested on five sub-baseline spectra (S1–S5) and the full out-of-transit mean (S_all), with 2MASS fluxes as a constraint and a fitted JWST flux scale factor. Uncertainties **not** inflated for model-fidelity, deliberately, to expose temporal trends.
 - **Stellar-contamination model for the in-transit data:** ε = (f₁,chord F₁ + f₂,chord F₂) / (f₁,disk F₁ + f₂,disk F₂); f_chord is varied independently of the disk-average covering fractions to test mixing. χ² scan over f₁,chord favors 0.495.
 - **Stacking implication:** [[multi-visit-stacking]] is identified as the natural follow-up — once the correction reduces structured noise to a white-noise floor, additional visits scale as 1/√N and bring the 60–250 ppm secondary-atmosphere regime into reach.
 

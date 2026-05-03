@@ -1,7 +1,7 @@
 ---
 type: program
 aliases: [JWST GTO 1274, GTO 1274]
-tags: [jwst-cycle-1, gto, gj1132b, thermal-emission, rocky-planet]
+tags: [jwst-cycle-1, gto, thermal-emission, rocky-planet]
 ---
 
 # JWST GTO 1274

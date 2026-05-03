@@ -17,3 +17,4 @@ An open-source radiative-transfer code (Batalha et al. 2019) for exoplanet trans
 - [[2024_Alderson_TOI-836b]] — 26-metallicity × 5-opaque-pressure grid for TOI-836 b; rules out <250× solar metallicities.
 - [[2023_May_GJ1132b]] — transmission forward models on a [[CHIMERA]] equilibrium grid at 100–1000× solar metallicity for GJ 1132 b.
 - [[2023_Moran_GJ486b]] — R=10,000 transmission forward models on a [[CHIMERA]] equilibrium grid + single-gas end-members (pure H₂O, CO₂, CH₄, Earth-like, 1000× solar) for GJ 486 b; pure H₂O provides the best fit.
+- [[2025_Gordon_COMPASS-G395H]] — atmospheric grids ([[PICASO]] + [[easyCHEM]] in this work; [[PICASO]] + [[Photochem]] cross-check vs prior COMPASS papers) used to constrain metallicity lower limits across all seven uniformly reanalyzed targets.

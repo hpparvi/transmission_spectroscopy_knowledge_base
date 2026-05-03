@@ -10,3 +10,4 @@ JWST Cycle 1 Guest Observer program 2589 (PI: O. Lim), targeting the TRAPPIST-1 
 
 ## Papers
 - [[2023_Lim_TRAPPIST1b]] — two NIRISS/SOSS transits of TRAPPIST-1 b; strong stellar contamination (spots in Visit 1, faculae in Visit 2); H₂-dominated atmospheres rejected at 16–29σ; secondary atmospheres unconstrained.
+- [[2025_Howard_TRAPPIST1_flares]] — partial source data: NIRISS/SOSS visits of TRAPPIST-1 b, c, and g reanalyzed in the [[RADYN]] flare-modeling methodology paper.

@@ -17,4 +17,4 @@ A warm super-Earth (Rp=1.85 R⊕, Mp=4.0 M⊕, Teq~520 K) on an 8.25-day orbit a
 
 ## See also
 - Host: [[TOI-776]]
-- Papers: [[2025_Alderson_TOI-776b]]
+- Papers: [[2025_Alderson_TOI-776b]], [[2025_Gordon_COMPASS-G395H]] (uniform reanalysis)

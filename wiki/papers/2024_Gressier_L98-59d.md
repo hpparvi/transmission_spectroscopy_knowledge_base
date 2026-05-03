@@ -30,14 +30,14 @@ A single JWST NIRSpec/G395H transit of the super-Earth L 98-59 d reveals a **tra
 - Equilibrium chemistry retrieval: 2.7σ vs flat line. Free chemistry is preferred over equilibrium by 3.8σ → the atmosphere is not in equilibrium.
 - H₂S is the primary opacity source; log X(H₂S) constrained near the prior edge (~0.3). SO₂ mixing ratio is bimodal (either > −1.0 or upper limit < −1.5).
 - [[FIREFLy]] reduction yields less significant but consistent atmospheric preference (3.0σ at R~100, 2.6σ at R~60).
-- Pure H₂O, CH₄, CO₂, and pure-H₂S [[Exo-REM]] forward models all provide poorer fits than the free-chemistry retrieval; 300× solar equilibrium H₂-rich atmosphere rejected at 3σ+.
+- Pure H₂O, CH₄, CO₂, and pure-H₂S Exo-REM forward models (Baudino et al. 2015; not yet ingested) all provide poorer fits than the free-chemistry retrieval; 300× solar equilibrium H₂-rich atmosphere rejected at 3σ+.
 - Water mixing ratio upper limit < 10⁻⁵ — the atmosphere is water-poor, but still compatible with a water-rich bulk composition.
 - Detected H₂S absorption is inconsistent with equilibrium in the absence of H₂O/CO₂; suggests intense volcanism (Io-analogue).
 
 ## Methods
 - **Observations:** one transit on 2023-06-25 from [[JWST-GTO-1224]]; 2121 integrations × 6 groups over 5.34 hr.
 - **Reduction:** [[transitspectroscopy]] (Espinoza 2022) primary + [[FIREFLy]] (Rustamkulov et al. 2022, 2023; not yet ingested) cross-check. Light curves fit with [[juliet]] + `dynesty`; Matérn-3/2 Gaussian-process detrending via `george`.
-- **Forward modeling:** [[Exo-REM]] (Baudino et al. 2015, not yet ingested) at 300× solar equilibrium / non-equilibrium + pure-species grids.
+- **Forward modeling:** Exo-REM (Baudino et al. 2015; not yet ingested) at 300× solar equilibrium / non-equilibrium + pure-species grids.
 - **Retrieval:** TauREx3 (Al-Refaie et al. 2021; not yet ingested) + exoretrievals (Espinoza et al. 2019; not yet ingested) with MultiNest sampling, 1500 live points.
 - **Stellar contamination:** unocculted spots/faculae retrieval via exoretrievals; 1800–3250 K spot temperatures, 3550–5000 K faculae temperatures, 0–100% heterogeneity fraction.
 - **Detector-offset test:** NRS1/NRS2 offsets of +37 ppm (`transitspectroscopy`) and −14 ppm ([[FIREFLy]]), both consistent with 0.

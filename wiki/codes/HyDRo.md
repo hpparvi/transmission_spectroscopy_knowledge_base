@@ -1,7 +1,7 @@
 ---
 type: code
 aliases: [HyDRo]
-tags: [atmospheric-retrieval, emission-spectroscopy, rocky-planet]
+tags: [atmospheric-retrievals, emission-spectroscopy, rocky-planet]
 ---
 
 # HyDRo

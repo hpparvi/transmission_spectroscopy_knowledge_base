@@ -9,7 +9,7 @@ teff_k: 2566
 feh_dex: 0.05
 tags: [m-dwarf, ultracool-dwarf, planet-host, active, heterogeneous-photosphere]
 ---
-
+What pa
 # TRAPPIST-1 (hub)
 
 A nearby (12.5 pc) M8V ultracool dwarf hosting seven transiting terrestrial planets (Gillon et al. 2016, 2017; both not yet ingested). With Teff ≈ 2566 ± 26 K, R = 0.1192 R☉, M = 0.0898 M☉, and [Fe/H] = +0.05 (Agol et al. 2021; not yet ingested), it is the lowest-mass star in this wiki with confirmed atmospheric observations. The photosphere is highly heterogeneous, with JWST/NIRSpec PRISM spectra consistently yielding a 2-component model of ~55–56% coverage of a ≤2000 K cool component (at the SPHINX grid floor) and ~44% of a ~2600 K warm component ([[2025_Rathcke_TRAPPIST1bc]]). This heterogeneity is the dominant systematic — larger than photon noise — for all atmospheric searches in the system, and has been addressed via three distinct strategies across five published JWST papers: explicit photospheric model subtraction, GP marginalization, and empirical back-to-back transit correction.
@@ -27,7 +27,7 @@ A nearby (12.5 pc) M8V ultracool dwarf hosting seven transiting terrestrial plan
 | Photospheric model | ~55.6% ≤2000 K + ~44.4% ~2600 K | [[2025_Rathcke_TRAPPIST1bc]] |
 | Cool-component variability | ~0.1%/hr covering fraction | [[2025_Rathcke_TRAPPIST1bc]] |
 
-Known planets: b, c, d, e, f, g, h (Gillon et al. 2016, 2017; not yet ingested). JWST observations to date cover b, c, d, and e.
+Known planets: b, c, d, e, f, g, h (Gillon et al. 2016, 2017; not yet ingested). JWST observations now cover **b, c, d, e, f, and g** — the wiki has analyses or methodology papers for each except h.
 
 ## Atmospheric composition
 
@@ -75,3 +75,9 @@ No atmospheric species have been detected in any TRAPPIST-1 planet observed with
 
 ### NIRISS/SOSS (2022)
 - [[2023_Lim_TRAPPIST1b]] — GO 2589; two Jul 2022 transits of TRAPPIST-1 b; spots+faculae contamination; H₂ excl 16–29σ; secondary atm unconstrained
+
+### MIRI F1500W secondary eclipses (reanalysis)
+- [[2025_Connors_MIRI-15um]] — uniform FN-PCA reanalysis of TRAPPIST-1 b (5 visits, GTO 1177; original Greene et al. 2023 not yet ingested) and TRAPPIST-1 c (4 visits, GO 2304; original Zieba et al. 2023 not yet ingested). TRAPPIST-1 b T_day = 499 ± 24 K (low-albedo bare rock); TRAPPIST-1 c T_day = 344 +43/−52 K — ~36 K cooler than Zieba 2023 (potential tension), favoring a semireflective bare rock or thin O₂/CO₂ atmosphere.
+
+### Methodology / flare characterization
+- [[2025_Howard_TRAPPIST1_flares]] — characterizes six >10³⁰ erg flares on TRAPPIST-1 from JWST NIRISS/SOSS and NIRSpec PRISM transmission visits of [[TRAPPIST-1b]], [[TRAPPIST-1c]], [[TRAPPIST-1f]], [[TRAPPIST-1g]] (GO 2589 and GTO 1201). Introduces empirical and [[RADYN]]-based [[flare-mitigation]] pipelines that drop residual transit-spectrum noise to 54–65 ppm; first wiki characterization of TRAPPIST-1 f and g.

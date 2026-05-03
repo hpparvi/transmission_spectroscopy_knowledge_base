@@ -10,3 +10,4 @@ General Exoplanet Self-consistent model of Numerical Integrated Spectra (GENESIS
 
 ## Papers
 - [[2025_Teske_TOI561b]] — self-consistent thermal emission models for the TOI-561 b secondary eclipse analysis.
+- [[2026_Coy_HD3167b]] — atmospheric forward models (with [[FastChem]] chemical equilibrium) for the HD 3167 b MIRI/LRS eclipse analysis.

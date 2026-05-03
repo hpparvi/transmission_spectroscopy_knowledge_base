@@ -10,3 +10,6 @@ An open-source radiative-transfer and atmospheric retrieval code for exoplanet a
 
 ## Papers
 - [[2025_Glidden_TRAPPIST1e]] — forward models for H₂-CO₂, pure CO₂, N₂-CO₂, N₂-only, and N₂+CH₄ scenarios for TRAPPIST-1 e; used to derive the μ > 8.6 u MMW constraint and the 5–6.9σ CO₂-ruled-out results.
+- [[2025_Crouzet_HATP12b]] — synthetic spectra coupled with VULCAN photochemistry for the HAT-P-12 b NIRSpec G395M analysis.
+- [[2025_AcunaAguirre_WASP80b]] — atmospheric forward model in the [[joint-interior-atmosphere-retrieval]] framework on WASP-80 b; coupled with [[GASTLI]] interior structure.
+- [[2025_Gordon_COMPASS-G395H]] — used for cross-target model spectra in the COMPASS uniform reanalysis.

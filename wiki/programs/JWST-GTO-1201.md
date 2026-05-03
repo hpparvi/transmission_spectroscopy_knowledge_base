@@ -11,3 +11,5 @@ JWST Cycle 1 Guaranteed Time Observations program 1201 (PI: D. Lafrenière), par
 ## Papers
 - [[2025_PiauletGhorayeb_TRAPPIST1d]] — two NIRSpec PRISM transits of TRAPPIST-1 d (Nov 5+9 2022); flat spectrum; H₂ excluded >3σ; cloud-free terrestrial analogs excluded >95%; N₂-rich consistent.
 - [[2025_Taylor_GJ357b]] — single NIRISS/SOSS transit of GJ 357 b on 2023-11-22; featureless spectrum.
+- [[2025_Roy_LP791-18c]] — single NIRSpec PRISM transit of the temperate sub-Neptune LP 791-18 c; strong haze + CH₄ detection; first wiki characterization of an LP 791-18 system planet.
+- [[2025_Howard_TRAPPIST1_flares]] — partial source data: NIRSpec PRISM observation of TRAPPIST-1 f reanalyzed for flare characterization in the methodology paper.

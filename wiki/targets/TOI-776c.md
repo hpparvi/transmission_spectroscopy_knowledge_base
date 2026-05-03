@@ -19,4 +19,4 @@ A warm sub-Neptune (Rp = 2.02 ± 0.14 R⊕, Mp = 5.3 ± 1.8 M⊕, Teq ≈ 420 K,
 ## See also
 - Host: [[TOI-776]]
 - Sibling: [[TOI-776b]]
-- Papers: [[2025_Teske_TOI776c]]
+- Papers: [[2025_Teske_TOI776c]], [[2025_Gordon_COMPASS-G395H]] (uniform reanalysis)

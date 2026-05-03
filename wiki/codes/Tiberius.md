@@ -14,3 +14,4 @@ A JWST time-series reduction pipeline (Kirk et al. 2018, 2019, 2021; not yet ing
 - [[2025_Alam_L168-9b]] — one of three independent NIRSpec reductions for L 168-9 b (alongside Aesop and [[Eureka]]).
 - [[2023_Moran_GJ486b]] — one of three independent reductions for GJ 486 b (alongside [[Eureka]] and [[FIREFLy]]); highest flat-line rejection significance (3.29σ) but an unphysical H₂-dominated secondary retrieval mode is flagged.
 - [[2023_Lustig-Yaeger_LHS475b]] — one of three independent reductions for LHS 475 b.
+- [[2026_RoyPerez_WASP39b]] — one of four pipelines in the WASP-39 b ERS PRISM data-reduction systematics study.

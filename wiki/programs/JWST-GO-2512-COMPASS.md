@@ -15,3 +15,4 @@ JWST Cycle 1 Guest Observer program 2512 (PIs: N. E. Batalha & J. Teske), obtain
 - [[2025_Alderson_TOI-776b]] — TOI-776 b, warm super-Earth around a bright M-dwarf (flat after detector-offset correction; rules out <100× solar).
 - [[2024_Scarsdale_L98-59c]] — L 98-59 c, warm super-Earth in a multi-planet system (featureless; rules out <300× solar).
 - [[2024_Alderson_TOI-836b]] — TOI-836 b, super-Earth around a bright K-dwarf (flat spectrum; no H₂-dominated atmosphere).
+- [[2025_Gordon_COMPASS-G395H]] — uniform [[ExoTiC-JEDI]] reanalysis of the first **seven** COMPASS targets ([[GJ357b]], [[TOI-836b]], [[TOI-836c]], [[TOI-776b]], [[TOI-776c]], [[L98-59c]], [[L168-9b]]) with the new RPF-PCA systematics model; quantifies NRS1/NRS2 detector offsets and PandExo under-prediction; brings TOI-836 c and L 168-9 b's reanalyzed spectra into the wiki.

@@ -37,9 +37,9 @@ ingested: 2026-04-23
 ## Methods
 - **Observations:** single NIRSpec/G395H transit of L 98-59 d on 2023-06-25 from [[JWST-GTO-1224]] (PI Birkmann).
 - **Reduction:** [[transitspectroscopy]] (Espinoza 2022; not yet ingested) primary + [[FIREFLy]] cross-check.
-- **Retrieval:** NEMESISPY (Yang et al. 2023, 2024; not yet ingested) with CLR (centered-log-ratio) priors for 8 gases (H₂O, CO₂, CO, NH₃, PH₃, CH₄, H₂S, SO₂) + N₂ continuum; PyMultiNest sampler with 2000 live points.
+- **Retrieval:** [[NEMESISPY]] with CLR (centered-log-ratio) priors for 8 gases (H₂O, CO₂, CO, NH₃, PH₃, CH₄, H₂S, SO₂) + N₂ continuum; PyMultiNest sampler with 2000 live points.
 - **Stellar contamination:** three-parameter model (f_het, ΔT_het, T_phot) using PHOENIX stellar grids; see [[stellar-contamination-modeling]].
-- **Scenarios tested:** Stellar+Atmosphere (preferred), Atmosphere Only, Stellar Only (rejected), Offset Stellar Only, Equilibrium chemistry (NEMESISPY+FastChem), No-H₂S/SO₂, Nitrogen-background, NRS2 offset.
+- **Scenarios tested:** Stellar+Atmosphere (preferred), Atmosphere Only, Stellar Only (rejected), Offset Stellar Only, Equilibrium chemistry ([[NEMESISPY]]+[[FastChem]]), No-H₂S/SO₂, Nitrogen-background, NRS2 offset.
 
 ## Caveats & limitations
 - Single transit only; reproducibility untested within this paper (Cycle 2 GO 4098 + NIRISS SOSS GTO 1201 follow-ups were accepted at time of writing).
@@ -53,7 +53,7 @@ ingested: 2026-04-23
 - Is the sulfur from active volcanism (L 98-59 d is potentially tidally heated, Io-like), outgassing from a magma ocean, or photochemistry from H₂O?
 
 ## Tensions
-- Broadly consistent with [[2024_Gressier_L98-59d]] (companion "Paper I"); both favor H₂S/SO₂-driven atmospheric models, but differ in quantitative significance (Gressier: 2.6σ–5.6σ depending on reduction + retrieval; TauREx3 and exoretrievals rather than NEMESISPY). Treat as a methodology cross-check, not a disagreement.
+- Broadly consistent with [[2024_Gressier_L98-59d]] (companion "Paper I"); both favor H₂S/SO₂-driven atmospheric models, but differ in quantitative significance (Gressier: 2.6σ–5.6σ depending on reduction + retrieval; [[TauREX3]] and exoretrievals rather than [[NEMESISPY]]). Treat as a methodology cross-check, not a disagreement.
 
 ## Related
 - [[2024_Gressier_L98-59d]] — companion "Paper I" on the same transit; independent retrieval agrees on the sulfur-species interpretation.

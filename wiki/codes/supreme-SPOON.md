@@ -10,3 +10,4 @@ A JWST NIRISS/SOSS time-series reduction pipeline (Feinstein et al. 2022; Coulom
 
 ## Papers
 - [[2023_Lim_TRAPPIST1b]] — one of three independent NIRISS/SOSS reductions for TRAPPIST-1 b; cross-checked against [[NAMELESS]] (primary) and [[SOSSISSE]].
+- [[2025_Gressier_WASP17b]] — one of three independent reductions (with ATOCA extraction) for the WASP-17 b NIRISS/SOSS secondary eclipse.

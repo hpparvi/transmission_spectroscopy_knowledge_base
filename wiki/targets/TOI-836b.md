@@ -17,4 +17,4 @@ A super-Earth (Rp=1.70 R⊕, Mp=4.5 M⊕, Teq=871 K) on a 3.82-day orbit around 
 
 ## See also
 - Host: [[TOI-836]]
-- Papers: [[2024_Alderson_TOI-836b]]
+- Papers: [[2024_Alderson_TOI-836b]], [[2025_Gordon_COMPASS-G395H]] (uniform reanalysis)
