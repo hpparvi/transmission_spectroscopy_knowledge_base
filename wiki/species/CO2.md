@@ -29,11 +29,20 @@ Carbon dioxide — a metallicity-sensitive tracer with a strong 4.3 μm absorpti
 
 ## Papers
 
+- [[2025_Gressier_HATP26b]] — **strongest CO₂ detection to date** in a Neptune-mass planet (HAT-P-26 b NIRSpec G395H; lnB = 85.64, ≫5σ); log X(CO₂) ≈ −2.91; spans both NRS1 (4.3 μm region edge) and NRS2.
+- [[2025_Ahrer_KELT7b]] — **tentative only** (Δ ln Z = 0.9–1.5) on hot Jupiter KELT-7 b NIRSpec G395H; log X(CO₂) ≈ −8.5⁺⁶ from POSEIDON free retrieval — much lower than expected for a hot Jupiter with photochemistry; consistent with high-altitude cloud masking the 4.3 μm feature.
+- [[2025_Felix_TOI-270d]] — decisive detection on temperate sub-Neptune TOI-270 d (Bayes factor 3 × 10⁷; log VMR ≈ −1.3); independent reanalysis confirming Benneke 2024 detection. Sub-Neptune analog of the WASP-39 b CO₂ benchmark.
+- [[2025_FernandezRodriguez_K2-18b]] — **marginal at ~2σ** on K2-18 b NIRISS+NIRSpec G395H (1.99σ in fiducial; non-detection in comprehensive 13-species retrieval); log VMR ≈ −3.94⁺¹·⁶⁸₋₄·²⁰; bimodal posterior. Configuration-dependent; Hu et al. 2025 NIRISS+NIRSpec+MIRI joint retrieval (not ingested) gets 3.7σ.
+- [[2025_Sikora_HD80606b]] — detected at 3.7–4.4σ on highly eccentric hot Jupiter HD 80606 b NIRSpec G395H emission spectrum post-periapse (NRS2 4.3 μm); chemical-equilibrium-retrieval preferred.
 - [[2025_LustigYaeger_WASP17b]] — tentative 0.9σ detection on the WASP-17 b nightside; nightside abundance lower than dayside, an inverted day–night gradient that is unexplained.
 - [[2026_Radica_WASP96b]] — detected in WASP-96 b transmission; log VMR ≈ −4.91 to −4.15.
 - [[2026_Heinke_HATP12b]] — detected at >10σ in HAT-P-12 b via the 4.3 μm ν₃ band; requires NIRSpec.
 - [[2026_Ashtari_HATS75b]] — detected at >3σ on HATS-75 b NIRSpec PRISM (TLS framework).
 - [[2026_RoyPerez_WASP39b]] — confirmed detection in WASP-39 b across all four reduction pipelines.
+- [[2025_Murphy_WASP107b]] — first **limb-resolved CO₂ asymmetry**; WASP-107 b morning limb log VMR ≈ −3.6 vs. evening −5.2 (~40×); larger amplitude than SO₂; quench-driven origin (CO₂ quenches at lower pressure than CH₄, retaining the photospheric T-gradient).
+- [[2025_Verma_HD209458b]] — HD 209458 b CO₂ detected at 7.8σ in STIS+WFC3+NIRCam free-chemistry SANSAR retrieval (log VMR = −7.52⁺⁰·³⁰⁻⁰·²⁶); but NIRCam-only retrieval gives log VMR ≈ −5.31 — a 2-dex overestimate. Demonstrates that the 4.3 μm CO₂ feature alone, without optical baseline, cannot constrain CO₂ abundance robustly.
+- [[2025_Barat_V1298Tau-b]] — CO₂ detected at **35σ** on the young sub-Neptune progenitor V1298 Tau b (~1000 ppm 4.3 μm feature); strongest CO₂ detection in the wiki for a sub-Neptune-mass planet; metallicity ~0.6× solar; SO₂ at 4σ + OCS at 3.5σ (tentative) accompany.
+- [[2025_Deka_WASP39b]] — CO₂ retrieved across all four [[NEXOTRANS]] chemistry models on WASP-39 b NIRISS+PRISM+MIRI panchromatic data; log VMR ranging −4.65 (free) to −2.5 (equilibrium); offset in equilibrium-offset model accommodates the shape difference between equilibrium and observed feature.
 - [[2025_Bennett_GJ1132b]] — pure-CO₂ rejected at >3σ on GJ 1132 b; joint with MIRI/LRS, CO₂ <10 mbar.
 - [[2025_Alam_L168-9b]] — pure-CO₂ tested on L 168-9 b; 15 μm MIRI eclipse proposed as confirmation path.
 - [[2024_WeinerMansfield_GJ486b]] — MIRI/LRS emission rules out Venus-like CO₂ on Gl 486 b.

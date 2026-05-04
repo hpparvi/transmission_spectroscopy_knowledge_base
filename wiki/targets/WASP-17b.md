@@ -26,7 +26,12 @@ Inflated, low-density hot Jupiter (Mp ≈ 0.4 MJ, Rp ≈ 1.93 RJ, Teq ≈ 1700 K
   - [[CO2]] — 0.9σ on nightside; underabundance relative to dayside is unexplained ([[2025_LustigYaeger_WASP17b]]).
 - **Bond albedo:** A_B = 0.42 +0.06/−0.10; recirculation f = 0.54 (inefficient redistribution; [[2025_LustigYaeger_WASP17b]]).
 
+## Limb asymmetry
+
+[[2025_Fu_limb-asymmetry]] reports δA_H = 1.50 ± 0.25 H on the GTO 1353 NIRISS/SOSS transit — the third planet (after [[WASP-94Ab]] and [[WASP-39b]]) with > 5σ morning–evening water-band contrast. At T_eq = 1740 K, MgSiO₃ alone is sufficient to drive the divergence (no Na₂S/MnS needed). The Louie et al. 2025 free retrieval recovers a limb-averaged temperature of 1272 K — far below T_eq = 1755 K — likely a signature of unrecognized aerosol heterogeneity.
+
 ## See also
 
 - Host: [[WASP-17]]
-- Papers: [[2025_LustigYaeger_WASP17b]], [[2025_Gressier_WASP17b]]
+- Concept: [[limb-asymmetry]]
+- Papers: [[2025_LustigYaeger_WASP17b]], [[2025_Gressier_WASP17b]], [[2025_Fu_limb-asymmetry]]

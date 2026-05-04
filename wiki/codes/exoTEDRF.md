@@ -15,3 +15,5 @@ JWST time-series reduction pipeline (Feinstein et al. 2023; Radica et al. 2023, 
 - [[2026_Heinke_HATP12b]] — primary NIRISS/SOSS reduction for the HAT-P-12 b panchromatic transmission spectrum.
 - [[2025_Howard_TRAPPIST1_flares]] — reduction for the NIRISS/SOSS and NIRSpec PRISM flare-monitoring visits of TRAPPIST-1 b/c/f/g.
 - [[2025_Roy_LP791-18c]] — cross-check reduction for the LP 791-18 c NIRSpec PRISM transit (primary: custom Stage 1 + Eureka Stages 2/3).
+- [[2025_FernandezRodriguez_K2-18b]] — primary NIRISS/SOSS reduction (Stages 1–3) for the K2-18 b transit under JWST GO 2722; box-extraction with 30-pixel aperture; jump threshold 7σ.
+- [[2025_Murphy_WASP107b]] — primary reduction for WASP-107 b NIRISS/SOSS transit; uses `refine_soss_timestamps` to compute per-column time stamps for accurate limb-asymmetry recovery; offsets (+110 ppm evening / +20 ppm morning) applied post-fit to correct for occulted-spot bias.

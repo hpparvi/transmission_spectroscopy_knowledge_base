@@ -16,4 +16,4 @@ Solar-type G dwarf (Teff ≈ 5400 K) hosting the hot Jupiter [[WASP-39b]], the p
 ## See also
 
 - Planets: [[WASP-39b]]
-- Papers: [[2026_RoyPerez_WASP39b]]
+- Papers: [[2025_Deka_WASP39b]], [[2026_RoyPerez_WASP39b]], [[2025_Fu_limb-asymmetry]]

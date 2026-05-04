@@ -65,12 +65,26 @@ The Near-Infrared Spectrograph on JWST (Birkmann et al. 2022, Jakobsen et al. 20
 
 ### G395H emission / nightside (hot Jupiter)
 - [[2025_LustigYaeger_WASP17b]] — back-to-back G395H transit + secondary eclipse of WASP-17 b; first JWST nightside emission spectrum extracted via iESR-PIE.
+- [[2025_Sikora_HD80606b]] — 20.9-hr partial phase curve of highly eccentric hot Jupiter HD 80606 b at periapse; first wiki demonstration of NIRSpec G395H phase-resolved emission spectroscopy with time-variable atmospheric chemistry.
 
-### G395H transit (hot-Jupiter / sub-Saturn)
+### G395H transit (hot-Jupiter / sub-Saturn / Neptune)
 - [[2026_Radica_WASP96b]] — single G395H transit of the inflated hot Saturn WASP-96 b combined with archival NIRISS/SOSS + VLT/FORS2.
+- [[2025_Gressier_HATP26b]] — single G395H transit of the warm Neptune-mass HAT-P-26 b under JWST-TST DREAMS GTO 1312; SO₂ at lnB = 13.46; first SO₂ in a Neptune-mass exoplanet.
+- [[2025_Ahrer_KELT7b]] — single G395H transit of aligned hot Jupiter KELT-7 b under BOWIE-ALIGN GO 3838; weak features only; high cloud deck or low metallicity ambiguity; mirror tilt event mid-observation modeled as step function.
+
+### G395H + NIRISS SOSS (sub-Neptune)
+- [[2025_Felix_TOI-270d]] — joint G395H + NIRISS SOSS reanalysis of GO 4098 transits of temperate sub-Neptune TOI-270 d; demonstrates that **native-resolution retrieval with LSF convolution** is essential for sub-Neptune chemistry inference (binning to ≲16 px biases Bayes factors).
+- [[2025_FernandezRodriguez_K2-18b]] — joint G395H + NIRISS SOSS reanalysis of GO 2722 transits of K2-18 b; CH₄ robust at ~4σ; CO₂ marginal at ~2σ; DMS retracted in comprehensive 13-species retrievals.
 
 ### G395M (sub-Saturn / panchromatic)
 - [[2026_Heinke_HATP12b]] — G395M transit of HAT-P-12 b combined with NIRISS+MIRI+HST in an information-content study.
 
 ### PRISM (gas-giant on M-dwarf, GEMS class)
 - [[2026_Ashtari_HATS75b]] — three PRISM transits of the M-dwarf-hosted gas giant HATS-75 b; first GEMS PRISM application; atmosphere/contamination degenerate.
+
+### G395H — limb-resolved & young-planet
+- [[2025_Murphy_WASP107b]] — G395H limb-resolved transit of WASP-107 b biased by occulted starspot crossings; corrected via [[Catwoman]] injection-recovery; offsets −195 ppm evening / +240 ppm morning bring it into agreement with NIRCam.
+- [[2025_Barat_V1298Tau-b]] — G395H/SUB2048 transit of the young (10–30 Myr) sub-Neptune progenitor V1298 Tau b; in-transit stellar flare requires data-driven detrending; CO₂ at 35σ + H₂O at 30σ + CO at 10σ + CH₄ at 6σ + SO₂ at 4σ; first wiki target with NIRSpec characterization of a < 50 Myr planet.
+
+### G395M
+- [[2025_Deka_WASP39b]] — note: the [[NEXOTRANS]] paper applies retrievals to NIRSpec **PRISM** WASP-39 b ERS data (5–5.5 μm overlap with MIRI), not G395M.

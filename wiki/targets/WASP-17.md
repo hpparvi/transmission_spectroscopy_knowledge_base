@@ -16,4 +16,4 @@ F6 dwarf (Teff ≈ 6550 K, R⋆ = 1.49 R☉, [M/H] = −0.25, log g = 4.2) hosti
 ## See also
 
 - Planets: [[WASP-17b]]
-- Papers: [[2025_LustigYaeger_WASP17b]], [[2025_Gressier_WASP17b]]
+- Papers: [[2025_LustigYaeger_WASP17b]], [[2025_Gressier_WASP17b]], [[2025_Fu_limb-asymmetry]]

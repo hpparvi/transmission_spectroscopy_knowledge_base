@@ -10,5 +10,6 @@ Python implementation of the NEMESIS optimal-estimation atmospheric retrieval fr
 
 ## Papers
 
+- [[2025_Ahrer_KELT7b]] — used for HST UVIS/G280 + JWST NIRSpec G395H joint retrievals on KELT-7 b with H⁻ and e⁻ as free parameters (per Gascón et al. 2025 framework, not yet ingested); does not improve constraints over JWST-only.
 - [[2024_Banerjee_L98-59d]] — primary retrieval code for the L 98-59 d transmission spectrum; CLR priors over H₂O, H₂S, SO₂, CO₂, etc.; sulfur-rich atmosphere preferred.
 - [[2026_Radica_WASP96b]] — one of four free-chemistry frameworks cross-compared on WASP-96 b; also used in chemical-equilibrium mode (with [[FastChem]]) for the metallicity / C/O determination.

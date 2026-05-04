@@ -13,4 +13,4 @@ Late-G dwarf hosting the inflated hot Saturn [[WASP-96b]]. Stellar C/O = 0.42 (N
 ## See also
 
 - Planets: [[WASP-96b]]
-- Papers: [[2026_Radica_WASP96b]]
+- Papers: [[2026_Radica_WASP96b]], [[2025_Fu_limb-asymmetry]]

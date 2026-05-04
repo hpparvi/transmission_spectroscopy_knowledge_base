@@ -9,6 +9,7 @@ tags: [jwst-pipeline, data-reduction, time-series, nirspec]
 A JWST NIRSpec time-series reduction pipeline (Espinoza 2022; not yet ingested. github.com/nespinoza/transitspectroscopy), wrapping the STScI `jwst` pipeline and adding customized jump detection, spectral tracing with Gaussian fits, and 1/f background removal. Used as the primary reduction in the L 98-59 d analyses, cross-checked against [[FIREFLy]].
 
 ## Papers
+- [[2025_Gressier_HATP26b]] — primary reduction for the JWST-TST DREAMS NIRSpec G395H transit of HAT-P-26 b; cross-checked against ExoTiC-JEDI; both reductions agree at 1σ.
 - [[2025_Espinoza_TRAPPIST1e]] — primary reduction for four TRAPPIST-1 e PRISM transits; GP stellar contamination marginalization using celerite Matèrn 3/2 kernel.
 - [[2025_Fisher_TOI1685b]] — cross-check reduction for five TOI-1685 b G395H transits.
 - [[2024_Gressier_L98-59d]] — primary reduction for the L 98-59 d G395H transit; primary spectrum in the atmospheric retrievals.

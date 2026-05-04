@@ -23,7 +23,12 @@ Inflated hot Saturn (Mp ≈ 0.48 MJ, Rp ≈ 1.20 RJ, Teq ≈ 1300 K) on a 3.43-d
 - **C/O:** 0.25–0.44, consistent with the host's stellar value (C/O★ = 0.42).
 - **Optical Rayleigh slope** detected — origin (haze, condensate, Na wings, contamination) unresolved; tension with Wang et al. 2026 (not yet ingested) gray-cloud / sub-stellar conclusion.
 
+## Limb asymmetry
+
+[[2025_Fu_limb-asymmetry]] reports δA_H = 0.91 ± 1.48 H on the COM 2734 NIRISS/SOSS transit — formally inconclusive due to large error bars at WASP-96 b's intermediate brightness, despite the planet sitting at T_eq = 1286 K where MgSiO₃ clearance is expected.
+
 ## See also
 
 - Host: [[WASP-96]]
-- Papers: [[2026_Radica_WASP96b]]
+- Concept: [[limb-asymmetry]]
+- Papers: [[2026_Radica_WASP96b]], [[2025_Fu_limb-asymmetry]]

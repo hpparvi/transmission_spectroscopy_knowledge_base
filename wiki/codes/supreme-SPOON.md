@@ -11,3 +11,4 @@ A JWST NIRISS/SOSS time-series reduction pipeline (Feinstein et al. 2022; Coulom
 ## Papers
 - [[2023_Lim_TRAPPIST1b]] — one of three independent NIRISS/SOSS reductions for TRAPPIST-1 b; cross-checked against [[NAMELESS]] (primary) and [[SOSSISSE]].
 - [[2025_Gressier_WASP17b]] — one of three independent reductions (with ATOCA extraction) for the WASP-17 b NIRISS/SOSS secondary eclipse.
+- [[2025_Deka_WASP39b]] — primary NIRISS/SOSS reduction (Feinstein et al. 2023; not ingested) for WASP-39 b panchromatic data analyzed by the [[NEXOTRANS]] framework; provides 0.6–2.85 μm coverage for Na/K and H₂O constraints.

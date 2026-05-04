@@ -11,3 +11,5 @@ JWST Early Release Science program 1366 (PI: N. Batalha), targeting WASP-39 b as
 ## Papers
 
 - [[2026_RoyPerez_WASP39b]] — data-reduction systematics study using the ERS PRISM transit; four pipelines, six reductions; retrieved abundances vary by up to 2 dex.
+- [[2025_Fu_limb-asymmetry]] — uses the ERS NIRISS/SOSS WASP-39 b transit as the highest-asymmetry-confirmation case in a nine-planet limb-asymmetry sample; cross-checked against the ERS NIRSpec PRISM (Carter et al. 2024) for instrument independence.
+- [[2025_Deka_WASP39b]] — applies the [[NEXOTRANS]] retrieval framework to ERS NIRISS+PRISM+MIRI panchromatic 0.6–12.0 μm WASP-39 b data; best-fit hybrid model gives ~14× solar O/H, 21× solar C/H, 5× solar S/H; cross-validated against eight community retrieval codes.

@@ -22,7 +22,12 @@ Warm gas giant (Mp = 0.554 +0.030/−0.039 M_J, Rp = 0.952 ± 0.027 R_J, Teq ≈
 - **C/O:** 0.12 (JR6) or 0.24 (JR5*) — sub-solar in both scenarios.
 - **Bulk planetary metallicity Z_p:** 0.12 ± 0.02 (JR6) or 0.28 ± 0.11 (JR5*) — brackets the Thorngren et al. 2016 mass-metallicity trend.
 
+## Limb asymmetry
+
+[[2025_Fu_limb-asymmetry]] finds both limbs muted (δA_H = 0.64 ± 0.49 H — formally consistent with zero) on the GO 5924 NIRISS/SOSS transit, placing WASP-80 b in the cool-and-symmetric corner of the proposed [[limb-asymmetry]] horizon at T_eq = 825 K.
+
 ## See also
 
 - Host: [[WASP-80]]
-- Papers: [[2025_AcunaAguirre_WASP80b]]
+- Concept: [[limb-asymmetry]]
+- Papers: [[2025_AcunaAguirre_WASP80b]], [[2025_Fu_limb-asymmetry]]

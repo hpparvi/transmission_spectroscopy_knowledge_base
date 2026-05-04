@@ -9,7 +9,6 @@ teff_k: 2566
 feh_dex: 0.05
 tags: [m-dwarf, ultracool-dwarf, planet-host, active, heterogeneous-photosphere]
 ---
-What pa
 # TRAPPIST-1 (hub)
 
 A nearby (12.5 pc) M8V ultracool dwarf hosting seven transiting terrestrial planets (Gillon et al. 2016, 2017; both not yet ingested). With Teff ≈ 2566 ± 26 K, R = 0.1192 R☉, M = 0.0898 M☉, and [Fe/H] = +0.05 (Agol et al. 2021; not yet ingested), it is the lowest-mass star in this wiki with confirmed atmospheric observations. The photosphere is highly heterogeneous, with JWST/NIRSpec PRISM spectra consistently yielding a 2-component model of ~55–56% coverage of a ≤2000 K cool component (at the SPHINX grid floor) and ~44% of a ~2600 K warm component ([[2025_Rathcke_TRAPPIST1bc]]). This heterogeneity is the dominant systematic — larger than photon noise — for all atmospheric searches in the system, and has been addressed via three distinct strategies across five published JWST papers: explicit photospheric model subtraction, GP marginalization, and empirical back-to-back transit correction.

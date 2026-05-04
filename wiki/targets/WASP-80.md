@@ -16,4 +16,4 @@ Late-K / early-M dwarf (T_eff = 4145 K, R⋆ = 0.571 R☉, M⋆ = 0.57 M☉, [Fe
 ## See also
 
 - Planets: [[WASP-80b]]
-- Papers: [[2025_AcunaAguirre_WASP80b]]
+- Papers: [[2025_AcunaAguirre_WASP80b]], [[2025_Fu_limb-asymmetry]]

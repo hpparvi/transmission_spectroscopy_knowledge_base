@@ -12,3 +12,4 @@ JWST Cycle 1 GTO program 1353 (PI: N. Lewis), the **DREAMS** (Deep Reconnaissanc
 
 - [[2025_Gressier_WASP17b]] — NIRISS/SOSS secondary eclipse; supersolar dayside H₂O at 6.4σ.
 - [[2025_LustigYaeger_WASP17b]] — NIRSpec G395H transit + eclipse using planetary-infrared-excess (iESR) for first JWST nightside emission spectrum.
+- [[2025_Fu_limb-asymmetry]] — uses the GTO 1353 NIRISS/SOSS WASP-17 b transit as the third strongest limb-asymmetry case (δA_H = 1.50 ± 0.25 H) in the nine-planet sample (Louie et al. 2025 reduction).

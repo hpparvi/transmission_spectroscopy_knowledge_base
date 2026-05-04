@@ -14,3 +14,5 @@ An independent JWST time-series reduction pipeline (Kempton et al. 2023; not yet
 - [[2024_Wachiraphan_LTT1445Ab]] — parallel reduction alongside [[Eureka]] for LTT 1445 A b MIRI/LRS eclipses.
 - [[2025_Xue_GJ3929b]] — primary reduction for GJ 3929 b MIRI F1500W photometric eclipse time series (updated SPARTA for MIRI imaging mode).
 - [[2026_Coy_HD3167b]] — primary reduction for HD 3167 b MIRI/LRS secondary eclipse; cross-checked against [[Eureka]] and [[exoTEDRF]].
+- [[2025_Barat_V1298Tau-b]] — independent NIRSpec G395H pipeline cross-check vs. primary [[Eureka]] reduction on V1298 Tau b; agreement within 1σ on retrieved abundances; SPARTA shows ~25% higher scatter in NRS2 (under development for NIRSpec).
+- [[2025_Deka_WASP39b]] — one of three reductions (Eureka, Tiberius, SPARTA) cross-compared on WASP-39 b MIRI data within the [[NEXOTRANS]] retrieval framework benchmark.

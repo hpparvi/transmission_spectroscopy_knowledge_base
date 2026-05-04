@@ -32,3 +32,4 @@ A JWST NIRSpec time-series reduction pipeline (Rustamkulov et al. 2022, 2023; no
 - [[2023_May_GJ1132b]] — one of three independent reductions for GJ 1132 b G395H data.
 - [[2023_Moran_GJ486b]] — one of three independent reductions for GJ 486 b; introduces superbias-scaling detrending.
 - [[2023_Lustig-Yaeger_LHS475b]] — primary reduction used for the final LHS 475 b transmission spectrum.
+- [[2025_Deka_WASP39b]] — primary NIRSpec PRISM reduction (Rustamkulov et al. 2023; not ingested) for WASP-39 b in the panchromatic [[NEXOTRANS]] retrieval; data below 2 μm excluded due to detector saturation.

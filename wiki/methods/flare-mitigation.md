@@ -30,3 +30,4 @@ The technique extends the wiki's M-dwarf [[stellar-contamination]] toolbox beyon
 ## Papers
 
 - [[2025_Howard_TRAPPIST1_flares]] — introduces both empirical and RADYN-based mitigation pipelines on six TRAPPIST-1 flares observed across 11 JWST visits ([[JWST-GO-2589]] and [[JWST-GTO-1201]]); injection-recovery shows 3σ CO₂ feature detection at 150–250 ppm post-mitigation.
+- [[2025_Barat_V1298Tau-b]] — empirical detrending of a single in-transit stellar flare on the young K-dwarf V1298 Tau during a NIRSpec G395H transit; double-exponential flare profile + post-flare oscillation sinusoid fit to the white-light curve, then per-channel scaled in spectroscopic detrending. Four channels (3.03, 3.29, 4.04, 4.65 μm) excluded as outliers when the flare profile differs from the white-light template. First wiki application of in-transit flare mitigation on a non-M-dwarf host.

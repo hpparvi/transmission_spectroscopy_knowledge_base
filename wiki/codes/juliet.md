@@ -17,3 +17,4 @@ Python light-curve and radial-velocity fitting package (Espinoza et al. 2019, MN
 - [[2025_Gressier_WASP17b]] — light-curve fitting for the WASP-17 b NIRISS/SOSS secondary eclipse with Matérn-3/2 GP detrending.
 - [[2026_Radica_WASP96b]] — light-curve fitting for the WASP-96 b NIRSpec G395H transit (alongside exoUPRF).
 - [[2026_Heinke_HATP12b]] — light-curve fitting for the HAT-P-12 b NIRISS/SOSS transit; dynesty sampler.
+- [[2025_Gressier_HATP26b]] — light-curve fitting for the HAT-P-26 b NIRSpec G395H broadband + spectroscopic light curves (transitspectroscopy reduction); celerite Matérn 3/2 GP detrending.

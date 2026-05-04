@@ -17,3 +17,4 @@ A thermochemical-equilibrium forward-modeling code (Line & Yung 2013; Line et al
 - [[2024_Alderson_TOI-836b]] — precomputed chemical-equilibrium grid (interpolated via [[PICASO]]) for TOI-836 b forward models; rules out <250× solar.
 - [[2023_May_GJ1132b]] — 100–1000× solar metallicity grids used to rule out H₂-dominated atmospheres on GJ 1132 b at ≥ 2.5σ.
 - [[2023_Moran_GJ486b]] — thermochemical-equilibrium grid for GJ 486 b; 1000× solar H₂/He atmosphere rejected at >3σ.
+- [[2025_Verma_HD209458b]] — used as one of four reference frameworks (POSEIDON, ATMO, CHIMERA, Aurora) to benchmark SANSAR's correlated-k retrieval mode on WASP-96 b; agreement within 1σ across all major parameters.
