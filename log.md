@@ -785,3 +785,90 @@
 - Tag `hd-189733b-reinterpretation` added to flag this paper as the canonical theoretical vindication of [[2014_McCullough_HD189733b]] for future HD 189733 b queries.
 - Did NOT create stubs for *Kepler* (instrument), Pecaut & Mamajek 2013 stellar parameter scale, McQuillan 2014 rotation-period catalogue — single-paper references; cited inline.
 **Promotion candidacy:** [[stellar-contamination]] paper count rises 14 → 19; already a hub. [[HD-189733b]] now at 3 papers (Pont 2008, Pont 2013, McCullough 2014) — crosses the ≥3-paper alternative threshold; written as stub+synthesis with Tensions block per CLAUDE.md guidance, full hub promotion deferred to user approval at next lint.
+
+
+## [2026-05-04] lint | full-pass
+**Findings:** 4 orphans, 9 real broken links, 0 frontmatter violations, 0 index/filesystem mismatches, 1 stale "(not yet ingested)" reference (newly resolvable post-Rackham-2018 ingest), ~50 over-threshold stub-promotion candidates (top 12 listed below), 214 singleton tags + 107 tags used 2–3× (cleanup deferred).
+**Actions:** none — pending user review per item.
+
+### 1. Orphans (no inbound links from wiki/ or analyses/)
+1. `wiki/programs/JWST-COM-2734.md` — covered by 2 papers (HAT-P-18 b, WASP-96 b commissioning). The two paper pages reference the program in prose; should add `[[JWST-COM-2734]]` links.
+2. `wiki/programs/JWST-GO-2062.md` — single-paper program (WASP-166 b, [[2025_Fu_limb-asymmetry]] context). Likely link missing from Fu paper or limb-asymmetry concept page.
+3. `wiki/programs/JWST-GO-5924.md` — single-paper program (WASP-94 Ab); same situation.
+4. `wiki/codes/llamaradas-estelares.md` — pre-existing orphan (flagged in prior lint 2026-05-04 as well); citation only in flare-mitigation method or paper using it.
+
+### 2. Broken wiki-links (real; excluding log.md prose false positives)
+1. `[[2025_Gascon_KELT7b]]` ×2 in `wiki/papers/2025_Ahrer_KELT7b.md` — should be prose "Gascón et al. 2025 (not yet ingested)" per the wiki's "Referencing not-yet-ingested papers" rule.
+2. `[[ExoTETHyS]]` in `wiki/papers/2025_FernandezRodriguez_K2-18b.md` — single-paper utility code; convert to prose or create code stub.
+3. `[[ExoTiC-LD]]` in `wiki/papers/2025_Barat_V1298Tau-b.md` — already annotated "(not yet stubbed)" in prose; either create stub or remove brackets.
+4. `[[Rocky-Worlds-DDT]]` in `wiki/papers/2025_Connors_MIRI-15um.md` — DDT survey program; could become a programs/ page or be reframed in prose.
+5. `[[UltraNest]]` in `wiki/codes/MultiNest.md` — single-paper sampler reference; prose alternative is cleaner.
+6. `[[WASP-19]]` in `wiki/papers/2019_Rackham_TLS-FGK.md` — referenced in passing for the Espinoza 2019 TiO reinterpretation; convert to prose with "(not yet ingested)" since WASP-19 is not currently a wiki target.
+7. `[[batman]]` in `wiki/papers/2025_Barat_V1298Tau-b.md` — already annotated "(not yet stubbed)" in prose; either create stub or remove brackets.
+8. `[[pysynphot]]` in `wiki/papers/2025_Gressier_HATP26b.md` — utility library; prose preferred.
+9. `[[spelunker]]` in `wiki/papers/2025_Ahrer_KELT7b.md` — already annotated "(Deal & Espinoza 2024; not ingested)" in prose; remove brackets.
+
+### 3. Frontmatter violations
+None. All 287 wiki pages + 2 analyses pages open with `---`, all carry a `type:` field.
+
+### 4. Index/filesystem mismatches
+None. All wiki pages are listed in index.md; all index.md links resolve.
+
+### 5. Stale "(not yet ingested)" reference now resolvable
+1. `wiki/concepts/stellar-contamination.md:38` — Tensions block: "Rackham et al. 2018 (not yet ingested)" should now read `[[2018_Rackham_TLS]]`. This was missed when the lede + History block were updated in this batch's ingestion.
+
+### 6. Stub-promotion candidates above threshold (≥3 paper refs)
+Total: 86 entity pages exceed the alternative threshold; top 12 by combined paper / total inbound count, restricted to genuinely short pages (≤25 lines):
+1. `[[HST-WFC3]]` (instruments; 17 lines, 8 papers, 8 inbound) — pre-JWST workhorse instrument; clear hub candidate.
+2. `[[TauREX3]]` (codes; 18 lines, 8 papers, 14 inbound) — Bayesian retrieval framework.
+3. `[[petitRADTRANS]]` (codes; 18 lines, 7 papers, 13 inbound) — radiative-transfer & retrieval framework.
+4. `[[SPARTA]]` (codes; 18 lines, 7 papers, 11 inbound) — JWST reduction pipeline.
+5. `[[transitspectroscopy]]` (codes; 17 lines, 7 papers, 10 inbound) — Espinoza 2022 NIRSpec package.
+6. `[[VULCAN]]` (codes; 17 lines, 6 papers, 10 inbound) — photochemistry / chemical-kinetics code.
+7. `[[exoTEDRF]]` (codes; ?, 9 papers, 15 inbound) — Montréal-group JWST pipeline.
+8. `[[Tiberius]]` (codes; ?, 9 papers, 14 inbound) — JWST pipeline.
+9. `[[ExoTiC-JEDI]]` (codes; ?, 9 papers, 14 inbound) — JWST pipeline.
+10. `[[juliet]]` (codes; ?, 9 papers, 9 inbound) — RV+light-curve fitting package.
+11. `[[FastChem]]` (codes; 16 lines, 5 papers, 11 inbound) — chemical-equilibrium code.
+12. `[[cosmic-shoreline]]` (concepts; 7 papers, 15 inbound) — already substantial in content; flag for hub-tag promotion rather than rewrite.
+
+Plus 4-paper / 4-inbound candidates including `[[HD-189733b]]` (already written as stub+synthesis this batch) and `[[HST-STIS]]`. Awaiting user adjudication for which (if any) to promote at this lint pass.
+
+### 7. Tag hygiene
+- 214 singleton tags out of 403 unique (53%). Most are leaf-concept descriptors (`above-kraft-break`, `cloud-microphysics`, `c-h-bending-7um`) that are content-specific and not really redundant.
+- A handful of probable duplicate-spelling singletons worth merging:
+  - `aerosol` (1) vs. no `aerosols` plural tag — but `aerosols.md` itself does not yet have an "aerosols" tag. Likely fine, but inconsistent capitalization convention.
+  - `jwst-cycle1` (1) vs. `jwst-cycle-1` (14) on `wiki/programs/JWST-GO-2149.md` — clear typo.
+  - `g-dwarf-host` (1) vs. no canonical alternative — already idiomatic; not a typo.
+- Recommendation: merge `jwst-cycle1` → `jwst-cycle-1` only.
+
+### 8. Spot-checked contradictions
+No new contradictions detected beyond the already-flagged HD 189733 b dust-vs-TLS tension (now properly recorded on the [[HD-189733b]] hub `## Tensions` block). The new Pont 2008/2013 + McCullough 2014 + Rackham 2018/2019 papers are mutually consistent within their respective frozen-at-ingest framings.
+
+
+
+## [2026-05-04] schema | promote 12 stub-candidates to hub via full rewrites
+**Promoted entities:**
+1. **[[HST-WFC3]]** (instrument; was 17 lines / 8 papers / 8 inbound) — Variants by grism mode (G141/G102/spatial-scanning); History from 2008 ACS-era through JWST archival anchor; Trade-offs include 1.4 μm coverage as anchor, stellar variability between epochs, narrow band, JWST supersession; Open issues on stellar-variability offsets and HST↔JWST cross-instrument calibration. 8 papers categorized.
+2. **[[TauREX3]]** (code; 18 lines / 8 papers / 14 inbound) — Variants for primary/cross-check/population-reanalysis/plugin-extension/comprehensive-vs-simplified retrievals; History from HST/WFC3 ARES era through JWST Cycle 1–3; Trade-offs on plugin ecosystem, cross-code consistency, free-chemistry default, ARES-survey legacy reduction tooling.
+3. **[[petitRADTRANS]]** (code; 18 lines / 7 papers / 13 inbound) — Variants for stand-alone retrieval, self-consistent-grid back-end, ruling-out forward modeling, equilibrium-chemistry retrieval with [[easyCHEM]] coupling, atmosphere-half of joint interior-atmosphere retrievals, population-level forward grids; modular Lego-style architecture.
+4. **[[SPARTA]]** (code; 18 lines / 7 papers / 11 inbound) — Variants for MIRI/LRS slitless eclipse spectroscopy (dominant), MIRI F1500W imaging, NIRSpec G395H cross-check; Trade-offs on STScI-pipeline independence, MIRI specialization, immature NIRSpec mode (~25% NRS2 scatter penalty).
+5. **[[transitspectroscopy]]** (code; 17 lines / 7 papers / 10 inbound) — Variants for primary-with-cross-checks, GP stellar-contamination framework, NIRISS/SOSS cross-check; tight juliet integration; first-class GP marginalization the distinguishing strength.
+6. **[[VULCAN]]** (code; 17 lines / 6 papers / 10 inbound) — Variants for 1D SNCHO_PHOTO_NETWORK, 1D forward-grid back-end, 2D dayside/nightside columns; carbon-sulfur network gap flagged; saturating wiki adoption for SO₂ photochemistry.
+7. **[[exoTEDRF]]** (code; 9 papers / 15 inbound) — Variants for NIRISS/SOSS primary, NIRSpec PRISM/G395H cross-check, MIRI/LRS cross-check, panchromatic mixed-detector primary; PCA detector detrending + group-level 1/f the differentiators; NIRISS/SOSS specialization.
+8. **[[Tiberius]]** (code; 9 papers / 14 inbound) — the wiki's most consistently-applied "third reduction" across BOWIE-ALIGN / COMPASS / Hot Rocks / ERS; LRG-BEASTS heritage; Trade-offs on independence-of-approach, BOWIE-ALIGN cross-survey consistency, vs. occasional unphysical retrieval modes.
+9. **[[ExoTiC-JEDI]]** (code; 9 papers / 14 inbound) — Variants for COMPASS dual-reduction primary, BOWIE-ALIGN three-pipeline, DREAMS GTO cross-check, TRAPPIST-1 PRISM three-pipeline, population-level reanalysis with **RPF-PCA** (relative-pixel-fluxes PCA basis introduced in [[2025_Gordon_COMPASS-G395H]]).
+10. **[[juliet]]** (code; 9 papers / 9 inbound) — Variants for celerite Matérn 3/2 GP detrending (dominant), parametric/linear systematics, joint transit + RV; the wiki's dominant downstream light-curve-fitting layer; tight transitspectroscopy integration.
+11. **[[FastChem]]** (code; 5 papers / 11 inbound) — the wiki's reference equilibrium-chemistry layer; PyFastChem coupling within retrieval frameworks (SANSAR/NEMESISPY); benchmark target for in-house chemistry modules ([[NEXOTRANS|NEXOCHEM]]); equilibrium-chemistry rejection scenarios on disequilibrium targets ([[2024_Banerjee_L98-59d]]).
+12. **[[cosmic-shoreline]]** (concept; 13 papers / 15 inbound) — Variants by observational regime (MIRI emission, transmission, paired transmission+emission); History 2017 (Zahnle-Catling) → 2023 Cycle-1 first wave → 2024 emission-as-arbiter → 2025 broader survey → **2025–2026 USP shoreline anomaly with three independent challengers** (TOI-270 b, TOI-561 b, HD 3167 b); Open issues now centered on population-level shoreline reformulation.
+
+**Index changes:** All 12 entries now marked `(hub)`; paper counts updated (HST-WFC3 6→8; TauREX3 4→8; petitRADTRANS 4→7; SPARTA 7→7; transitspectroscopy 5→7; VULCAN 4→6; exoTEDRF 7→9; Tiberius 7→9; ExoTiC-JEDI 9→9; juliet 8→9; FastChem 4→5; cosmic-shoreline 10→13). Frontmatter `tags: [..., hub]` added to all 12.
+
+**Promotion methodology decisions (preferred approaches):**
+- Read every paper page that links to each entity (via `grep -lE "\[\[<entity>(\]|\|)" wiki/papers/*.md`); synthesized from existing paper-page summaries rather than re-reading the underlying PDFs. The wiki's paper pages are dense enough that this is sufficient for hub-level synthesis without compounding interpretation.
+- Used four common section headers across all 12 hubs: `## Variants`, `## History`, `## Trade-offs`, `## Open issues`, `## Papers` — diverging only when an entity-specific structure is more informative (cosmic-shoreline `## Papers` grouped by observational regime instead of category).
+- Did NOT compound new interpretation. Each hub bullet ties back to a specific paper page; cross-references use [[wiki-link]] only when the target page exists.
+- For cosmic-shoreline (already partially structured): retained the existing per-paper bullets and reorganized them under the new structure rather than discarding curated text.
+- Did NOT add a `## See also` section — for code/instrument hubs the existing `## Papers` list serves the same function; for concept hubs the cross-links are inline.
+
+**Promotion candidacy still open at next lint:** ~74 entities remain above the ≥3-paper / ≥5-inbound threshold. Top remaining candidates (paper count, total inbound): Catwoman (2/9), supreme-SPOON (3/8), SPHINX (3/8), NEMESISPY (3/7), Aurora (3/8), Photochem (4/9), easyCHEM (4/6), JWST-NIRCam (4/6), JWST-GO-1981-CHAMPs (4/5), HELIOS (4/5), HST-STIS (4/4), JWST-GTO-1201 (4/10), HD-189733b (4/17), TRAPPIST-1b (4/12), L98-59c (4/10), CO (6/14), Na (6/11), CHIMERA (6/12), K (5/8), HD-209458b (5/7), L98-59 (3/6), GJ357b (3/8), TOI-836b (3/8), TOI-270d (5/14), K2-18b (5/13), L98-59d (3/8), WASP-39b (6/14), WASP-17b (4/9), WASP-107b (3/6). Most are healthy stubs that would benefit from hub promotion but were not in the user-approved batch of 12.

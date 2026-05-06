@@ -1,6 +1,6 @@
 # Index
 
-*Last updated: 2026-05-04 (5-paper HD 189733 b + TLS-foundations batch). Maintained by the LLM — do not edit by hand except to flag errors.*
+*Last updated: 2026-05-04 (5-paper HD 189733 b + TLS-foundations batch + 12-hub promotion). Maintained by the LLM — do not edit by hand except to flag errors.*
 
 
 
@@ -100,7 +100,7 @@
 - [[HST-ACS]] — Hubble ACS G800L grism (550–1050 nm); pre-JWST optical transmission for HD 189733 b · 2 papers
 - [[HST-NICMOS]] — Hubble NICMOS (1.0–2.5 μm); G206 grism + F166N/F187N photometry; pre-JWST · 1 paper
 - [[HST-STIS]] — Hubble Space Telescope Imaging Spectrograph (G430L+G750L, 0.29–1.02 μm); HST optical transmission workhorse · 3 papers
-- [[HST-WFC3]] — Hubble WFC3 G141/G102 grism; pre-JWST workhorse for 1.1–1.7 μm transmission spectroscopy · 6 papers
+- [[HST-WFC3]] (hub) — Hubble WFC3 G141/G102 grism; pre-JWST workhorse for 1.1–1.7 μm transmission spectroscopy; archival WFC3 now anchors every JWST hot-Jupiter / sub-Saturn panchromatic retrieval · 8 papers
 - [[NIRPS]] — ESO 3.6 m NIR (0.98–1.80 μm, R ~ 70 000) high-resolution spectrograph; used for M-dwarf host-star abundances feeding JWST interior priors · 1 paper
 - [[Spitzer-IRAC]] — Spitzer IRAC 3.6/4.5/5.8/8 μm photometry; pre-JWST hot-Jupiter mid-IR workhorse · 1 paper
 - [[Spitzer-MIPS]] — Spitzer MIPS 24 μm photometry; long-wavelength anchor for pre-JWST panchromatic spectra · 1 paper
@@ -141,7 +141,7 @@
 ## Concepts (9)
 
 - [[aerosols]] — clouds, hazes, condensate grains, photochemical soots; continuum opacity in transmission spectra; canonical case is HD 189733 b's panchromatic Rayleigh slope · 5 papers
-- [[cosmic-shoreline]] — Zahnle & Catling 2017 boundary between atmosphere-retaining and atmosphere-less rocky planets · 10 papers
+- [[cosmic-shoreline]] (hub) — Zahnle & Catling 2017 boundary between atmosphere-retaining and atmosphere-less rocky planets; the wiki currently catalogs three shoreline-challengers (TOI-270 b, TOI-561 b, HD 3167 b) pressuring the original formulation · 13 papers
 - [[disintegrating-planet]] — class of USP rocky planets undergoing active mass loss; dust/gas tails create variable, wavelength-dependent transit signatures probing interior composition · 1 paper
 - [[GEMS]] — Giant Exoplanets around M-dwarf Stars; class combining hot/warm-Jupiter chemistry with M-dwarf stellar contamination · 1 paper
 - [[limb-asymmetry]] — morning–evening terminator transmission contrast on tidally locked planets; LSM and asymmetry horizon; chemical heterogeneity (5× SO₂, 40× CO₂, uniform H₂O on WASP-107 b) · 2 papers
@@ -164,7 +164,7 @@
 - [[easyCHEM]] — chemical equilibrium code (Mollière et al. 2017); commonly used as the equilibrium-chemistry module for petitRADTRANS · 2 papers
 - [[Erebus]] — JWST MIRI eclipse-photometry pipeline implementing FN-PCA detrending (Connors et al. 2025) · 1 paper
 - [[ExoTEP]] — JWST/HST light-curve fitting framework (Benneke et al.); often paired with Eureka! · 2 papers
-- [[FastChem]] — fast gas-phase chemical equilibrium code for exoplanet atmospheres (Stock et al. 2018, 2022) · 4 papers
+- [[FastChem]] (hub) — fast gas-phase chemical equilibrium code for exoplanet atmospheres (Stock et al. 2018, 2022); the wiki's reference equilibrium-chemistry layer; the benchmark target for new in-house chemistry modules · 5 papers
 - [[fleck]] — fast forward-modeling of unocculted starspots/faculae on rotating stars (Morris 2020) · 1 paper
 - [[GASTLI]] — open-source gas-giant interior structure code (Acuña et al. 2021–2025); coupled with petitRADTRANS for joint interior–atmosphere retrievals · 1 paper
 - [[GENESIS]] — 1D self-consistent radiative-convective atmospheric model (Gandhi & Madhusudhan 2017, 2020) · 2 papers
@@ -173,32 +173,32 @@
 - [[NAMELESS]] — JWST NIRISS/SOSS time-series reduction pipeline (Montréal group); most conservative of three cross-checks in Lim 2023 · 2 papers
 - [[Pegasus]] — JWST time-series reduction pipeline (Beatty et al. 2024); used as independent cross-check for MIRI/LRS · 1 paper
 - [[Photochem]] — 1D photochemistry / chemical-kinetics code (Wogan et al. 2024); alternative to VULCAN, coupled with ScCHIMERA · 3 papers
-- [[petitRADTRANS]] — open-source radiative-transfer and atmospheric retrieval code (Mollière et al. 2019); correlated-k and line-by-line modes for transmission/emission · 4 papers
+- [[petitRADTRANS]] (hub) — open-source radiative-transfer and atmospheric retrieval code (Mollière et al. 2019); modular forward-modeling back-end for self-consistent grids, joint interior-atmosphere retrievals, and free/equilibrium-chemistry retrievals · 7 papers
 - [[PICASO]] — radiative-transfer code for transmission and emission spectra · 11 papers
 - [[POSEIDON]] (hub) — Bayesian atmospheric retrieval code for transmission and emission spectra · 9 papers
 - [[ScCHIMERA]] — self-consistent radiative-convective + photochemistry CHIMERA variant (Piskorz et al. 2018; Iyer et al. 2023) · 1 paper
 - [[SCARLET]] — frequentist exoplanet atmospheric retrieval and model-comparison code (Benneke & Seager 2012–2019); σ-significance rejection statistics · 5 papers
 - [[smint]] — three-layer interior structure interpolator (Piaulet 2021–2022; Aguichine 2021 grid) for water-mass-fraction inference · 1 paper
 - [[SOSSISSE]] — JWST NIRISS/SOSS reduction pipeline introduced in Lim 2023 (Montréal group) · 1 paper
-- [[SPARTA]] — JWST time-series reduction pipeline, independent of the `jwst` pipeline · 7 papers
+- [[SPARTA]] (hub) — JWST time-series reduction pipeline, independent of the STScI `jwst` pipeline; canonical MIRI/LRS rocky-planet eclipse cross-check; also F1500W and NIRSpec G395H modes · 7 papers
 - [[SPHINX]] — Iyer 2023 cool-dwarf spectral grid; floor 2000 K · 3 papers
 - [[spotrod]] — semi-analytic transit + occulted-spot light-curve model (Béky et al. 2014) · 3 papers
 - [[Eureka]] (hub) — end-to-end JWST time-series reduction pipeline · 28 papers
 - [[Iraclis]] — HST WFC3 spatial-scanning time-series reduction pipeline (Tsiaras et al. 2016); ARES survey standard · 1 paper
 - [[JExoRES]] — JWST exoplanet reduction pipeline (Holmberg & Madhusudhan 2023); Hot Rocks Survey standard · 1 paper
 - [[EXOFASTv2]] — MCMC code for simultaneous transit + RV system-parameter fitting · 2 papers
-- [[ExoTiC-JEDI]] — end-to-end JWST time-series reduction pipeline · 9 papers
-- [[exoTEDRF]] — Montréal-group JWST pipeline for NIRISS/SOSS and NIRSpec; standard for the NEAT GTO program · 7 papers
+- [[ExoTiC-JEDI]] (hub) — end-to-end JWST time-series reduction pipeline; canonical COMPASS dual-reduction primary alongside Eureka; introduces RPF-PCA systematics model · 9 papers
+- [[exoTEDRF]] (hub) — Montréal-group JWST pipeline for NIRISS/SOSS and NIRSpec; standard for the NEAT GTO program; PCA detector detrending + group-level 1/f + `refine_soss_timestamps` · 9 papers
 - [[FIREFLy]] (hub) — JWST time-series reduction pipeline with custom 1/f and bias handling · 8 papers
 - [[Frida]] — Rathcke's custom JWST time-series pipeline (independent of `jwst` from stage 2) · 1 paper
-- [[juliet]] — light-curve and RV fitting package (Espinoza 2019); supports GP detrending, nested sampling, MCMC · 8 papers
+- [[juliet]] (hub) — light-curve and RV fitting package (Espinoza 2019); supports GP detrending, nested sampling, MCMC; the dominant downstream light-curve-fitting layer in the wiki · 9 papers
 - [[llamaradas-estelares]] — empirical stellar-flare light-curve template package (Tovar Mendoza et al. 2022) · 1 paper
 - [[speclib]] — Rackham 2023 Python interpolator for stellar-spectrum grids (notably SPHINX) · 1 paper
 - [[spotter]] — Garcia & Rackham 2023 stellar-surface spot/chord visualization tool · 1 paper
 - [[stctm]] — stellar contamination modeling code for M-dwarf PRISM hosts (Piaulet-Ghorayeb 2024; github.com/cpiaulet/stctm) · 1 paper
 - [[supreme-SPOON]] — JWST NIRISS/SOSS time-series reduction pipeline (Feinstein, Coulombe, Radica et al.) · 3 papers
 - [[TEATRO]] — alternate JWST NIRSpec time-series reduction pipeline (ExoMIRI consortium); choice vs. CASCADe shifts retrieved C/O on HAT-P-12 b · 2 papers
-- [[TauREX3]] — open-source Bayesian atmospheric retrieval framework (Al-Refaie et al. 2019); ARES survey standard; supports transmission and emission · 4 papers
+- [[TauREX3]] (hub) — open-source Bayesian atmospheric retrieval framework (Al-Refaie et al. 2019); ARES survey standard; comprehensive species library + plugin ecosystem (TauREx-PyMieScatt, MadhuSeager2009 T-P) · 8 papers
 - [[MOPSMAP]] — Mie-scattering aerosol optical-property package (Gasteiger & Wiegner 2018) · 1 paper
 - [[NEXOTRANS]] — hybrid Bayesian + machine-learning atmospheric retrieval framework (Deka et al. 2025); PyMultiNest + UltraNest + Random Forest/Gradient Boosting/kNN/Stacking Regressor; in-house **NEXOCHEM** equilibrium-chemistry module · 1 paper
 - [[SANSAR]] — Suite of Adaptable plaNetary atmoSphere model And Retrieval (Verma et al. 2025); opacity-sampling and correlated-k retrieval; benchmarked against POSEIDON/ATMO/CHIMERA/Aurora · 1 paper
@@ -209,11 +209,11 @@
 - [[PSG]] — Planetary Spectrum Generator (Villanueva et al. 2018; NASA GSFC); web-based radiative-transfer and retrieval tool · 1 paper
 - [[PyratBay]] — Python radiative-transfer and atmospheric retrieval framework (Cubillos & Blecic 2021) · 1 paper
 - [[RADYN]] — 1D non-LTE radiative-hydrodynamics stellar-atmosphere code (Carlsson & Stein 1995–1997); used for M-dwarf flare-template modeling · 1 paper
-- [[Tiberius]] — JWST time-series reduction pipeline (extended from ground-based LRG-BEASTS) · 7 papers
+- [[Tiberius]] (hub) — JWST time-series reduction pipeline (extended from ground-based LRG-BEASTS); the wiki's most consistently-applied "third reduction" across BOWIE-ALIGN, COMPASS, Hot Rocks, and ERS reductions · 9 papers
 - [[Tshirt]] — JWST time-series reduction pipeline (Schlawin & Glidic 2022); group-level 1/f handling preferred for NIRCam · 2 papers
-- [[transitspectroscopy]] — Python JWST/NIRSpec reduction package (Espinoza 2022) · 5 papers
+- [[transitspectroscopy]] (hub) — Python JWST/NIRSpec reduction package (Espinoza 2022); first-class GP marginalization over stellar contamination; tight juliet integration · 7 papers
 - [[VIRGA]] — eddy-diffusion-balanced cloud microphysics (Rooney et al. 2022); Ackerman & Marley framework · 1 paper
-- [[VULCAN]] — 1D/2D photochemistry and chemical-kinetics code (Tsai et al. 2017, 2021, 2024) · 4 papers
+- [[VULCAN]] (hub) — 1D/2D photochemistry and chemical-kinetics code (Tsai et al. 2017, 2021, 2024); SNCHO_PHOTO_NETWORK; back-end for the SO₂-shoreline grid · 6 papers
 
 ## Programs (30)
 
