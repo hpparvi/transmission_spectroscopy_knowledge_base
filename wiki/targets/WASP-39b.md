@@ -32,11 +32,12 @@ Inflated hot Jupiter (0.28 MJ, 1.27 RJ, P ≈ 4.06 d) around the solar-type star
 ## Methodology benchmarks
 
 - [[2026_RoyPerez_WASP39b]] documents up to 2 dex variation in retrieved abundances across four data-reduction pipelines (Tshirt, Eureka, supreme-SPOON, FIREFLy) on the same PRISM ERS data — pipeline-driven systematics.
+- [[2025_RoyPerez_WASP39b]] (companion / predecessor paper from same group) — instead examines **cloud-extinction-parameterization** systematics on the same FIREFLy reduction. Four cloud-extinction models tested ([[PSG]]/PUMAS + [[MultiNest]] + [[MOPSMAP]]): a flat cloud, free-slope linear, Ångström exponent, and MOPSMAP physical-aerosol. Ångström (ln B = 8.02) and MOPSMAP (ln B = 5.57) decisively preferred over flat clouds. Best-fit MOPSMAP r_eff = **0.55⁺⁰·⁰³₋₀·⁰³ μm** for spherical aerosols (n_r = 1.4). Different cloud parameterizations shift molecular abundances by up to 4 dex (H₂S: −2.23 vs −6.29), demonstrating that **cloud-extinction parameterization is a leading source of bias in retrieved abundances** — complementary to the pipeline-systematics angle.
 - [[2025_Deka_WASP39b]] applies the **NEXOTRANS** retrieval framework to the panchromatic NIRISS+PRISM+MIRI (0.6–12.0 μm) WASP-39 b dataset; best-fit hybrid model yields O/H = 14× solar, C/H = 21× solar, S/H = 5× solar, C/O = 1.35× solar; cross-validated against eight community retrieval codes on the MIRI subset (all within 1σ).
 
 ## See also
 
 - Host: [[WASP-39]]
-- Concept: [[limb-asymmetry]]
+- Concept: [[limb-asymmetry]], [[aerosols]]
 - Programs: [[JWST-ERS-1366]]
-- Papers: [[2025_Deka_WASP39b]], [[2026_RoyPerez_WASP39b]], [[2025_Fu_limb-asymmetry]]
+- Papers: [[2025_Deka_WASP39b]], [[2025_RoyPerez_WASP39b]], [[2026_RoyPerez_WASP39b]], [[2025_Fu_limb-asymmetry]], [[2025_Fu_statistical-trends]] (population-level anchor; SO₂-L = −0.39 PRISM vs −0.08 G395H — instrumental discrepancy flagged)

@@ -54,7 +54,14 @@ The Mid-Infrared Instrument on JWST (Rieke et al. 2015; Kendrew et al. 2015; Bou
 - [[2024_WeinerMansfield_GJ486b]] — two LRS eclipses of Gl 486 b; T_day = 865 K; resolves [[2023_Moran_GJ486b]] degeneracy.
 - [[2024_Xue_GJ1132b]] — single LRS eclipse of GJ 1132 b; bare-rock consistent.
 
+### MIRI/LRS emission (warm Neptune)
+- [[2025_Mukherjee_GJ436b]] — **two LRS eclipses of warm-Neptune GJ 436 b** under [[JWST-GO-1185]] (MANATEE; PI Schlawin); combined with 6 NIRCam grism eclipses for first panchromatic 2.4–12 μm thermal emission spectrum of GJ 436 b; T_day = 662.8 ± 5.0 K; T_int ~ 60 K; revises Spitzer-era extreme metallicity downward.
+
 ### MIRI/LRS transmission
+- [[2025_Madhusudhan_K2-18b-MIRI]] — first MIRI/LRS transmission of habitable-zone sub-Neptune K2-18 b under [[JWST-GO-2722]]; reports DMS+DMDS at 3σ in canonical CH₄+CO₂+X retrieval (contested).
+- [[2025_Luque_K2-18b]] — independent multi-pipeline reduction of the same MIRI/LRS K2-18 b visit (exoTEDRF first-public MIRI support, SPARTA, Eureka); panchromatic NIR+MIR joint retrieval — DMS/DMDS not preferred. Notes MIRI features require T_p > energy-balance bound, implying systematic.
+- [[2025_PicaCiamarra_K2-18b]] — 650-molecule agnostic search across the same MIRI/LRS data (JExoRES + JexoPipe); 11 species reach ≥2.5σ in MIRI but only 3 also in NIR — including diethyl sulfide and methacrylonitrile alongside DMS.
+- [[2025_Taylor_K2-18b-MIRI]] — model-agnostic Gaussian-feature analysis of the [[2025_Madhusudhan_K2-18b-MIRI]] MIRI/LRS spectrum; 5 of 6 tests give "no evidence" over a flat line; argues M25 detection is inflated by curated 2-molecule canonical model.
 - [[2025_Tusay_K2-22b]] — four LRS transit windows of K2-22 b; one 9.7σ detection; tentative NO at ~5.1 μm.
 - [[2025_Alam_L168-9b]] — single LRS transit of L 168-9 b combined with NIRSpec G395H for first 3–12 μm broadband on a rocky planet.
 

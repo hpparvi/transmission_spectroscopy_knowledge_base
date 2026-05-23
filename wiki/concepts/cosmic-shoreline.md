@@ -40,8 +40,8 @@ The wiki catalogs three observational regimes for shoreline tests:
 ## Open issues
 
 - **What atmosphere class explains the shoreline-challengers?** TOI-270 b's underdense bulk requires water mass fraction ~5–6%; TOI-561 b's low T_day suggests thick volatile-rich atmosphere; HD 3167 b's R = 0.57 admits both high albedo (Aeff ≈ 0.72) and thick atmosphere. No unifying compositional inference yet.
-- **Population-level shoreline reformulation.** Three challengers + a growing inventory of "atmosphere-permitting but inconclusive" results ([[2026_Holmberg_GJ3473b]], TRAPPIST-1 c reanalysis) pressure the original Zahnle-Catling formulation; community has not yet repositioned the shoreline boundary in light of JWST data.
-- **Disentangling atmospheric-retention from atmospheric-replenishment.** Long-term volcanic outgassing or impact-delivered volatiles could replenish atmospheres on ostensibly-airless-side targets — the shoreline test is implicitly a *steady-state* test, but the observed sample may be in flux.
+- **Population-level shoreline reformulation.** *Four* challengers ([[2025_BelloArufe_L98-59b]] L 98-59 b, [[2025_Teske_TOI561b]] TOI-561 b, [[2026_Coy_HD3167b]] HD 3167 b, [[2025_Coulombe_TOI-270b]] TOI-270 b) + a growing inventory of "atmosphere-permitting but inconclusive" results ([[2026_Holmberg_GJ3473b]], TRAPPIST-1 c reanalysis) pressure the original Zahnle-Catling formulation; community has not yet repositioned the shoreline boundary in light of JWST data.
+- **Disentangling atmospheric-retention from atmospheric-replenishment.** Long-term volcanic outgassing or impact-delivered volatiles could replenish atmospheres on ostensibly-airless-side targets — the shoreline test is implicitly a *steady-state* test, but the observed sample may be in flux. [[2025_BelloArufe_L98-59b]] is the wiki's first **active replenishment** case ([[volcanic-atmosphere]]).
 
 ## Papers
 
@@ -53,6 +53,7 @@ The wiki catalogs three observational regimes for shoreline tests:
 - [[2025_Bennett_GJ1132b]] — bare-rock conclusion via four-visit transmission coadd.
 
 ### Shoreline challengers (atmospheric retention possibly preferred)
+- [[2025_BelloArufe_L98-59b]] — **L 98-59 b sub-Earth M-dwarf**; SO₂-rich [[volcanic-atmosphere]] preferred over flat line at 3.3–3.8σ (NIRSpec G395H 4-transit); first wiki **volcanically-replenished** shoreline challenger; ≥8× Io tidal heating per unit mass; subsurface magma ocean R_m ≈ 0.6–0.9 R_p.
 - [[2025_Teske_TOI561b]] — TOI-561 b USP super-Earth, ancient K-dwarf; T_day far below bare-rock; thick atmosphere consistent.
 - [[2026_Coy_HD3167b]] — HD 3167 b USP super-Earth K-dwarf; eclipse 38 ± 11 ppm vs 104 ± 3 ppm bare-rock (≈5σ deficit); atmosphere or high-albedo surface.
 - [[2025_Coulombe_TOI-270b]] — TOI-270 b warm super-Earth M-dwarf; tentative H₂O absorption (lnB = 0.3–3.2) + underdense bulk requiring WMF ~5–6%.

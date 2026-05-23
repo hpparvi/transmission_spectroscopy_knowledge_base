@@ -40,4 +40,4 @@ Warm super-puff (Mp ≈ 0.10 MJ, Rp ≈ 0.94 RJ → log g = 2.45 cgs, T_eq ≈ 7
 - Host: [[WASP-107]]
 - Concepts: [[limb-asymmetry]], [[SO2-photochemical-shoreline]], [[stellar-contamination]]
 - Programs: [[JWST-GTO-1201]], [[JWST-GTO-1224]]
-- Papers: [[2025_Murphy_WASP107b]], [[2025_Fu_limb-asymmetry]]
+- Papers: [[2025_Murphy_WASP107b]], [[2025_Fu_limb-asymmetry]], [[2025_Fu_statistical-trends]] (population-level: SO₂-L = 0.15 ± 0.14, one of two positive-SO₂-L outliers; CO₂-L = 4.70 ± 0.16 — highest CO₂-L in 8-planet sample)

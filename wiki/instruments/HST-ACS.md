@@ -10,5 +10,5 @@ The Advanced Camera for Surveys on Hubble. The G800L grism (550–1050 nm, R ≈
 
 ## Papers
 
-- [[2008_Pont_HD189733b]] — three G800L transits of [[HD-189733b]] (550–1050 nm); first conclusive haze claim in an exoplanet atmosphere.
+- [[2008_Pont_HD189733b]] — three G800L transits of [[HD189733b]] (550–1050 nm); first conclusive haze claim in an exoplanet atmosphere.
 - [[2013_Pont_HD189733b]] — same G800L data combined with STIS + WFC3 + NICMOS + Spitzer for the panchromatic 0.3–24 μm spectrum.

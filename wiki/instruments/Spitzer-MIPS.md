@@ -10,4 +10,4 @@ The Multiband Imaging Photometer for Spitzer; 24 μm channel used for hot-Jupite
 
 ## Papers
 
-- [[2013_Pont_HD189733b]] — 24 μm transit depth on [[HD-189733b]] (Knutson et al. 2009; not ingested); 1.55 ± 0.94 × 10⁻⁴ uncertainty represents the long-wavelength anchor of the panchromatic spectrum.
+- [[2013_Pont_HD189733b]] — 24 μm transit depth on [[HD189733b]] (Knutson et al. 2009; not ingested); 1.55 ± 0.94 × 10⁻⁴ uncertainty represents the long-wavelength anchor of the panchromatic spectrum.

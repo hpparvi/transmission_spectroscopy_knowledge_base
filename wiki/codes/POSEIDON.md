@@ -46,3 +46,15 @@ The wiki sees POSEIDON deployed in five recurring configurations:
 - [[2023_May_GJ1132b]] — atmosphere vs unocculted-starspot retrievals; equal Bayesian evidence on Visit 1.
 - [[2025_Verma_HD209458b]] — benchmark reference for [[SANSAR]]; opacity-sampling forward-model agreement at ~6 ppm absolute mean offset; retrieval cross-comparison on WASP-96 b NIRISS data agrees within 1σ.
 - [[2025_Deka_WASP39b]] — benchmark reference for [[NEXOTRANS]] on the WASP-39 b MIRI dataset; corner-plot overlay agreement within 1σ across log(H₂O), log(SO₂), and cloud parameters; same as in [[2026_Radica_WASP96b]].
+
+### Sub-Neptune — agnostic large-molecule searches
+- [[2025_PicaCiamarra_K2-18b]] — POSEIDON as the primary retrieval code for a **650-molecule agnostic search** of K2-18 b across MIRI JExoRES, MIRI JexoPipe, and NIRISS+NIRSpec spectra. Extension of POSEIDON enables sequential retrievals over candidate species; the resulting "promising" set is filtered against [[petitRADTRANS]] and VIRA cross-checks.
+
+### Sub-Neptune — ensemble retrievals across data-level choices
+- [[2025_Schmidt_K2-18b]] — **>240 POSEIDON retrievals** on K2-18 b (60 NIRISS+NIRSpec data combinations × 4 nested-model runs each). 28 free parameters; H₂-He background; ExoMol updated CH₄ MM line list (Yurchenko 2024); one-heterogeneity stellar-contamination model with PHOENIX grid; opacity sampling at R = 100,000; PyMultiNest with 1,000 live points; ~50 CPU-years total. Cross-validated against [[BeAR]] — "excellent agreement" across the 4 cross-checked combinations. The paper formalizes an "ensemble posterior" methodology — marginalizing the molecular abundance posteriors over data-level choices — that is presented as novel for JWST atmospheric inference.
+
+### Rocky M-dwarf planets — volcanic-atmosphere inference
+- [[2025_BelloArufe_L98-59b]] — POSEIDON 11-parameter retrieval on L 98-59 b NIRSpec G395H; supports SO₂-rich atmosphere over flat line at lnZ_atm − lnZ_flat = 2.3 (Bayes factor 10, ~2.2σ in nested SO₂ comparison; 3.8σ when interdetector offset is excluded). H₂ < 24% (2σ); CO₂ < 84%. Stellar-contamination cross-check via 7-parameter TLS model.
+
+### GEMS — joint atmosphere + spots + faculae
+- [[2025_Canas_TOI5205b]] — POSEIDON equilibrium-chemistry retrievals on TOI-5205 b NIRSpec PRISM with **spots + faculae** TLS framework (more flexible than [[PLATON]]'s single-heterogeneity model); 14-parameter atmospheric model + 5-parameter stellar; χ²_ν = 2.16 vs. 2.45 for PLATON. Confirms sub-solar atmospheric metallicity ([Fe/H] = −0.76⁺⁰·¹⁷₋₀·₁₀) and super-solar C/O.

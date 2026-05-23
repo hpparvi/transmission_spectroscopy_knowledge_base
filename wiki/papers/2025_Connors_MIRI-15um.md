@@ -33,7 +33,7 @@ Introduces **frame-normalized principal component analysis (FN-PCA)** — a data
 | [[LHS1140c]] | 3 | 242 ± 35 | 528 +32/−36 | Rules out atmosphere; consistent with low-albedo bare rock |
 
 - **TRAPPIST-1 c cooling.** FN-PCA dayside is ~36 K cooler than Zieba et al. 2023 (not yet ingested), 1σ from their value but pushing the result further into the atmosphere / reflective-surface region of parameter space; potential tension flagged below.
-- **Empirical detector-settling law.** Across 17 observations spanning K-mag 5–11, settling timescale follows T_settle [hr] = 0.063 exp(0.427 m_K) − 0.657 — a calibration deliverable for [[Rocky-Worlds-DDT]] survey planning.
+- **Empirical detector-settling law.** Across 17 observations spanning K-mag 5–11, settling timescale follows T_settle [hr] = 0.063 exp(0.427 m_K) − 0.657 — a calibration deliverable for [[JWST-Rocky-Worlds-DDT]] survey planning.
 - **Bias in eclipse-depth priors.** Negative-allowed priors are necessary for nondetection visits; positive-only priors mistakenly inflate depth from eclipse egress (TRAPPIST-1 c visits 3, 4).
 
 ## Methods

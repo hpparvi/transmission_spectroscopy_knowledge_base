@@ -19,3 +19,5 @@ Carbon monoxide; a major carbon-bearing gas in hot-Jupiter atmospheres at thermo
 - [[2025_Crouzet_HATP12b]] — detected at 4.1σ on HAT-P-12 b NIRSpec G395M.
 - [[2025_AcunaAguirre_WASP80b]] — present on WASP-80 b in joint interior–atmosphere retrieval.
 - [[2025_Barat_V1298Tau-b]] — detected at 10σ on the young sub-Neptune progenitor V1298 Tau b; CO/CH₄ ratio used as constraint on quench-point depth in the atmosphere; consistent with the 500 K T_int + K_zz ~ 10⁷–10⁸ inference.
+- [[2025_Ahrer_WASP94Ab]] — tentative ~3σ detection on misaligned hot Jupiter WASP-94 Ab NIRSpec G395H (2.8σ HyDRA, 3.3σ pRT); log VMR ≈ −2.85; below canonical 3σ threshold but feature is needed for the C/O constraint.
+- [[2025_Gapp_WASP121b]] — CO is dayside-stable (versus thermally dissociated H₂O) on the ultra-hot Jupiter WASP-121 b — its near-uniform global distribution is one of the drivers of 1D-retrieval C/O bias in ultra-hot Jupiters.

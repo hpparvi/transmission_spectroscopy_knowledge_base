@@ -59,3 +59,10 @@ JWST time-series reduction pipeline developed by the Montréal/Trottier group (F
 
 ### MIRI/LRS cross-check
 - [[2026_Coy_HD3167b]] — HD 3167 b LAVA LAMPS secondary-eclipse cross-check.
+
+### NIRISS+NIRSpec+MIRI panchromatic (first single-pipeline use)
+- [[2025_Luque_K2-18b]] — exoTEDRF v2.3.0 used as the **first publicly available pipeline supporting NIRISS+NIRSpec+MIRI in one framework** for K2-18 b. MIRI Stage 1 with DO_NOT_USE flagging of first 5 + last groups, EMI correction, time-domain 7σ cosmic-ray flagging, and PCA detrending of detector drift; MIRI light-curve fit with exoUPRF + batman. Establishes the architecture for future panchromatic JWST reductions of habitable-zone sub-Neptunes.
+- [[2025_Schmidt_K2-18b]] — exoTEDRF NIRISS+NIRSpec reductions for K2-18 b with scale-achromatic 1/f at group level; piece-wise SOSS background scaling (Lim 2023, Fournier-Tondreau 2024a); exoTEDRF-custom 10σ jump (NIRISS) and 12σ jump (NIRSpec); edgetrigger order tracing; 30-pixel box (NIRISS), 8-pixel box (NIRSpec); spot-crossing event modeled as a Gaussian. Used as the alternative-pipeline contrast to [[FIREFLy]] in the ensemble-posterior framework; the exoTEDRF data + R≈100 NIRSpec is the **only** combination yielding marginal DMS (2.2σ) and CO₂ (2.3σ) — disappears at pixel-level resolution.
+
+### Methodology benchmark
+- [[2025_Carter_NIRISS-jump-ramp]] — JWST Technical Report references **group-level 1/f correction** (the exoTEDRF default) as the recommended approach not yet integrated into the JWST pipeline default; uses LIKELY (Brandt 2024) method on default-pipeline 1/f-corrected data as the comparison.

@@ -18,7 +18,7 @@ Suspended particulates — clouds, hazes, condensate grains, photochemical soots
 
 ## Confounding with stellar contamination
 
-[[2014_McCullough_HD189733b]] showed that the same Rayleigh-like slope attributed to dust on HD 189733 b can be quantitatively reproduced by **unocculted starspot contamination** — see [[stellar-contamination]] and the [[HD-189733b]] hub `## Tensions`. [[2019_Rackham_TLS-FGK]] generalized this: K-dwarf [[stellar-contamination]] (the transit-light-source-effect) generically produces visible blueward slopes at the magnitude observed for HD 189733 b. The dust-vs-TLS adjudication is target-specific and remains an open methodology question for any active-K-dwarf hot-Jupiter retrieval.
+[[2014_McCullough_HD189733b]] showed that the same Rayleigh-like slope attributed to dust on HD 189733 b can be quantitatively reproduced by **unocculted starspot contamination** — see [[stellar-contamination]] and the [[HD189733b]] hub `## Tensions`. [[2019_Rackham_TLS-FGK]] generalized this: K-dwarf [[stellar-contamination]] (the transit-light-source-effect) generically produces visible blueward slopes at the magnitude observed for HD 189733 b. The dust-vs-TLS adjudication is target-specific and remains an open methodology question for any active-K-dwarf hot-Jupiter retrieval.
 
 ## Composition candidates (hot Jupiters, T ~ 1000–1500 K)
 
@@ -30,7 +30,10 @@ Cool sub-Neptunes routinely show muted features attributed to high-altitude phot
 
 ## Papers
 
+- [[2025_RoyPerez_WASP39b]] — **first decisive JWST/NIRSpec-PRISM rejection of flat-cloud assumption** on the WASP-39 b ERS benchmark target. Four cloud-extinction models tested via [[PSG]]/PUMAS + [[MultiNest]] + [[MOPSMAP]]. Ångström (ln B = 8.02) and MOPSMAP physical aerosols (ln B = 5.57) decisively preferred over flat; best-fit MOPSMAP r_eff = 0.55⁺⁰·⁰³₋₀·⁰³ μm with n_r = 1.4. Different cloud parameterizations shift retrieved abundances by up to 4 dex (H₂S: −2.23 vs −6.29) — establishes cloud-extinction parameterization as a leading molecular-abundance systematic.
+- [[2025_Ohno_GJ1214b]] — **photochemical-microphysical (PM) haze grid** retrieval on the [[GJ1214b]] panchromatic HST+JWST/NIRSpec+JWST/MIRI transmission spectrum. Two-moment haze microphysics (Ohno & Okuzumi 2018; Ohno, Kawashima, Fortney 2020) + [[VULCAN]] + [[CHIMERA]] + PyMieScatt; column-integrated haze production rate F_haze ≈ 10⁻⁸ g cm⁻² s⁻¹ — 5–6 orders of magnitude above Titan/Pluto/Triton. Aerosol identity robust against four refractive-index variants (water-rich tholin, Titan tholin, CG22 tholin, hydrogenated diamond); hydrogenated-diamond fits a 3.53 μm C–H bump best. **Retrieved haze production rate exceeds calculated photolysis budget by ~2 dex** — implies undiscovered haze-formation channel. The PM grid drives the inference of extreme metallicity ([M/H] ≈ 3.5–3.8) needed to suppress the otherwise-prominent ~6 μm organic haze feature.
 - [[2025_Murphy_WASP107b]] — first wiki paper resolving cloud heterogeneity between morning/evening limbs on a single target; broad 6–11 μm feature isolated to the morning limb.
+- [[2025_LibbyRoberts_Kepler51d]] — sloped 0.6–5.3 μm transmission spectrum of the [[super-puff]] [[Kepler-51d]] explained by a high-altitude photochemical haze layer at 1–100 μbar; tholin / soot / sulfur Mie continua all viable; tilted-ring alternative ruled out as steady state.
 - [[2025_Roy_LP791-18c]] — strong (5.4σ) photochemical haze on a temperate sub-Neptune.
 - [[2025_Jaziri_K2-18b]] — tholin haze opacity reconciles K2-18 b NIR/MIR transmission tension at lnB = 5.53.
 - [[2014_McCullough_HD189733b]] — proposes that the HD 189733 b "haze" slope may be unocculted starspot contamination instead.

@@ -16,11 +16,11 @@ ingested: 2026-04-29
 # Transmission Spectra as Diagnostics of Extrasolar Giant Planet Atmospheres
 
 **Authors:** Brown, T. M. (single author; 2001, ApJ 553:1006) · DOI: 10.1086/320950
-**Target:** [[HD-209458b]] (archetype) · **Instrument:** *theoretical (none)*
+**Target:** [[HD209458b]] (archetype) · **Instrument:** *theoretical (none)*
 
 ## TL;DR
 
-The second foundational [[transmission-spectroscopy]] theory paper, building substantially on [[2000_Seager_TheoryTransmission]]. Introduces the formal **"spectrum ratio"** R(λ) = F_transit/F_out as the natural observable, and adds new physics: cloud-top-pressure parameter studies, Doppler diagnostics from height-dependent winds and planetary rotation, [[Na]] / [[K]] photoionization by stellar UV, refraction, and a Sudarsky-style parameterized cloud deck. Maps how cloud height, metallicity, T(P) profile, thermal inversions, winds, and rotation each imprint themselves on R(λ), defining the diagnostic catalog the field still uses. Predictions computed for [[HD-209458b]] with feature depths at the ~10⁻³ level relative to stellar continuum.
+The second foundational [[transmission-spectroscopy]] theory paper, building substantially on [[2000_Seager_TheoryTransmission]]. Introduces the formal **"spectrum ratio"** R(λ) = F_transit/F_out as the natural observable, and adds new physics: cloud-top-pressure parameter studies, Doppler diagnostics from height-dependent winds and planetary rotation, [[Na]] / [[K]] photoionization by stellar UV, refraction, and a Sudarsky-style parameterized cloud deck. Maps how cloud height, metallicity, T(P) profile, thermal inversions, winds, and rotation each imprint themselves on R(λ), defining the diagnostic catalog the field still uses. Predictions computed for [[HD209458b]] with feature depths at the ~10⁻³ level relative to stellar continuum.
 
 ## Key findings (predictions)
 

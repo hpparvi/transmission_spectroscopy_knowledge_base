@@ -49,3 +49,7 @@ A 1D / 2D chemical-kinetics and photochemistry code for exoplanet atmospheres (T
 
 ### Theoretical population grid
 - [[2025_Crossfield_SO2shoreline]] — VULCAN on each of 936 parameter combinations to map the SO₂ shoreline; flags carbon-sulfur network gaps.
+- [[2025_Ohno_GJ1214b]] — VULCAN with SNCHO + photochemistry network (571 reactions + 1142 reversed + 69 photolysis) for the photochemical-microphysical haze grid on [[GJ1214b]]. 200 vertical molecular-abundance profiles spanning [M/H] ∈ [2.0, 4.0], C/O ∈ [0.057, 1.457], and K_zz ∈ [10⁵, 10⁹] cm² s⁻¹; MUSCLES UV input. Provides chemistry input for the downstream Ohno & Okuzumi two-moment microphysical haze code.
+
+### GEMS / metal-poor giant
+- [[2025_Canas_TOI5205b]] — VULCAN photochemistry post-processed onto [[PICASO]] RCTE grids for TOI-5205 b; used to **extend the metallicity grid below the PICASO lower bound** [M/H] = −1.0; K_zz = 10⁶ or 10⁹ cm² s⁻¹; sulfur enhancements f_S = 1, 10, 100. Disequilibrium models reach χ²_ν = 2.56 (vs RCTE χ²_ν = 2.635).

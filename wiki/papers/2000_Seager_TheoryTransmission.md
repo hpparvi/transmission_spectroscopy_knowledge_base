@@ -16,11 +16,11 @@ ingested: 2026-04-29
 # Theoretical Transmission Spectra during Extrasolar Giant Planet Transits
 
 **Authors:** Seager, S., Sasselov, D. D. (2000, ApJ 537:916) · DOI: 10.1086/309088
-**Target:** [[HD-209458b]] (archetype) · **Instrument:** *theoretical (none)*
+**Target:** [[HD209458b]] (archetype) · **Instrument:** *theoretical (none)*
 
 ## TL;DR
 
-The foundational theoretical paper introducing **[[transmission-spectroscopy]]** as an observational technique for close-in extrasolar giant planets (CEGPs). Predicts that high-resolution, high-S/N spectroscopy during a transit can detect absorption features at the ~10⁻⁴ to ~10⁻³ level relative to total stellar flux, with the **[[Na]] I D resonance doublet at 589.4 nm** as the strongest predicted feature. Establishes the geometric framework — stellar flux passing through an optically thin "transparent atmosphere" above the limb cloud-top — that every subsequent transmission paper inherits. Computes detailed spectra for [[HD-209458b]] specifically. The Na D prediction motivated the historic first detection of an exoplanet atmosphere by Charbonneau, Brown, Latham & Mayor 2002 (HST/STIS; not yet ingested).
+The foundational theoretical paper introducing **[[transmission-spectroscopy]]** as an observational technique for close-in extrasolar giant planets (CEGPs). Predicts that high-resolution, high-S/N spectroscopy during a transit can detect absorption features at the ~10⁻⁴ to ~10⁻³ level relative to total stellar flux, with the **[[Na]] I D resonance doublet at 589.4 nm** as the strongest predicted feature. Establishes the geometric framework — stellar flux passing through an optically thin "transparent atmosphere" above the limb cloud-top — that every subsequent transmission paper inherits. Computes detailed spectra for [[HD209458b]] specifically. The Na D prediction motivated the historic first detection of an exoplanet atmosphere by Charbonneau, Brown, Latham & Mayor 2002 (HST/STIS; not yet ingested).
 
 ## Key findings (predictions)
 
@@ -40,7 +40,7 @@ The foundational theoretical paper introducing **[[transmission-spectroscopy]]**
 - Non-LTE He model atom (singlets + triplets to n=4) for the 1083 nm line.
 - Refraction shown to be small (Δs/s < 2%).
 - Cloud particles: 10 μm grains of MgSiO₃, Fe, Al₂O₃ (MgSiO₃ deck highest).
-- Assumed planet parameters for [[HD-209458b]]: R_p = 1.54 R_J, M_p = 0.69 M_J, i = 85.2°, a = 0.0468 AU, T_eff ≈ 1350 K.
+- Assumed planet parameters for [[HD209458b]]: R_p = 1.54 R_J, M_p = 0.69 M_J, i = 85.2°, a = 0.0468 AU, T_eff ≈ 1350 K.
 
 ## Caveats & limitations
 

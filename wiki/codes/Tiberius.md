@@ -12,7 +12,7 @@ A JWST time-series reduction pipeline (Kirk et al. 2018, 2019, 2021; not yet ing
 
 The wiki sees four Tiberius deployment patterns:
 
-- **Three-pipeline cross-check on hot-Jupiter transmission.** Tiberius + Eureka + ExoTiC-JEDI is the canonical [[BOWIE-ALIGN]] (GO 3838) trio:
+- **Three-pipeline cross-check on hot-Jupiter transmission.** Tiberius + Eureka + ExoTiC-JEDI is the canonical BOWIE-ALIGN (GO 3838) trio:
   - [[2025_Ahrer_KELT7b]] — KELT-7 b NIRSpec G395H BOWIE-ALIGN transit; identical reduction parameters across BOWIE-ALIGN sample to avoid reduction-dependent biases.
 - **Three-pipeline cross-check on rocky-M-dwarf transmission.** Tiberius + Eureka + FIREFLy is the early Cycle-1 trio for null-result NIRSpec G395H rocky-planet transits:
   - [[2023_Lustig-Yaeger_LHS475b]] — LHS 475 b first JWST Earth-sized exoplanet spectrum.

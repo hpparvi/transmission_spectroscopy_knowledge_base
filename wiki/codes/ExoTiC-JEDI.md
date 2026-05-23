@@ -68,3 +68,6 @@ Plus several primary or three-way roles:
 - [[2025_Fisher_TOI1685b]] — one of three for five TOI-1685 b G395H transits.
 - [[2023_May_GJ1132b]] — one of three for two GJ 1132 b G395H transits.
 - [[2025_Espinoza_TRAPPIST1e]] — one of three for four TRAPPIST-1 e PRISM transits.
+
+### GEMS
+- [[2025_Canas_TOI5205b]] — primary reduction (with [[Eureka]] cross-check at <1σ) for 3 NIRSpec PRISM transits of TOI-5205 b under [[JWST-GO-3171]]; downstream retrievals use ExoTiC-JEDI co-added spectrum.

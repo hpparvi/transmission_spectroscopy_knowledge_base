@@ -27,7 +27,7 @@ Companion / extension of [[2018_Rackham_TLS]] to F5V–K9V dwarfs. Same forward-
 - **Visual contamination dominantly a slope.** F/G dwarfs with unocculted spots show a uniform blueward slope at λ < 1.7 μm. K dwarfs show *more structured* contamination spectra with TiO/VO bands becoming prominent. **For K dwarfs with unocculted faculae**, contamination factor *decreases* below 1 (transit depth decrease) at visible wavelengths — strongest at UV.
 - **K-dwarf TLS produces visible Rayleigh-like slopes — directly relevant to HD 189733 b.** Active K dwarfs at typical 0.7 % variability + ~2 % spot coverage produce contamination spectra that mimic the panchromatic blueward slope attributed to dust by [[2013_Pont_HD189733b]]. Cited explicitly: McCullough's 4 % spot scenario fits HD 189733 b's observed transmission with a clear-atmosphere interpretation. The paper does not adjudicate Pont vs. McCullough but identifies the K-dwarf TLS prediction as a viable alternative slope mechanism.
 - **Most molecular features safe for typically active FGK dwarfs.** Band-averaged TLS offsets at CH₄, CO, CO₂, H₂O, N₂O, O₂, O₃ wavelengths are below detection thresholds for all considered FGK spectral types and activity levels.
-- **Notable exceptions.** TiO/VO bands appreciable for active late-K dwarfs (relevant to [[WASP-19]] / Espinoza 2019 TiO reinterpretation cited in §1); Hα and Na D / K I doublet line cores remain TLS-sensitive (relevant for high-resolution transmission spectroscopy).
+- **Notable exceptions.** TiO/VO bands appreciable for active late-K dwarfs (relevant to WASP-19 / Espinoza 2019 TiO reinterpretation cited in §1); Hα and Na D / K I doublet line cores remain TLS-sensitive (relevant for high-resolution transmission spectroscopy).
 - **Faculae dampen K-dwarf rotational variability** (10:1 facula:spot area at solar-like contrast) — TLSE remains comparable to spots-only at the same variability amplitude.
 
 ## Methods
@@ -46,7 +46,7 @@ Activity-level reference: median *Kepler* variability per spectral type (Table 3
 ## Open questions / follow-ups
 - **Spectroscopic vs. photometric activity inference.** Hα-only or Ca II HK-only datasets provide spot fraction information not available from photometric monitoring; how do these constrain TLSE for transits?
 - **F-dwarf TLSE in practice.** F dwarfs are common hot-Jupiter hosts (KELT, WASP, HATNet); TLS predictions weak (~0.1 % spot fraction) but population-level transmission-spectrum biases not yet measured.
-- **Hot-Jupiter K-dwarf retrievals.** Direct test on the [[HD-189733b]] panchromatic dataset using a joint TLS + clear-atmosphere or TLS + dust retrieval would adjudicate Pont vs. McCullough — never carried out at the necessary precision.
+- **Hot-Jupiter K-dwarf retrievals.** Direct test on the [[HD189733b]] panchromatic dataset using a joint TLS + clear-atmosphere or TLS + dust retrieval would adjudicate Pont vs. McCullough — never carried out at the necessary precision.
 - **Active vs. quiet pairs.** Are TLS effects detectable as transmission-spectrum offsets between transits acquired at different stellar activity phases? Some evidence in WFC3 transit-to-transit variability of WASP-19 b (Espinoza 2019; not ingested).
 
 ## Related

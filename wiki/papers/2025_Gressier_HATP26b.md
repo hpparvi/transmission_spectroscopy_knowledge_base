@@ -51,7 +51,7 @@ Single 7 hr 56 min JWST NIRSpec G395H BOTS observation under [[JWST-TST-GTO-1312
 - **Photochemistry:** [[Photochem]] v0.6.5 — full 1D continuity + diffusion model, ~600 reactions, ~100 species (H/He/C/O/N/S only — chlorine removed). UV input from MUSCLES HAT-P-26 spectrum.
 - **Population-level analysis:** TauREx reanalysis of 10 archival JWST giant-planet transmission spectra (sample from Fu et al. 2025) plus this work, all under uniform retrieval setup.
 
-Stellar-contamination handling: TLS retrieval (T_het, f_het) interpolating PHOENIX (Allard et al. 2012) via [[pysynphot]]; not preferred by the data (Bayes factor < 1).
+Stellar-contamination handling: TLS retrieval (T_het, f_het) interpolating PHOENIX (Allard et al. 2012) via pysynphot; not preferred by the data (Bayes factor < 1).
 
 ## Caveats & limitations
 

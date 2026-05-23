@@ -53,3 +53,9 @@ The wiki sees four recurring petitRADTRANS deployment patterns:
 
 ### Rocky-planet null-test forward models
 - [[2025_Glidden_TRAPPIST1e]] — pRT forward models for five candidate atmospheres on TRAPPIST-1 e PRISM; H₂-rich (5σ) and thick CO₂ (6.9σ) rejected; μ > 8.6 u; N₂-rich consistent.
+
+### Sub-Neptune — agnostic molecule searches
+- [[2025_PicaCiamarra_K2-18b]] — pRT used as one of three independent retrieval codes (with [[POSEIDON]] and VIRA) in the 650-molecule agnostic K2-18 b search across NIR + MIR. Mass-mixing-ratio prior U(−11, −0.1).
+
+### Super-Jupiter — free + equilibrium retrievals
+- [[2025_Liu_HATP14b]] — pRT free-chemistry (7 parameters: R_p, log P_cloud, 4 species + NIRISS/NIRSpec offset) and equilibrium-chemistry (4 parameters: log P_cloud, [Fe/H], C/O, log P_quench) retrievals on the super-Jupiter HAT-P-14 b combined NIRISS+NIRSpec spectrum. Correlated-k method at R = 200; H₂O detected at 3.09σ; CO₂/CO/CH₄ upper limits.

@@ -67,7 +67,7 @@ Forward or retrieval modeling of the transit light source effect ([[2018_Rackham
 
 ### Theory / framework papers
 - [[2018_Rackham_TLS]] — foundational forward-model framework for M-dwarf TLS contamination spectra; A ∝ f_spot^0.5 calibration; PHOENIX + DRIFT-PHOENIX component spectra. The reference paper for the [[stctm]] / Pinhas 2018 retrieval parameterization.
-- [[2019_Rackham_TLS-FGK]] — extends the framework to F5V–K9V; reference activity-level spot fractions per spectral type (Table 4); identifies K-dwarf TLS as a viable mechanism for the [[HD-189733b]] panchromatic slope.
+- [[2019_Rackham_TLS-FGK]] — extends the framework to F5V–K9V; reference activity-level spot fractions per spectral type (Table 4); identifies K-dwarf TLS as a viable mechanism for the [[HD189733b]] panchromatic slope.
 
 ### Pre-JWST hot-Jupiter benchmarks (HD 189733 b)
 - [[2014_McCullough_HD189733b]] — first hot-Jupiter TLS reinterpretation; clear-atmosphere + δ ≈ 5.6 % unocculted spots at T_spot ≈ 3 700 K reproduces the 0.3–24 μm panchromatic spectrum without Rayleigh-scattering dust.

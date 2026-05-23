@@ -12,3 +12,4 @@ A JWST time-series spectroscopy reduction pipeline (Schlawin & Glidic 2022; not 
 
 - [[2025_Murphy_WASP107b]] — primary reduction for the NIRCam F322W2, NIRCam F444W, and NIRSpec G395H limb-resolved transits of WASP-107 b; chosen over Eureka for NIRCam to leverage Tshirt's group-level 1/f handling; cross-checked against [[Eureka]] for MIRI/LRS.
 - [[2026_RoyPerez_WASP39b]] — one of six reductions applied to the WASP-39 b ERS PRISM dataset; cross-pipeline abundance variation of up to 2 dex documented.
+- [[2025_Mukherjee_GJ436b]] — **primary reduction** for the MANATEE 8-eclipse GJ 436 b panchromatic emission spectrum (3× NIRCam F322W2 + 3× NIRCam F444W + 2× MIRI/LRS); ROEBA 1/f correction + 6σ NIRCam / 7σ MIRI jump rejection; covariance-weighted optimal extraction (10-pixel NIRCam / 8-pixel MIRI). Cross-checked vs [[Eureka]] at < 1σ.

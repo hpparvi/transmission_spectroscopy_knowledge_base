@@ -16,3 +16,5 @@ Hydrogen sulfide — a sulfur-bearing volatile whose formation in an atmosphere 
 - [[2026_Heinke_HATP12b]] — detected at ~3.7σ on HAT-P-12 b via the 3.8 μm ν₁ band (TEATRO reduction); first JWST detection of H₂S in a sub-Saturn atmosphere; CASCADe vs TEATRO reduction choice affects significance.
 - [[2025_Crouzet_HATP12b]] — marginal 3.2σ in CASCADe NIRSpec-only reduction; **absent** in TEATRO NIRSpec-only — pipeline-dependent in line with the panchromatic Heinke 2026 conclusion.
 - [[2025_Deka_WASP39b]] — H₂S detected in WASP-39 b panchromatic [[NEXOTRANS]] retrievals at log VMR ≈ −3.93 (Bayesian) / −3.81 (ML); broadly compatible across all four chemistry options.
+- [[2025_Ahrer_WASP94Ab]] — tentative ~2.5σ detection on misaligned hot Jupiter WASP-94 Ab NIRSpec G395H (2.9σ HyDRA, 2.1σ pRT); log VMR ≈ −3.31 to −3.59; one of the few hot Jupiters with hints of sulfur in transmission.
+- [[2025_Canas_TOI5205b]] — H₂S detected at ~3σ on the GEMS-class gas-giant TOI-5205 b via the 3.9 μm band; log VMR ≈ −4.3 to −4.5 across 3 NIRSpec PRISM visits. Detected alongside CH₄ in a clear, sub-solar-metallicity, super-solar-C/O atmosphere despite >20σ stellar contamination.

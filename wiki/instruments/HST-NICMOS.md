@@ -15,4 +15,4 @@ Superseded for transit transmission by HST/WFC3 (post-2010) and JWST/NIRSpec/NIR
 
 ## Papers
 
-- [[2013_Pont_HD189733b]] — F166N + F187N photometric points retained, G206 spectroscopy not used; covers 1.4–2.5 μm in the panchromatic spectrum of [[HD-189733b]].
+- [[2013_Pont_HD189733b]] — F166N + F187N photometric points retained, G206 spectroscopy not used; covers 1.4–2.5 μm in the panchromatic spectrum of [[HD189733b]].

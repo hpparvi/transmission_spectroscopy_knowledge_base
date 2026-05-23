@@ -50,3 +50,6 @@ The wiki sees three SPARTA modes:
 ### NIRSpec G395H cross-check
 - [[2025_Barat_V1298Tau-b]] — independent G395H pipeline cross-check on V1298 Tau b; agrees with Eureka! on abundances within 1σ; ~25% higher NRS2 scatter (under development).
 - [[2025_Deka_WASP39b]] — one of three reductions (Eureka, Tiberius, SPARTA) cross-compared on WASP-39 b MIRI data within the [[NEXOTRANS]] retrieval-framework benchmark.
+
+### NIRSpec G395H + MIRI/LRS panchromatic (sub-Neptune)
+- [[2025_Luque_K2-18b]] — SPARTA used as one of four reductions on K2-18 b panchromatic spectrum (alongside JExoRES, exoTEDRF, Eureka!). NIRSpec G395H R = 200 spectroscopic light curves with detector positional + linear-in-time systematics. MIRI/LRS reduction with exponential ramp + linear trend systematics; first wiki use of SPARTA for sub-Neptune-temperature MIRI transit.

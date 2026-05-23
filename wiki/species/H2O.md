@@ -16,6 +16,8 @@ Water vapor — the dominant near-infrared opacity source in warm-to-hot planeta
   - [[WASP-96b]] — clearly detected in transmission across all four free-chemistry retrievals; log VMR ≈ −2.82 to −2.30; supersolar ([[2026_Radica_WASP96b]]).
   - [[HAT-P-12b]] — 6.0σ on NIRSpec G395M ([[2025_Crouzet_HATP12b]]); >12σ in panchromatic NIRISS+NIRSpec+MIRI+HST joint retrieval ([[2026_Heinke_HATP12b]]); 11–15× solar metallicity; NIRISS-driven.
   - [[WASP-80b]] — present in joint interior–atmosphere retrieval (per cited input retrievals; [[2025_AcunaAguirre_WASP80b]]).
+- **Confirmed detection (mini-Neptune):**
+  - [[TOI-1130b]] — **7.5σ** in combined NIRSpec G395H + NIRISS SOSS + TESS + CHEOPS transmission ([[2026_Barat_TOI1130b]]); log mass fraction ≈ −0.6; one of the most robust water detections in a mini-Neptune to date.
 - **Tentative — current (warm super-Earth, M-dwarf):**
   - [[TOI-270b]] — tentative water absorption near the bluest NRS1 wavelengths; H₂O-rich steam atmosphere preferred over flat at lnB = 0.3 (no NRS1/NRS2 offset) to 3.2 (with offset) — inconclusive to moderate; stellar contamination ruled out via simultaneous [[TOI-270d]] transit as TLS control ([[2025_Coulombe_TOI-270b]]).
 - **Tentative, then retired (rocky M-dwarf planets):**
@@ -28,6 +30,8 @@ Water vapor — the dominant near-infrared opacity source in warm-to-hot planeta
   - [[TOI-776c]] — featureless G395H rules out metallicity < 180–240× solar; H₂O-mediated low-MMW models excluded ([[2025_Teske_TOI776c]]).
 - **Upper limit / contamination-masked (M-dwarf gas giant):**
   - [[HATS-75b]] — only an upper limit on NIRSpec PRISM; likely masked by M-dwarf host stellar contamination ([[2026_Ashtari_HATS75b]]).
+- **Ruled out as bulk gas (rocky M-dwarf, panchromatic JWST):**
+  - [[LTT1445Ab]] — log P_H₂O < −2.6 bar at 2σ from MIRI/LRS climate-constrained inversion ([[2026_Wogan_LTT1445Ab]]); X(H₂O)/(H₂+He) < 0.1 at P_opaque > 10⁻² bar from NIRSpec G395H ([[2026_Batalha_LTT1445Ab]]).
 
 ## History
 
@@ -48,6 +52,7 @@ Water vapor — the dominant near-infrared opacity source in warm-to-hot planeta
 
 ### Hot Jupiter / sub-Saturn / Neptune — confirmed detections
 - [[2025_Gressier_HATP26b]] — moderate detection (lnB = 4.06, ~3σ) on Neptune-mass HAT-P-26 b NIRSpec G395H; log X(H₂O) ≈ −2.07; significance limited by stellar-contamination degeneracy at NRS1 short-wavelength end and by NRS1/NRS2 detector offset; full SOSS-driven constraint forthcoming (R. J. MacDonald & DREAMS 2025, in prep).
+- [[2025_Liu_HATP14b]] — **3.09σ detection** on super-Jupiter HAT-P-14 b combined NIRISS SOSS + NIRSpec G395H; log VMR ≈ −2.32⁺¹·¹³₋₁·₄₀ (free chemistry) / [Fe/H] = −0.08⁺⁰·⁸⁹₋₀·⁹⁸ (equilibrium); detection emerges only after **reanalysis with updated STScI jwst pipeline** (vs. original commissioning analyses Albert 2023 + Espinoza 2023; not ingested, which found featureless / unexplained-slope spectra). Methodology demonstration: JWST can deliver atmospheric inferences at TSM ~ 24 (805th-best transmission target).
 - [[2025_Ahrer_KELT7b]] — **tentative only** (Δ ln Z = 1.0–1.9, ~2–2.5σ by Sellke mapping) on aligned hot Jupiter KELT-7 b NIRSpec G395H; weak feature compatible with high-altitude cloud deck or low-metallicity atmosphere; first BOWIE-ALIGN target with H₂O sub-detection.
 - [[2025_Sikora_HD80606b]] — detected at 4.2–5.5σ on highly eccentric hot Jupiter HD 80606 b NIRSpec G395H **emission** spectrum post-periapse; absorption in NRS2 (3.7–4.4 μm).
 
@@ -84,6 +89,10 @@ Water vapor — the dominant near-infrared opacity source in warm-to-hot planeta
 
 ### Methodology / wavelength-coverage tests
 - [[2025_Verma_HD209458b]] — HD 209458 b H₂O detected at 12.6σ in STIS+WFC3+NIRCam free-chemistry SANSAR retrieval (log VMR = −4.53); but NIRCam-only retrieval gives log VMR ≈ −1.62 (a 3-dex overestimate). Demonstrates that retrievals on broadband NIR-only data systematically inflate H₂O abundances without optical baseline.
+- [[2025_Gapp_WASP121b]] — H₂O **dayside-depleted via thermal dissociation, nightside-enriched** on ultra-hot Jupiter WASP-121 b; 1D retrievals biased low — a custom dayside/nightside [[NEMESISPY]] split-model retrieval is required to capture the hemispheric asymmetry.
+
+### Hot Jupiters with formation tracers
+- [[2025_Ahrer_WASP94Ab]] — H₂O detected at 4σ on misaligned hot Jupiter WASP-94 Ab NIRSpec G395H (log VMR ≈ −1.60); used to compute substellar C/O = 0.49 against the host star's C/O★ = 0.68 ± 0.10.
 - [[2025_Barat_V1298Tau-b]] — H₂O detected at 30σ on the young (10–30 Myr) sub-Neptune progenitor V1298 Tau b NIRSpec G395H + HST WFC3 panchromatic transmission; the atmospheric scale height (~1500 km) is dominated by the strong 2.7 μm H₂O feature; supports an H/He-dominated low-metallicity atmosphere.
 
 ### Pre-JWST hot-Jupiter detections (HD 189733 b)

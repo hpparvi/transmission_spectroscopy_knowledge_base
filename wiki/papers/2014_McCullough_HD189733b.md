@@ -18,7 +18,7 @@ ingested: 2026-05-04
 # Water Vapor in the Spectrum of the Extrasolar Planet HD 189733b. I. The Transit
 
 **Authors:** McCullough, Crouzet, Deming, Madhusudhan 2014, ApJ 791:55 · [arXiv:1407.2462]
-**Targets:** [[HD-189733b]] · **Instrument:** [[HST-WFC3]]
+**Targets:** [[HD189733b]] · **Instrument:** [[HST-WFC3]]
 
 ## TL;DR
 A single HST/WFC3 G141 spatial-scanned transit of HD 189733 b (HST GO-12881, PI McCullough; 5 orbits) recovers two water vapor features: 200 ± 47 ppm at 1.4 μm and 83 ± 53 ppm at 1.15 μm, consistent with a **clear solar-composition atmosphere** with H₂O mixing ratio ~5×10⁻⁴ at T ≈ 700 K (terminator). Two independent reductions (N. Crouzet, D. Deming) agree to within Poisson noise. The headline reinterpretation: the panchromatic blueward slope from [[2008_Pont_HD189733b]] / [[2013_Pont_HD189733b]] — previously attributed to Rayleigh-scattering dust — can be **alternatively explained by unocculted starspot contamination plus a clear atmosphere**. Two-component PHOENIX modeling with T_phot = 5 000 K, T_spot = 3 700 K, spot fraction δ ≈ 5.6 % matches the entire 0.3 μm – 24 μm spectrum (the [[stellar-contamination|TLS]]-only model in their Fig. 5). Critically, low alkali line strengths can also be reproduced by Na/K condensation onto KCl/Na₂S at HD 189733 b's cool (~700–1 200 K) terminator pressures, removing the original need to invoke obscuring haze.
@@ -62,7 +62,7 @@ Madhusudhan & Seager 2009 retrieval framework for the planet atmosphere; PHOENIX
 - [[2013_Pont_HD189733b]] — panchromatic Pont et al. spectrum that this paper reinterprets; provides the AC-component spot corrections that McCullough et al. accept as starting point.
 - [[2018_Rackham_TLS]] — formalizes the TLS effect for M-dwarfs.
 - [[2019_Rackham_TLS-FGK]] — directly addresses HD 189733 b: confirms that K-dwarf unocculted spots can produce the observed blueward slope under reasonable activity assumptions, vindicating McCullough's mechanism.
-- [[2025_Verma_HD209458b]] — shows for the *quiet* G-dwarf [[HD-209458]] that wavelength-coverage changes alone shift retrieved abundances by 3 dex; analogous (but distinct) coverage-dependence cautionary tale.
+- [[2025_Verma_HD209458b]] — shows for the *quiet* G-dwarf [[HD209458]] that wavelength-coverage changes alone shift retrieved abundances by 3 dex; analogous (but distinct) coverage-dependence cautionary tale.
 
 ## Tensions
-- **Slope = haze (Pont 2008/2013) vs. slope = unocculted starspots (this paper).** The same 0.3 μm – 1 μm STIS+ACS spectrum admits two physically distinct explanations of comparable Bayesian merit. The wiki preserves both Pont 2008 and Pont 2013 paper pages frozen at ingest time per the [[stellar-contamination]] / "stale claims" rule; the supersession debate is recorded on the [[HD-189733b]] hub page `## Tensions`. **Driver of the difference:** treatment of unocculted starspot contamination (DC component, McCullough's terminology) — Pont et al. apply only the AC component (variability-driven), McCullough et al. add a steady δ ≈ 5.6 % background.
+- **Slope = haze (Pont 2008/2013) vs. slope = unocculted starspots (this paper).** The same 0.3 μm – 1 μm STIS+ACS spectrum admits two physically distinct explanations of comparable Bayesian merit. The wiki preserves both Pont 2008 and Pont 2013 paper pages frozen at ingest time per the [[stellar-contamination]] / "stale claims" rule; the supersession debate is recorded on the [[HD189733b]] hub page `## Tensions`. **Driver of the difference:** treatment of unocculted starspot contamination (DC component, McCullough's terminology) — Pont et al. apply only the AC component (variability-driven), McCullough et al. add a steady δ ≈ 5.6 % background.

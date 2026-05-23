@@ -1,13 +1,13 @@
 # Index
 
-*Last updated: 2026-05-04 (5-paper HD 189733 b + TLS-foundations batch + 12-hub promotion). Maintained by the LLM — do not edit by hand except to flag errors.*
+*Last updated: 2026-05-23 (lint pass following the 6-paper 2026-05-22 batch: deduplicated HD-189733 / HD-209458 hyphenated-vs-no-hyphen target pages → canonical no-hyphen; fixed 30+ broken wiki-links by converting not-yet-ingested papers and utility code references to prose; created [[batman]], [[ExoTiC-LD]], [[HCN]], [[TESS]], [[JWST-Rocky-Worlds-DDT]] stubs; promoted [[PICASO]], [[Photochem]], [[CHIMERA]], [[Aurora]] to hub form; updated stale inbound-paper counts; fixed two typos (K2-18b.md, CO2.md)). Previously: 2026-05-22 6-paper batch — Seager+2025 PNAS biosignature-prospects + Wogan+2026 LTT 1445A b climate-constrained inversion + Batalha+2026 COMPASS NIRSpec G395H LTT 1445A b + Splinter+2025 WASP-121 b NIRISS/SOSS phase curve + Barat+2026 TOI-1130 b first JWST atmosphere + Fujisawa+2026 K2-18 b photochemical-Hycean self-consistency. Maintained by the LLM — do not edit by hand except to flag errors.*
 
 
 
-## Targets (87)
+## Targets (111)
 
-- [[HD-189733b]] — pre-JWST hot Jupiter archetype (1.15 MJ, 1.16 RJ, P = 2.22 d) around active K1V dwarf HD 189733; panchromatic 0.3–24 μm dataset; **dust-haze (Pont 2008/2013) vs. unocculted-starspot TLS (McCullough 2014) tension** is unresolved · 3 papers
-- [[HD-189733]] — active K1V dwarf hosting the pre-JWST hot-Jupiter archetype HD 189733 b; ~12 d rotation; ~few-percent photometric variability · 4 papers
+- [[HD189733b]] — pre-JWST hot Jupiter archetype + JWST NIRCam population sample (1.15 MJ, 1.16 RJ, P = 2.22 d, T_eq = 1200 K) around active K1V dwarf HD 189733; panchromatic 0.3–24 μm dataset; **dust-haze (Pont 2008/2013) vs. unocculted-starspot TLS (McCullough 2014) tension** unresolved · 4 papers
+- [[HD189733]] — active K1V dwarf hosting the pre-JWST hot-Jupiter archetype HD 189733 b; ~12 d rotation; ~few-percent photometric variability · 5 papers
 - [[HD3167b]] — USP super-Earth (1.60 R⊕, Teq ≈ 1786 K) around K dwarf HD 3167; MIRI/LRS eclipse ~5σ below bare-rock; evidence for atmosphere or high-albedo surface · 1 paper
 - [[HD3167]] — K0 dwarf hosting the multi-planet system including the USP lava world HD 3167 b · 1 paper
 - [[LHS1140c]] — rocky super-Earth in the LHS 1140 system; MIRI F1500W eclipse rules out atmosphere; consistent with low-albedo bare rock · 1 paper
@@ -32,8 +32,14 @@
 - [[WASP-166]] — F9V dwarf hosting WASP-166 b · 1 paper
 - [[WASP-52b]] — inflated hot Jupiter (0.46 MJ, 1.27 RJ, Teq ≈ 1301 K) around active K dwarf; only planet in limb-asymmetry sample with negative δA_H · 1 paper
 - [[WASP-52]] — K2V dwarf hosting WASP-52 b; magnetically active · 1 paper
-- [[WASP-94Ab]] — inflated hot Jupiter (0.50 MJ, 1.58 RJ, Teq ≈ 1543 K) around F8 binary primary; **strongest limb-asymmetry signal** in the JWST NIRISS sample (δA_H = 2.83 H); LSM normalization reference · 1 paper
-- [[WASP-94A]] — F8 dwarf, primary of the WASP-94 visual binary, hosting WASP-94 Ab · 1 paper
+- [[WASP-94Ab]] — inflated retrograde-misaligned hot Jupiter (0.45 MJ, 1.58 RJ, Teq ≈ 1508 K) around F8 binary primary above the Kraft break; **strongest limb-asymmetry signal** in NIRISS sample; CO₂ at 11σ + substellar C/O = 0.49 vs C/O★ = 0.68 favors pebble/planetesimal accretion + large-distance migration · 2 papers
+- [[WASP-94A]] — F8 dwarf above the Kraft break, primary of the WASP-94 visual binary; reference C/O★ = 0.68 ± 0.10, Z★ = 2× solar · 2 papers
+- [[WASP-121b]] — benchmark ultra-hot Jupiter (1.16 MJ, 1.75 RJ, T_eq ≈ 2350 K) around F-type WASP-121; **first definitive [[SiO]] identification** at 5.2σ via NIRSpec G395H; thermal dissociation of H₂O + H₂ on dayside; first JWST NIRISS/SOSS phase curve (Splinter 2025): A_B = 0.28, ε = 0.25, A_g = 0.093 — reinforces the hot-Jupiter A_B/A_g paradox · 2 papers
+- [[WASP-121]] — F-type host (T_eff ≈ 6459 K) above the Kraft break; primordial obliquity · 2 papers
+- [[Kepler-51d]] — cool [[super-puff]] (5.6 M⊕, 9.32 R⊕, ρ = 0.038 g/cm³, T_eq ≈ 350 K) around 500 Myr G-dwarf [[Kepler-51]]; **only known planet with a featureless sloped JWST transmission spectrum spanning 0.6–5.3 μm**; high-altitude photochemical haze (1–100 μbar) atop H/He envelope · 1 paper
+- [[Kepler-51]] — 500 Myr Sun-like G dwarf hosting three transiting super-puffs + one non-transiting low-mass planet; hot-spot 300 K above photosphere (>1000 K hotter than sunspots) · 1 paper
+- [[GJ3090b]] — warm sub-Neptune (2.13 R⊕, 3.34 M⊕, T_eq ≈ 693 K) around M2V GJ 3090; **first JWST sub-Neptune helium detection** (5.5σ at 1083 nm); muted features → high metallicity (>100× solar at 3σ); CH₄ confidently absent · 1 paper
+- [[GJ3090]] — moderately active M2V dwarf (T_eff ≈ 3556 K) hosting GJ 3090 b · 1 paper
 - [[GJ1132b]] (hub) — rocky super-Earth on 1.63-day orbit around M4.5 dwarf GJ 1132; current working conclusion is "bare rock" · 4 papers
 - [[GJ3473b]] — highly-irradiated rocky super-Earth (1.26 R⊕, Teq ≈ 773 K) around mid-M dwarf; MIRI F1500W R = 0.82 ± 0.12; bare-rock and atmosphere both fit; thick CO₂ excluded · 1 paper
 - [[GJ3473]] — mid-M dwarf hosting GJ 3473 b · 1 paper
@@ -45,19 +51,22 @@
 - [[HAT-P-26]] — K-dwarf (T_eff ≈ 5079 K) hosting the warm Neptune-mass HAT-P-26 b · 1 paper
 - [[HATS-75b]] — Saturn-mass gas giant (0.49 MJ, 0.88 RJ, P = 2.79 d) around early-M dwarf; first wiki target in the GEMS class; sub-solar atmospheric metallicity in TLS framework · 1 paper
 - [[HATS-75]] — early-M dwarf (T_eff ≈ 3790 K) hosting HATS-75 b; active host with spot-crossings · 1 paper
-- [[HD-209458b]] — first transiting exoplanet (1999); inflated hot Jupiter; theoretical archetype for transmission spectroscopy; first exoplanet atmosphere ever detected (Na I, Charbonneau 2002, not yet ingested); first wiki JWST-era characterization (Verma 2025) · 3 papers
-- [[HD-209458]] — G0V star hosting HD 209458 b; bright host (V ≈ 7.65) that enabled the first transit detection · 3 papers
+- [[HD209458b]] — first transiting exoplanet (1999); inflated hot Jupiter; theoretical archetype for transmission spectroscopy; first exoplanet atmosphere ever detected (Na I, Charbonneau 2002, not yet ingested); JWST-era SANSAR characterization (Verma 2025) + NIRCam population entry (Fu 2025) · 4 papers
+- [[HD209458]] — G0V star hosting HD 209458 b; bright host (V ≈ 7.65) that enabled the first transit detection · 4 papers
 - [[V1298Tau-b]] — young (10–30 Myr) sub-Neptune progenitor (12 M⊕, 9.85 R⊕, Teq ≈ 670 K) around K-type T Tauri host; ~0.6× solar metallicity; subsolar C/O ≈ 0.22; CH₄ thermometer reveals high T_int ≈ 500 K inconsistent with evolutionary models; mass measured from atmospheric scale height retiring RV upper limit · 1 paper
 - [[V1298Tau]] — weak-lined K-type T Tauri star (~10–30 Myr, T_eff ≈ 5050 K, M⋆ ≈ 1.18 M☉) in Taurus-Auriga; hosts four planets including the young sub-Neptune progenitor V1298 Tau b · 1 paper
 - [[KELT-7b]] — aligned hot Jupiter (1.39 MJ, 1.60 RJ, T_eq ≈ 2048 K) around F2 dwarf KELT-7; third BOWIE-ALIGN target; weak features only — high cloud deck or low metallicity · 1 paper
 - [[KELT-7]] — F2 dwarf (T_eff ≈ 6768 K) hosting the aligned hot Jupiter KELT-7 b · 1 paper
-- [[K2-18b]] — habitable-zone sub-Neptune (2.61 R⊕, T_eq ≈ 255 K) around M3 dwarf; Hycean-candidate with disputed JWST DMS / CO₂ claims; comparative reference in Roy 2025 · 1 paper
+- [[K2-18b]] — habitable-zone sub-Neptune (2.61 R⊕, T_eq ≈ 255 K) around M3 dwarf; **most contested JWST sub-Neptune**; Hycean candidate with disputed CH₄/CO₂/DMS inventory; **DMS/DMDS dispute** has Madhusudhan-MIRI (3σ) vs Luque (panchromatic non-detection) vs Pica-Ciamarra (650-molecule degeneracy) vs Taylor (model-agnostic Gaussian critique) vs Fujisawa (Hycean still viable under photochem) vs Seager (3 Key Criteria all fail) · 9 papers
 - [[K2-18]] — M3V dwarf hosting the Hycean-candidate K2-18 b · 1 paper
 - [[LP-791-18c]] — temperate sub-Neptune (2.44 R⊕, T_eq ≈ 355 K) around M6 dwarf; strong haze + CH₄ detected; **no CO₂** — diversity contrast with K2-18 b/TOI-270 d · 1 paper
 - [[LP-791-18]] — M6 dwarf hosting the temperate sub-Neptune LP 791-18 c · 1 paper
 - [[TOI-270b]] — warm super-Earth (1.306 R⊕, 1.48 M⊕, Teq ≈ 569 K) in the TOI-270 system; ρ = 3.7 g/cm³ (4.4σ underdense vs. Earth-like); tentative H₂O feature; TLS ruled out via simultaneous TOI-270 d transit · 1 paper
 - [[TOI-270d]] — temperate sub-Neptune in the TOI-270 multi-planet system; clear CH₄ + CO₂; comparative reference · 2 papers
 - [[TOI-270]] — M3V dwarf hosting the TOI-270 multi-planet system including the super-Earth TOI-270 b and the sub-Neptune TOI-270 d · 2 papers
+- [[TOI-1130b]] — warm mini-Neptune (3.66 R⊕, 19.8 M⊕, T_eq ≈ 825 K) at the edge of the radius cliff; inner planet of unique 2:1 MMR system with outer hot Jupiter TOI-1130 c; first JWST atmosphere reveals H₂O (7.5σ), CO₂ (3.3σ), SO₂ (3.6σ), μ ≈ 5.5 amu; ex-situ formation beyond the water ice line + disc migration · 1 paper
+- [[TOI-1130c]] — outer hot Jupiter of the TOI-1130 2:1 MMR system; not yet observed with JWST; cited as the "pebble filter" constraining TOI-1130 b's formation interpretation · 1 paper
+- [[TOI-1130]] — K-dwarf (T_eff ≈ 4360 K, [Fe/H] = +0.11) hosting the unique 2:1 MMR mini-Neptune + hot-Jupiter pair · 1 paper
 - [[GJ1132]] — nearby M4.5 dwarf hosting GJ 1132 b · 4 papers
 - [[K2-22b]] — disintegrating ultra-short-period rocky planet (P=9.1 hr, Teq≈3830 K) actively losing mass as dust and gas tails; tentative NO gas and iron-rich silicate dust detected · 1 paper
 - [[K2-22]] — K-type dwarf hosting the disintegrating rocky planet K2-22 b · 1 paper
@@ -69,13 +78,28 @@
 - [[GJ3929]] — nearby M3.5V dwarf hosting transiting rocky planet GJ 3929 b and two additional planet candidates · 1 paper
 - [[L168-9b]] — hot super-Earth (Teq=981 K) around the bright M1V dwarf L 168-9; featureless 3–12 μm spectrum · 1 paper
 - [[L168-9]] — M1V dwarf hosting L 168-9 b (TOI-134) · 1 paper
+- [[L98-59b]] — sub-Earth (0.85 R⊕, T_eq ≈ 615 K) on a 2.25-day orbit around the bright M3V dwarf L 98-59; **smallest exoplanet with a JWST transmission spectrum**; SO₂-rich [[volcanic-atmosphere]] preferred at 3.3–3.8σ; first wiki volcanic-atmosphere inference; subsurface magma ocean R_m ≈ 0.6–0.9 R_p · 1 paper
 - [[L98-59c]] — warm super-Earth around the bright M3V dwarf L 98-59; featureless JWST COMPASS spectrum · 1 paper
 - [[L98-59d]] — warm super-Earth around L 98-59, water-world candidate; two independent JWST analyses hint at H₂S/SO₂ atmosphere · 2 papers
-- [[L98-59]] — bright nearby M3V dwarf hosting three transiting rocky planets · 3 papers
+- [[L98-59]] — bright nearby M3V dwarf hosting three transiting rocky planets · 4 papers
+- [[HAT-P-14b]] — super-Jupiter (3.44 M_J, 1.42 R_J, P = 4.6 d, e = 0.11; grazing transit b = 1.014) around the F-type star HAT-P-14; commissioning target; updated FIREFLy reanalysis reveals H₂O at 3.09σ + solar metallicity; methodology benchmark for "TSM = 24 / 805th best target" feasibility · 1 paper
+- [[HAT-P-14]] — F-type star hosting HAT-P-14 b; inactive (no Ca H/K emission); faint M-dwarf companion at 0.844" · 1 paper
+- [[TOI-5205b]] — short-period (P = 1.63 d) gas giant (1.08 M_J, 0.94 R_J) around M4 dwarf TOI-5205; **most extreme [[GEMS]]** in the wiki; CH₄ + H₂S detected; **sub-solar atmospheric metallicity** ([Fe/H] ≈ −2 to −0.8) + super-solar C/O ≈ 1.2–1.3 in TLS-modeled retrievals; ~100× decoupled from predicted bulk metallicity · 1 paper
+- [[TOI-5205]] — active M4 dwarf hosting GEMS-class TOI-5205 b; spot-crossing events in all 3 JWST visits · 1 paper
+- [[GJ436b]] — archetype warm Neptune (25.43 M⊕, 4.03 R⊕, P = 2.64 d, e = 0.16) around M3 dwarf GJ 436; **first JWST panchromatic 2.4–12 μm thermal emission spectrum**; JWST overturns Spitzer-era extreme-metallicity / hot-interior inference; revised [M/H] ≥ 80–500× solar, T_int ~ 60 K · 1 paper
+- [[GJ436]] — bright nearby M3V dwarf hosting the warm-Neptune archetype GJ 436 b · 1 paper
+- [[GJ1214b]] — archetype thick-aerosol sub-Neptune (8.17 M⊕, 2.73 R⊕, P = 1.58 d) around M4.5 dwarf GJ 1214; HST+JWST panchromatic spectrum suggests **metal-dominated atmosphere [M/H] ≈ 3.5–3.8** where H₂ is no longer main constituent · 1 paper
+- [[GJ1214]] — nearby (14.6 pc) M4.5 dwarf hosting the archetype thick-aerosol sub-Neptune GJ 1214 b · 1 paper
+- [[GJ3470b]] — warm Neptune (14 M⊕, T_eq = 615 K) around M1.5 dwarf GJ 3470; SO₂-L = 0.32 ± 0.12 — one of two positive-SO₂-L outliers in the [[2025_Fu_statistical-trends]] 8-planet sample · 1 paper
+- [[GJ3470]] — M1.5V dwarf hosting warm-Neptune GJ 3470 b · 1 paper
+- [[HIP67522b]] — young (24 Myr T-Tauri-stage) low-density warm sub-Saturn around K-dwarf HIP 67522; the only young-planet entry in [[2025_Fu_statistical-trends]] · 1 paper
+- [[HIP67522]] — 24-Myr K-dwarf in Sco-Cen association hosting HIP 67522 b · 1 paper
+- [[WASP-127b]] — low-density warm sub-Saturn (0.165 M_J, 1.31 R_J, T_eq = 1420 K); **first JWST/NIRSpec G395H spectrum** in [[2025_Fu_statistical-trends]]; lowest SO₂-L in the 8-planet sample · 1 paper
+- [[WASP-127]] — G-dwarf hosting low-density warm sub-Saturn WASP-127 b · 1 paper
 - [[LHS475b]] — Earth-sized rocky planet on 2.03-day orbit around M3.5V LHS 475; featureless, H₂ ruled out at >10σ · 1 paper
 - [[LHS475]] — nearby low-activity M3.5V dwarf hosting LHS 475 b · 1 paper
-- [[LTT1445Ab]] — rocky planet in the closest transiting-exoplanet system (6.86 pc); MIRI emission rules out thick atmospheres · 1 paper
-- [[LTT1445A]] — primary M-dwarf of the nearby triple system LTT 1445 · 1 paper
+- [[LTT1445Ab]] — rocky planet in the closest transiting-exoplanet system (6.86 pc); MIRI emission + climate-constrained inversion give P_s ≤ 0.6 bar at 2σ; NIRSpec G395H + HST/WFC3 rules out [M/H] > 500× Solar at 3σ; eleventh and last COMPASS target · 3 papers
+- [[LTT1445A]] — primary M-dwarf of the nearby triple system LTT 1445 · 3 papers
 - [[TOI-561b]] — dense USP super-Earth (1.45 R⊕, Teq ≈ 2300 K) around ancient K-dwarf (~10 Gyr); G395H secondary eclipses indicate T_day far below bare-rock prediction, consistent with thick volatile-rich atmosphere; challenges cosmic shoreline · 1 paper
 - [[TOI-561]] — ancient (~10 Gyr) metal-poor thick-disk K-dwarf hosting TOI-561 b · 1 paper
 - [[TOI-776b]] — warm super-Earth (Teq~520 K) around the bright M-dwarf TOI-776; inner of a multi-planet system · 1 paper
@@ -94,9 +118,10 @@
 - [[TRAPPIST-1g]] — outer habitable-zone rocky planet (1.129 R⊕, Teq ≈ 197 K); JWST NIRISS/SOSS data from GO 2589 reanalyzed for flares (Howard 2025); no atmospheric claim yet · 1 paper
 - [[TRAPPIST-1]] (hub) — M8V ultracool dwarf hosting seven transiting terrestrial planets; highly heterogeneous photosphere; three contamination-mitigation strategies documented across six papers · 6 papers
 
-## Instruments (13)
+## Instruments (14)
 
 - [[CHEOPS]] — ESA optical photometric space telescope (330–1100 nm); used for simultaneous transit monitoring alongside JWST · 1 paper
+- [[TESS]] — NASA all-sky optical photometric monitor (600–1000 nm); transit-timing baseline + optical-anchor for JWST panchromatic spectra; reflected-light comparison data · 2 papers
 - [[HST-ACS]] — Hubble ACS G800L grism (550–1050 nm); pre-JWST optical transmission for HD 189733 b · 2 papers
 - [[HST-NICMOS]] — Hubble NICMOS (1.0–2.5 μm); G206 grism + F166N/F187N photometry; pre-JWST · 1 paper
 - [[HST-STIS]] — Hubble Space Telescope Imaging Spectrograph (G430L+G750L, 0.29–1.02 μm); HST optical transmission workhorse · 3 papers
@@ -106,13 +131,14 @@
 - [[Spitzer-MIPS]] — Spitzer MIPS 24 μm photometry; long-wavelength anchor for pre-JWST panchromatic spectra · 1 paper
 - [[JWST-MIRI]] (hub) — JWST mid-infrared instrument (5–28 μm); LRS slitless mode for small-planet time-series; also F1500W photometric imaging for eclipse temperature measurements · 13 papers
 - [[JWST-NIRCam]] — JWST near-infrared camera with grism time-series modes (F322W2, F444W); valuable for hot/warm-Jupiter transmission and emission · 3 papers
-- [[JWST-NIRISS]] — JWST near-infrared imager and slitless spectrograph (0.6–2.8 μm); SOSS mode for transit and eclipse spectroscopy; blue complement to NIRSpec · 8 papers
-- [[JWST-NIRSpec]] (hub) — JWST near-infrared spectrograph (0.6–5.3 μm); G395H/G395M BOTS modes for transit spectroscopy and PRISM mode for ultracool-dwarf hosts · 28 papers
+- [[JWST-NIRISS]] — JWST near-infrared imager and slitless spectrograph (0.6–2.8 μm); SOSS mode for transit and eclipse spectroscopy; blue complement to NIRSpec · 9 papers
+- [[JWST-NIRSpec]] (hub) — JWST near-infrared spectrograph (0.6–5.3 μm); G395H/G395M BOTS modes for transit spectroscopy and PRISM mode for ultracool-dwarf hosts · 32 papers
 - [[VLT-FORS2]] — ESO VLT FORS2 (0.36–1.0 μm); ground-based optical workhorse for transmission spectroscopy in the pre-JWST era · 1 paper
 
-## Methods (10)
+## Methods (11)
 
 - [[atmospheric-retrievals]] (hub) — Bayesian inversion of transmission/emission spectra for composition, T–P, and cloud parameters · 23 papers
+- [[climate-constrained-inversion]] — Bayesian inversion against a precomputed grid of self-consistent radiative–convective-equilibrium atmospheres; produces quantitative surface-pressure upper limits for rocky-planet eclipse spectra; introduced for [[LTT1445Ab]] · 1 paper
 - [[back-to-back-transit-correction]] — empirical, model-independent stellar-contamination correction using a near-airless reference planet in the same system · 1 paper
 - [[flare-mitigation]] — empirical and physics-based subtraction of stellar flares from JWST NIR transmission spectra · 2 papers
 - [[information-content-analysis]] — Bayesian leave-one-out instrument-attribution; Δln Z per instrument combination · 1 paper
@@ -123,44 +149,51 @@
 - [[stellar-contamination-modeling]] (hub) — retrieval/forward modeling of the transit light source effect from unocculted spots/faculae · 14 papers
 - [[transmission-spectroscopy]] (hub) — measurement of Rp(λ) via wavelength-resolved transit depths · 31 papers
 
-## Species (15)
+## Species (18)
 
-- [[CH4]] (hub) · [[CO2]] (hub) · [[H2O]] (hub) · [[SO2]] (hub) — each in 4+ papers
+- [[CH4]] (hub) · [[CO2]] (hub) · [[H2O]] (hub) · [[SO2]] (hub) — each in 5+ papers
 - [[CS2]] — 1 paper (carbon disulfide; tentative on TOI-270 d, degenerate with CH₃Cl/CH₃F/H₂CS at JWST/NIRSpec resolution)
-- [[DMS]] — 1 paper (dimethyl sulfide; biosignature candidate; **retracted** on K2-18 b under comprehensive retrievals)
+- [[DMS]] — 6 papers (dimethyl sulfide; biosignature candidate; **disputed** on K2-18 b: 3σ in MIRI canonical retrieval (Madhusudhan-MIRI) but not preferred panchromatically (Luque) or against broader candidate space (Pica-Ciamarra, Fernández-Rodríguez))
+- [[DMDS]] — 3 papers (dimethyl disulfide; biosignature candidate; spectrally degenerate with DMS in MIRI/LRS; same disputed status on K2-18 b)
 - [[NH3]] — 1 paper (weak preference on TOI-270 d; not detected on KELT-7 b or HAT-P-26 b)
-- [[CO]] — 4 papers (detected in WASP-39 b; HAT-P-12 b; HATS-75 b; V1298 Tau b; CO 2.3 μm overtone predicted in Brown 2001)
+- [[CO]] — 6 papers (detected in WASP-39 b, HAT-P-12 b, HATS-75 b, V1298 Tau b, WASP-94 Ab; CO 2.3 μm overtone predicted in Brown 2001; dayside-stable on ultra-hot WASP-121 b)
+- [[HCN]] — 0 firm detections; reviewed in 6 papers as a ruled-out species or potential prebiotic biosignature (GJ 1132 b retraction; K2-18 b non-detection; HD 209458 b upper limit; WASP-94 Ab upper limit; Seager 2025 biosignature evaluation)
 - [[FeH]] — 1 paper (tentatively detected in WASP-17 b dayside, Gressier 2025)
-- [[H2S]] — 6 papers (tentative on L 98-59 d; first firm detection on HAT-P-12 b; tentative ~2σ on Neptune-mass HAT-P-26 b; non-tentative on WASP-39 b in NEXOTRANS)
-- [[He]] — 1 paper (predicted by Seager & Sasselov 2000; metastable 1083 nm)
+- [[H2S]] — 7 papers (tentative on L 98-59 d, WASP-94 Ab; first firm detection on HAT-P-12 b; tentative on HAT-P-26 b; non-tentative on WASP-39 b in NEXOTRANS)
+- [[He]] — 2 papers (predicted by Seager & Sasselov 2000 metastable 1083 nm; first JWST sub-Neptune detection on GJ 3090 b in Ahrer 2025)
 - [[K]] — 4 papers (detected in WASP-39 b; HD 209458 b in Verma 2025 STIS+WFC3+NIRCam reanalysis; foundational predictions in 2000/2001 theory papers)
 - [[N2O]] — 1 paper
 - [[Na]] — 4 papers (detected in WASP-39 b, WASP-96 b, HD 209458 b; foundational prediction in 2000/2001 theory papers)
 - [[NO]] — 1 paper (tentatively detected in K2-22 b escaping gas, Tusay 2025)
+- [[SiO]] — 1 paper (silicon monoxide; first definitive identification on ultra-hot WASP-121 b at 5.2σ; rocky-material accretion tracer; Lothringer 2022 NUV-rise hypothesis confirmed)
 
-## Concepts (9)
+## Concepts (12)
 
-- [[aerosols]] — clouds, hazes, condensate grains, photochemical soots; continuum opacity in transmission spectra; canonical case is HD 189733 b's panchromatic Rayleigh slope · 5 papers
+- [[aerosols]] — clouds, hazes, condensate grains, photochemical soots; continuum opacity in transmission spectra; canonical case is HD 189733 b's panchromatic Rayleigh slope; super-puff Kepler-51 d adds the first JWST 0.6–5.3 μm sloped photochemical-haze case · 6 papers
+- [[volcanic-atmosphere]] — atmosphere whose composition is set by volcanic outgassing balancing atmospheric escape; first wiki case is sub-Earth L 98-59 b (SO₂-rich, 3.3–3.8σ; [[2025_BelloArufe_L98-59b]]) — implies ≥8× Io tidal heating per unit mass and a subsurface magma ocean spanning 60–90% of the planetary radius · 1 paper
 - [[cosmic-shoreline]] (hub) — Zahnle & Catling 2017 boundary between atmosphere-retaining and atmosphere-less rocky planets; the wiki currently catalogs three shoreline-challengers (TOI-270 b, TOI-561 b, HD 3167 b) pressuring the original formulation · 13 papers
 - [[disintegrating-planet]] — class of USP rocky planets undergoing active mass loss; dust/gas tails create variable, wavelength-dependent transit signatures probing interior composition · 1 paper
 - [[GEMS]] — Giant Exoplanets around M-dwarf Stars; class combining hot/warm-Jupiter chemistry with M-dwarf stellar contamination · 1 paper
 - [[limb-asymmetry]] — morning–evening terminator transmission contrast on tidally locked planets; LSM and asymmetry horizon; chemical heterogeneity (5× SO₂, 40× CO₂, uniform H₂O on WASP-107 b) · 2 papers
 - [[SO2-photochemical-shoreline]] — proposed (Teq, metallicity) boundary above which photochemical SO₂ becomes detectable; first limb-resolved validation on WASP-107 b · 2 papers
-- [[stellar-contamination]] (hub) — the transit light source effect; a dominant systematic for M-dwarf planets and now also implicated in the HD 189733 b panchromatic-slope reinterpretation · 19 papers
+- [[stellar-contamination]] (hub) — the transit light source effect; a dominant systematic for M-dwarf planets, now also implicated in the HD 189733 b panchromatic-slope reinterpretation, in active-G-dwarf super-puff hosts (Kepler-51), and in inter-visit-variable NIRISS/SOSS sub-Neptune spectra (GJ 3090) · 21 papers
 - [[sub-neptune-classification]] — two-axis (T_eq × H₂ content) classification scheme for volatile-rich sub-Neptunes (Madhusudhan 2025): ice / hycean / mini-Neptune / gas dwarf / supercritical mini-Neptune / steam world; first young-progenitor anchor (V1298 Tau b) · 2 papers
+- [[super-puff]] — low-mass (M < 30 M⊕), extreme low-density (ρ < 0.3 g/cm³) exoplanets; require massive H/He envelopes inflated by high-altitude haze, dusty outflow, or transient ring; first JWST 0.6–5.3 μm transmission case is Kepler-51 d · 1 paper
+- [[thermal-dissociation]] — dayside dissociation of H₂O + H₂ in ultra-hot-Jupiter atmospheres (T_eq > 2000 K) creating hemispheric chemistry asymmetry that biases 1D retrievals; mitigated by dayside/nightside split retrieval frameworks · 1 paper
 - [[transmission-spectrum]] — the wavelength-dependent transit depth observable · 20 papers
 
-## Codes (62)
+## Codes (67)
 
 - [[BeAR]] — Bayesian atmospheric retrieval framework (renamed HELIOS-R2; Kitzmann et al. 2020); supports native-resolution retrieval with LSF convolution · 1 paper
 - [[HELIOS-K]] — GPU-accelerated opacity calculation code (Grimm & Heng 2015); backend for BeAR · 1 paper
 - [[Ahsoka]] — composite NIRISS/SOSS reduction pipeline (Louie et al. submitted; combines `jwst calibration`, supreme-SPOON, nirHiss, Eureka!) · 1 paper
 - [[ARCiS]] — Bayesian transmission/emission retrieval framework (Min et al. 2020); ExoMIRI consortium standard · 2 papers
 - [[ATMO]] — 1D self-consistent radiative-convective grid for hot-Jupiter forward models (Tremblin et al.; Goyal et al.) · 3 papers
-- [[Aurora]] — Bayesian transmission-retrieval code with limb-asymmetry support (Welbanks & Madhusudhan 2021) · 3 papers
+- [[Aurora]] (hub) — Bayesian transmission-retrieval code with multidimensional inhomogeneous-cloud / haze and limb-asymmetry support (Welbanks & Madhusudhan 2021); AURA/Aurora/VIRA family standard on the K2-18 b series · 6 papers
+- [[ExoTR]] — Exoplanetary Transmission Retrieval (Damiano et al. 2024); cloud-as-water-VMR-profile, CLR abundance space, joint stellar-heterogeneity fitting · 2 papers
 - [[CASCADe]] — JWST/HST time-series pipeline (Carone et al. 2021); ExoMIRI consortium standard · 2 papers
 - [[Catwoman]] — asymmetric two-semicircle transit-light-curve model (Jones & Espinoza 2020); extracts limb-resolved transmission spectra · 2 papers
-- [[CHIMERA]] — thermochemical-equilibrium forward-modeling code · 7 papers
+- [[CHIMERA]] (hub) — thermochemical-equilibrium forward-modeling code (Line & Yung 2013; Line et al. 2014); typically paired with [[PICASO]]; ScCHIMERA self-consistent variant in use · 8 papers
 - [[easyCHEM]] — chemical equilibrium code (Mollière et al. 2017); commonly used as the equilibrium-chemistry module for petitRADTRANS · 2 papers
 - [[Erebus]] — JWST MIRI eclipse-photometry pipeline implementing FN-PCA detrending (Connors et al. 2025) · 1 paper
 - [[ExoTEP]] — JWST/HST light-curve fitting framework (Benneke et al.); often paired with Eureka! · 2 papers
@@ -172,24 +205,28 @@
 - [[HyDRo]] — atmospheric retrieval for hot rocky planet emission spectra (Gandhi & Madhusudhan 2018; Piette et al. 2022) · 1 paper
 - [[NAMELESS]] — JWST NIRISS/SOSS time-series reduction pipeline (Montréal group); most conservative of three cross-checks in Lim 2023 · 2 papers
 - [[Pegasus]] — JWST time-series reduction pipeline (Beatty et al. 2024); used as independent cross-check for MIRI/LRS · 1 paper
-- [[Photochem]] — 1D photochemistry / chemical-kinetics code (Wogan et al. 2024); alternative to VULCAN, coupled with ScCHIMERA · 3 papers
-- [[petitRADTRANS]] (hub) — open-source radiative-transfer and atmospheric retrieval code (Mollière et al. 2019); modular forward-modeling back-end for self-consistent grids, joint interior-atmosphere retrievals, and free/equilibrium-chemistry retrievals · 7 papers
-- [[PICASO]] — radiative-transfer code for transmission and emission spectra · 11 papers
-- [[POSEIDON]] (hub) — Bayesian atmospheric retrieval code for transmission and emission spectra · 9 papers
+- [[Photochem]] (hub) — 1D photochemistry / chemical-kinetics code (Wogan et al. 2024) with Clima 1.5-D radiative-convective sub-module; alternative to [[VULCAN]] for sub-Neptune and rocky-planet disequilibrium chemistry; powers the [[climate-constrained-inversion]] forward grid · 11 papers
+- [[PROTEUS]] — 1D photochemical model with 48 H–C–O species + 322 reactions (Nakamura 2023); used for Hycean K2-18 b self-consistency analysis in [[2026_Fujisawa_K2-18b]] · 1 paper
+- [[petitRADTRANS]] (hub) — open-source radiative-transfer and atmospheric retrieval code (Mollière et al. 2019); modular forward-modeling back-end for self-consistent grids, joint interior-atmosphere retrievals, and free/equilibrium-chemistry retrievals · 9 papers
+- [[PICASO]] (hub) — radiative-transfer and atmospheric modelling code (Batalha 2019 / Mang 2026); transmission, emission, and reflected light; standard pairing with [[CHIMERA]] / [[FastChem]] / [[Photochem]] / [[VIRGA]]; the wiki's most-used RT backbone · 19 papers
+- [[POSEIDON]] (hub) — Bayesian atmospheric retrieval code for transmission and emission spectra · 12 papers
 - [[ScCHIMERA]] — self-consistent radiative-convective + photochemistry CHIMERA variant (Piskorz et al. 2018; Iyer et al. 2023) · 1 paper
-- [[SCARLET]] — frequentist exoplanet atmospheric retrieval and model-comparison code (Benneke & Seager 2012–2019); σ-significance rejection statistics · 5 papers
+- [[SCARLET]] — frequentist + Bayesian exoplanet atmospheric retrieval and model-comparison code (Benneke & Seager 2012–2019; Roy 2023; Piaulet-Ghorayeb 2024); σ-significance rejection statistics · 6 papers
 - [[smint]] — three-layer interior structure interpolator (Piaulet 2021–2022; Aguichine 2021 grid) for water-mass-fraction inference · 1 paper
 - [[SOSSISSE]] — JWST NIRISS/SOSS reduction pipeline introduced in Lim 2023 (Montréal group) · 1 paper
-- [[SPARTA]] (hub) — JWST time-series reduction pipeline, independent of the STScI `jwst` pipeline; canonical MIRI/LRS rocky-planet eclipse cross-check; also F1500W and NIRSpec G395H modes · 7 papers
+- [[SPARTA]] (hub) — JWST time-series reduction pipeline, independent of the STScI `jwst` pipeline; canonical MIRI/LRS rocky-planet eclipse cross-check; also F1500W and NIRSpec G395H modes · 8 papers
 - [[SPHINX]] — Iyer 2023 cool-dwarf spectral grid; floor 2000 K · 3 papers
-- [[spotrod]] — semi-analytic transit + occulted-spot light-curve model (Béky et al. 2014) · 3 papers
-- [[Eureka]] (hub) — end-to-end JWST time-series reduction pipeline · 28 papers
+- [[spotrod]] — semi-analytic transit + occulted-spot light-curve model (Béky et al. 2014) · 4 papers
+- [[batman]] — analytic transit-light-curve model (Mandel & Agol 2002; Kreidberg 2015); the de facto inner transit model for essentially all wiki JWST/HST reduction pipelines · 3+ papers
+- [[ExoTiC-LD]] — limb-darkening parameter calculator (Grant & Wakeford 2024); MPS-ATLAS / Stagger / 3D-CO5BOLD interpolation; the LD-prior workhorse for JWST transmission fits · 3+ papers
+- [[Eureka]] (hub) — end-to-end JWST time-series reduction pipeline · 33 papers
 - [[Iraclis]] — HST WFC3 spatial-scanning time-series reduction pipeline (Tsiaras et al. 2016); ARES survey standard · 1 paper
-- [[JExoRES]] — JWST exoplanet reduction pipeline (Holmberg & Madhusudhan 2023); Hot Rocks Survey standard · 1 paper
+- [[JExoRES]] — JWST exoplanet reduction pipeline (Holmberg & Madhusudhan 2023); Hot Rocks Survey standard; dominant role on the K2-18 b series under [[JWST-GO-2722]] (NIRISS+NIRSpec+MIRI) · 4 papers
+- [[PLATON]] — GPU-accelerated atmospheric retrieval framework (Zhang et al. 2019–2025); native-resolution sub-Neptune retrievals · 1 paper
 - [[EXOFASTv2]] — MCMC code for simultaneous transit + RV system-parameter fitting · 2 papers
-- [[ExoTiC-JEDI]] (hub) — end-to-end JWST time-series reduction pipeline; canonical COMPASS dual-reduction primary alongside Eureka; introduces RPF-PCA systematics model · 9 papers
-- [[exoTEDRF]] (hub) — Montréal-group JWST pipeline for NIRISS/SOSS and NIRSpec; standard for the NEAT GTO program; PCA detector detrending + group-level 1/f + `refine_soss_timestamps` · 9 papers
-- [[FIREFLy]] (hub) — JWST time-series reduction pipeline with custom 1/f and bias handling · 8 papers
+- [[ExoTiC-JEDI]] (hub) — end-to-end JWST time-series reduction pipeline; canonical COMPASS dual-reduction primary alongside Eureka; introduces RPF-PCA systematics model · 10 papers
+- [[exoTEDRF]] (hub) — Montréal-group JWST pipeline for NIRISS/SOSS and NIRSpec (and as of v2.3.0, first public pipeline supporting **MIRI** as well); standard for the NEAT GTO program; PCA detector detrending + group-level 1/f + `refine_soss_timestamps` · 11 papers
+- [[FIREFLy]] (hub) — JWST time-series reduction pipeline with custom 1/f and bias handling · 10 papers
 - [[Frida]] — Rathcke's custom JWST time-series pipeline (independent of `jwst` from stage 2) · 1 paper
 - [[juliet]] (hub) — light-curve and RV fitting package (Espinoza 2019); supports GP detrending, nested sampling, MCMC; the dominant downstream light-curve-fitting layer in the wiki · 9 papers
 - [[llamaradas-estelares]] — empirical stellar-flare light-curve template package (Tovar Mendoza et al. 2022) · 1 paper
@@ -203,29 +240,39 @@
 - [[NEXOTRANS]] — hybrid Bayesian + machine-learning atmospheric retrieval framework (Deka et al. 2025); PyMultiNest + UltraNest + Random Forest/Gradient Boosting/kNN/Stacking Regressor; in-house **NEXOCHEM** equilibrium-chemistry module · 1 paper
 - [[SANSAR]] — Suite of Adaptable plaNetary atmoSphere model And Retrieval (Verma et al. 2025); opacity-sampling and correlated-k retrieval; benchmarked against POSEIDON/ATMO/CHIMERA/Aurora · 1 paper
 - [[NEMESISPY]] — Python implementation of the NEMESIS optimal-estimation retrieval framework (Yang et al. 2024) · 2 papers
-- [[MultiNest]] — multimodal nested-sampling algorithm (Feroz & Hobson 2008); widely used retrieval sampler · 13 papers
-- [[nestle]] — pure-Python nested sampler (Skilling; Barbary); chosen over emcee when KDE-form priors are required · 1 paper
+- [[MultiNest]] — multimodal nested-sampling algorithm (Feroz & Hobson 2008); widely used retrieval sampler · 21 papers
+- [[nestle]] — pure-Python nested sampler (Skilling; Barbary); chosen over emcee when KDE-form priors are required; also used by SCARLET for sub-Neptune retrievals · 2 papers
 - [[PACMAN-P]] — coupled atmosphere–interior geochemical evolution model (Krissansen-Totton et al. 2024); magma-ocean speciation + escape over Gyr · 1 paper
 - [[PSG]] — Planetary Spectrum Generator (Villanueva et al. 2018; NASA GSFC); web-based radiative-transfer and retrieval tool · 1 paper
 - [[PyratBay]] — Python radiative-transfer and atmospheric retrieval framework (Cubillos & Blecic 2021) · 1 paper
 - [[RADYN]] — 1D non-LTE radiative-hydrodynamics stellar-atmosphere code (Carlsson & Stein 1995–1997); used for M-dwarf flare-template modeling · 1 paper
 - [[Tiberius]] (hub) — JWST time-series reduction pipeline (extended from ground-based LRG-BEASTS); the wiki's most consistently-applied "third reduction" across BOWIE-ALIGN, COMPASS, Hot Rocks, and ERS reductions · 9 papers
-- [[Tshirt]] — JWST time-series reduction pipeline (Schlawin & Glidic 2022); group-level 1/f handling preferred for NIRCam · 2 papers
+- [[Tshirt]] — JWST time-series reduction pipeline (Schlawin & Glidic 2022); group-level 1/f handling preferred for NIRCam · 3 papers
 - [[transitspectroscopy]] (hub) — Python JWST/NIRSpec reduction package (Espinoza 2022); first-class GP marginalization over stellar contamination; tight juliet integration · 7 papers
 - [[VIRGA]] — eddy-diffusion-balanced cloud microphysics (Rooney et al. 2022); Ackerman & Marley framework · 1 paper
-- [[VULCAN]] (hub) — 1D/2D photochemistry and chemical-kinetics code (Tsai et al. 2017, 2021, 2024); SNCHO_PHOTO_NETWORK; back-end for the SO₂-shoreline grid · 6 papers
+- [[VULCAN]] (hub) — 1D/2D photochemistry and chemical-kinetics code (Tsai et al. 2017, 2021, 2024); SNCHO_PHOTO_NETWORK; back-end for the SO₂-shoreline grid · 7 papers
 
-## Programs (30)
+## Programs (40)
 
 - [[JWST-COM-2734]] — JWST commissioning 2734; NIRISS/SOSS transmission of HAT-P-18 b and WASP-96 b (Fu, Fournier-Tondreau, Radica, Taylor) · 2 papers
 - [[JWST-ERS-1366]] — JWST Early Release Science program (PI: N. Batalha); multi-instrument characterization of WASP-39 b; first JWST CO₂ and SO₂ detections in an exoplanet atmosphere · 2 papers
 - [[JWST-GO-2488]] — JWST Cycle 1 GO 2488 (PI: Sikora); 20.9-hr partial phase curve of highly eccentric hot Jupiter HD 80606 b at periapse with NIRSpec G395H · 1 paper
 - [[JWST-GO-3838]] — JWST Cycle 2 GO 3838 (PIs: Kirk & Ahrer); BOWIE-ALIGN comparative study of aligned vs misaligned hot Jupiters around F-stars · 1 paper
-- [[JWST-GO-2722]] — JWST Cycle 1 GO 2722 (PI: Madhusudhan); NIRISS/SOSS + NIRSpec/G395H transits of K2-18 b designed to test the Hycean atmosphere hypothesis · 1 paper
-- [[JWST-GO-4098]] — JWST Cycle 2 GO 4098 (PIs: Benneke & Evans-Soma); NIRSpec G395H + NIRISS SOSS multi-instrument transit observations of TOI-270 d · 1 paper
+- [[JWST-GO-2722]] — JWST Cycle 1 GO 2722 (PI: Madhusudhan); NIRISS/SOSS + NIRSpec/G395H + MIRI/LRS transits of K2-18 b designed to test the Hycean atmosphere hypothesis; cornerstone of the JWST DMS/DMDS biosignature debate · 5 papers
+- [[JWST-GO-3385]] — JWST Cycle 2 GO 3385 (PI: Barat); NIRSpec G395H + NIRISS SOSS transits of [[TOI-1130b]] under the 2:1-MMR multi-planet system [[TOI-1130]]; tests the formation-location-vs-composition correlation in a well-constrained system · 1 paper
+- [[JWST-GO-3942]] — JWST Cycle 2 GO 3942 (PI: Damiano); four NIRSpec G395H transits of sub-Earth L 98-59 b searching for a volcanically-outgassed atmosphere · 1 paper
+- [[JWST-PID-1118]] — JWST commissioning PID 1118 (PI: Proffitt); NIRSpec G395H BOTS calibration on HAT-P-14 b; reanalysis required vs original A23 (Albert et al. 2023; not ingested) · 1 paper
+- [[JWST-PID-1541]] — JWST commissioning PID 1541 (PI: Espinoza); NIRISS/SOSS calibration on HAT-P-14 b; pipeline-reanalysis case study · 1 paper
+- [[JWST-GO-1177]] — JWST Cycle 1 GO 1177 (PI: Schlawin); MANATEE survey; NIRCam grism (F322W2 + F444W) emission spectroscopy of warm-Neptune GJ 436 b · 1 paper
+- [[JWST-GO-1185]] — JWST Cycle 1 GO 1185 (PI: Schlawin); MANATEE companion to GO 1177; MIRI/LRS emission spectroscopy of warm-Neptune GJ 436 b · 1 paper
+- [[JWST-GO-4098]] — JWST Cycle 2 GO 4098 (PIs: Benneke & Evans-Soma); sub-Neptune survey "exploring the existence and diversity of volatile-rich water worlds"; multi-target NIRSpec G395H + NIRISS SOSS · 3 papers
+- [[JWST-GO-3154]] — JWST Cycle 2 GO 3154 (PI: Ahrer); NIRSpec/G395H transmission of misaligned hot Jupiters above the Kraft break; formation-vs-migration test · 1 paper
+- [[JWST-GO-1729]] — JWST Cycle 1 GO 1729 (PI: Evans-Soma; co-PI: Kataria); 37.8-hr NIRSpec G395H phase curve of WASP-121 b · 1 paper
+- [[JWST-GO-2571]] — JWST Cycle 1 GO 2571 (PI: Libby-Roberts); NIRSpec/PRISM transmission of the super-puff Kepler-51 d · 1 paper
 - [[JWST-GO-4818]] — JWST Cycle 3 GO 4818 (PI: Weiner Mansfield); LAVA LAMPS survey of USP rocky planets with MIRI/LRS secondary eclipses · 1 paper
 - [[JWST-GO-5924]] — JWST Cycle 3 GO 5924; NIRISS/SOSS transmission of WASP-80 b (Gascon, in prep) and WASP-94 Ab (Mukherjee et al. 2025) · 1 paper
 - [[JWST-DD-9235]] — JWST Director's Discretionary Time DD 9235 (Espinoza & Diamond-Lowe); Rocky Worlds program; MIRI F1500W eclipse photometry of small rocky planets · 1 paper
+- [[JWST-Rocky-Worlds-DDT]] — JWST Director's Discretionary Time program (Lustig-Yaeger / Stevenson); MIRI/F1500W eclipses of M-dwarf rocky planets along the [[cosmic-shoreline]]; referenced as planned LTT 1445A b F1500W follow-up · 1 paper
 - [[JWST-GO-1743]] — JWST Cycle 1 GO 1743 (M. Mansfield) targeting Gl 486 b with MIRI/LRS emission · 1 paper
 - [[JWST-GO-1981-CHAMPs]] — JWST Cycle 1 GO 1981 (Stevenson & Lustig-Yaeger) surveying five rocky M-dwarf planets near the cosmic shoreline · 4 papers
 - [[JWST-GO-2420]] — JWST Cycle 1 GO 2420 (Rathcke) targeting TRAPPIST-1 c with NIRSpec PRISM, including a back-to-back b+c visit · 1 paper
@@ -235,7 +282,7 @@
 - [[JWST-GO-2589]] — JWST Cycle 1 GO 2589 (O. Lim); NIRISS/SOSS atmospheric reconnaissance of TRAPPIST-1 planets · 1 paper
 - [[JWST-GO-2708]] — JWST Cycle 1 GO 2708 (Berta-Thompson) targeting LTT 1445 A b with MIRI/LRS emission · 1 paper
 - [[JWST-GO-3315]] — JWST Cycle 2 GO 3315 (PI: J. T. Wright); MIRI/LRS transit spectroscopy of the disintegrating rocky planet K2-22 b · 1 paper
-- [[JWST-GO-3171]] — JWST Cycle 2 GO 3171 (PIs: Kanodia, Cañas, Libby-Roberts); GEMS-JWST survey of seven gas giants around M dwarfs with NIRSpec PRISM · 1 paper
+- [[JWST-GO-3171]] — JWST Cycle 2 GO 3171 (PIs: Kanodia, Cañas, Libby-Roberts); GEMS-JWST survey of seven gas giants around M dwarfs with NIRSpec PRISM · 2 papers
 - [[JWST-GO-3730]] — JWST Cycle 2 GO 3730 (PI: H. Diamond-Lowe); Hot Rocks Survey; MIRI F1500W eclipses of nine rocky M-dwarf planets · 2 papers
 - [[JWST-GO-3860]] — JWST GO 3860 (PI: J. Teske); four NIRSpec G395H secondary eclipses of TOI-561 b; first detection consistent with thick atmosphere on a rocky planet · 1 paper
 - [[JWST-GO-4082]] — JWST Cycle 2 GO 4082 (PI: M. Radica); single NIRSpec G395H transit of WASP-96 b · 1 paper
@@ -248,8 +295,31 @@
 - [[JWST-TST-GTO-1331]] — JWST TST GTO 1331 (M. Mountain); DREAMS survey of TRAPPIST-1 planets with NIRSpec PRISM · 2 papers
 - [[JWST-TST-GTO-1353]] — JWST TST GTO 1353 (PI: N. Lewis); DREAMS multi-instrument characterization of WASP-17 b · 3 papers
 
-## Papers (61, newest first)
+## Papers (84, newest first)
 
+- [[2026_Fujisawa_K2-18b]] — Fujisawa, Shimada, Yoshida, Kuramoto 2026, arXiv:2605.17803 — photochemical-Hycean self-consistency analysis of [[K2-18b]] using PROTEUS 1D photochemistry + Yoshida 2025 radiative-convective climate model. Demonstrates that a 1-bar H₂ envelope over a liquid-water ocean (T_s = 328 K, X_CH₄ = X_CO₂ = 1 %) produces a **CH₄ depletion layer near 600 km** driven by CH₄ photodissociation + C₂ radical chemistry, yielding "photochemical saturation" plateaus that **fit the NIRISS+NIRSpec G395H data better than vertically uniform mixing** (R≈25 χ² 1.95 vs 2.50 for exoTEDRF; 1.95 vs 2.38 for FIREFLy; 3.15 vs 4.26 for Madhusudhan). CO/CO₂ posterior is strongly binning-dependent — argues Hycean **cannot yet be ruled out** by current data. Mass-balance + ocean buffering analysis allows CO₂ to be buffered at 10⁻³–10⁻² under mildly alkaline oceans. CH₄ photochem lifetime ~1.2×10⁷ yr requires interior replenishment (~5×10³ kg s⁻¹) — Hycean K2-18 b would be a *dynamic steady state*.
+- [[2026_Wogan_LTT1445Ab]] — Wogan, Batalha, Ih, Lustig-Yaeger, Stevenson 2026, arXiv:2605.14997 — introduces **climate-constrained Bayesian inversion** for rocky-planet eclipse spectra and applies it to [[LTT1445Ab]] MIRI/LRS data ([[2024_Wachiraphan_LTT1445Ab]]). Forward grid of 684 000 self-consistent atmospheres ([[Photochem]] / Clima + [[PICASO]]) over 7 parameters (4 partial pressures + heat-engine efficiency χ + surface albedo + T_eq,0). Bare-rock model preferred at **K_bare/atm = 11**; **P_s ≤ 0.6 bar at 2σ**; if an atmosphere is present, it is dominated by optically thin O₂/N₂/CO. Forecasts that **≥ 4 MIRI/F1500W eclipses at 20 ppm precision** can detect the thickest still-allowed atmosphere at K_atm/bare = 35. Establishes the methodology as the rocky-planet emission-spectrum analog of equilibrium-chemistry transmission retrievals — key tool for population-level [[cosmic-shoreline]] tests.
+- [[2026_Batalha_LTT1445Ab]] — Batalha, Wallack, Gordon, Wogan, Bennett, Redai, López-Morales et al. 2026, arXiv:2605.15003 — **first JWST NIRSpec G395H transmission of [[LTT1445Ab]]** under COMPASS ([[JWST-GO-2512-COMPASS]]); eleventh and last COMPASS target. Single transit on 2025 Sep 1; 22–36 ppm spectral precision; **no astrophysical features** — only an NRS1–NRS2 detector offset of −43 ± 5 ppm. Chemical-equilibrium [M/H] > 350× Solar (3σ) ruled out at P_opaque > 0.01 bar; extends to > 520× Solar combined with HST/WFC3. H₂/He + CO₂ < 10 % (P_opaque > 10⁻⁴ bar), + H₂O < 10 % (P_opaque > 10⁻² bar), + CH₄ < 100 % (P_opaque > 10⁻⁴ bar) ruled out. Forecast: combined 12-transit dataset distinguishes 1000× Solar from flat at 4.6 ± 1.1 σ.
+- [[2026_Barat_TOI1130b]] — Barat, Fairnington, Huang, Vanderburg, Morley, Korth, Parviainen et al. 2026, ApJL submitted (arXiv:2605.02036) — **first JWST atmospheric characterization of the inner mini-Neptune of the unique 2:1 MMR + hot-Jupiter system** [[TOI-1130]]. Two transits (NIRSpec G395H + NIRISS SOSS) + TESS + CHEOPS under [[JWST-GO-3385]]. **H₂O at 7.5σ + CO₂ at 3.3σ + SO₂ at 3.6σ + tentative CH₄ at ~2σ**; equilibrium chemistry: log Z/Z_⊙ = 1.8⁺⁰·⁴₋₀·³, μ = 5.5⁺¹·³₋₀·₈ amu, C/O < 0.75 (3σ). He I 1083 nm **not detected**; mass loss < 10¹¹ g s⁻¹. Optical scattering slope rules out tholin/soot/phosphorus hazes at > 5σ. Joins [[TOI-270d]] and [[GJ3470b]] as a third **miscible-envelope mini-Neptune** (μ ~ 5.5). Formation: 2:1 MMR + outer hot-Jupiter pebble filter strongly favor **ex-situ accretion beyond the water ice line + disc migration**.
+- [[2025_Splinter_WASP121b]] — Splinter, Coulombe, Frazier, Cowan, Rauscher, Dang, Collins, Pelletier et al. 2025, AJ 170:323 — **first JWST NIRISS/SOSS phase curve of an ultra-hot Jupiter**. 36.9 hr full-orbit phase curve of [[WASP-121b]] under [[JWST-GTO-1201]] (NEAT GTO). Captures 55–82 % of bolometric flux. **T_day = 2717 ± 17 K, T_night = 1562⁺¹⁸₋₁₉ K → A_B = 0.277 ± 0.016, ε = 0.246 ± 0.014.** Bell_EBM prefers slow wind (~0.2 km/s) + deep 1-bar mixed layer (consistent with magnetic drag). Order 2 geometric albedo A_g = 0.093⁺⁰·⁰²⁹₋⁰·⁰²⁷ — **reinforces the hot-Jupiter A_B/A_g paradox** (factor-3 ratio in same observation; A_short ≈ 0.34 needed for self-consistency). Eastward phase offset shifts from 5.1° (broadband) up to 14° at 1.13 μm — first robust altitude-dependent hot-spot signature, suggestive of reflected light from clouds on the eastern dayside.
+- [[2025_Seager_biosignature-prospects]] — Seager, Welbanks, Ellerbroek, Bains, Petkowski 2025, PNAS 122:39 e2416188122 — **perspective on JWST biosignature-detection prospects**. Adopts 30 ppm JWST noise floor (from WASP-39 b ERS) and TS ≈ 6HR_p/R_★² feasibility metric to bound the accessible target population: ≤ 6 habitable-zone sub-Neptunes (1.5–3 R⊕, T_eq < 373 K) + few Earth-size rocky planets (TRAPPIST-1, LP 791-18 d). Formalises **3 Key Criteria — Detection / Attribution / Interpretation**. Applies to the [[K2-18b]] DMS claim ([[2025_Madhusudhan_K2-18b-MIRI]]): **fails all three criteria**. Uses [[WASP-107b]] CH₄ as the criteria-satisfying counter-example; [[TOI-270d]] independent-reduction discrepancy ([[2025_Felix_TOI-270d]] vs Benneke 2024) as cautionary tale. Table 1 evaluates 18 candidate biosignature gases; **none satisfy all three criteria simultaneously**. Concludes JWST may never *definitively* claim a biosignature; future progress requires solving M-dwarf TLS, refining retrievals, building a "Deep Planet Simulator," and next-generation observatories.
+- [[2025_Mukherjee_GJ436b]] — Mukherjee, Schlawin, Bell, Fortney et al. 2025, arXiv:2502.17418 — first JWST panchromatic 2.4–12 μm thermal emission spectrum of the warm-Neptune archetype GJ 436 b under MANATEE ([[JWST-GO-1177]] + [[JWST-GO-1185]]); 8 eclipses (NIRCam F322W2 + F444W + MIRI LRS); JWST 3.6 μm flux is significantly fainter than Spitzer; revises [M/H] ≥ 80–500× solar (vs Spitzer-era ~hundreds × solar) and T_int ~ 60 K (vs Spitzer-era ≥ 300 K); tentative CO₂ at 2σ
+- [[2025_BelloArufe_L98-59b]] — Bello-Arufe, Damiano, Bennett, Hu, Welbanks et al. 2025, ApJL 980:L26 — four NIRSpec G395H transits of sub-Earth L 98-59 b under [[JWST-GO-3942]]; smallest exoplanet with a JWST transmission spectrum; **first wiki volcanic-atmosphere inference** at 3.3–3.8σ across ExoTR/Aurora/POSEIDON retrievals; SO₂-rich (>90% VMR); implies tidal heating ≥8× Io and subsurface magma ocean R_m ≈ 0.6–0.9 R_p; fourth wiki cosmic-shoreline challenger
+- [[2025_Canas_TOI5205b]] — Cañas, Lustig-Yaeger, Tsai, Müller, Helled et al. 2025, AJ (arXiv:2502.06966) — three NIRSpec PRISM transits of GEMS-class TOI-5205 b (1.08 M_J around M4 dwarf) under [[JWST-GO-3171]]; >20σ stellar contamination with spot-crossing events in all 3 visits; CH₄ + H₂S detected; **sub-solar atmospheric metallicity** ([Fe/H] ≈ −2 to −0.8) + **super-solar C/O ≈ 1.2–1.3**; atmospheric metallicity ~100× lower than predicted bulk
+- [[2025_Liu_HATP14b]] — Liu, Wang, Rustamkulov, Sing 2025, arXiv:2504.08903 — JWST commissioning NIRISS/SOSS + NIRSpec G395H of super-Jupiter HAT-P-14 b ([[JWST-PID-1541]] + [[JWST-PID-1118]]); reanalyzed with updated FIREFLy + STScI jwst pipeline; H₂O detected at 3.09σ; near-solar metallicity; **blueward NIRISS slope from original commissioning analysis disappears** in updated reduction; demonstrates JWST can characterize TSM ~ 24 (805th-best target) atmospheres
+- [[2025_Fu_statistical-trends]] — Fu, Stevenson, Sing, Mukherjee, Welbanks, Thorngren, Tsai, Gao, Lothringer, Beatty, Gapp, Evans-Soma, Allart, Pelletier, Thao, Mann 2025, arXiv:2501.02081 — **first population-level JWST transiting exoplanet atmospheric study**. 8 hot-Jupiter / sub-Saturn / warm-Neptune class targets ([[GJ3470b]], [[HIP67522b]], [[WASP-107b]], [[WASP-127b]], [[WASP-39b]], [[HD209458b]], [[HD189733b]], [[WASP-121b]]); 2.7–5 μm spectra. Defines 4 photometric bands (L, SO₂, CO₂, CO) and scale-height-normalized band indices. **SO₂-L vs T_eq r = −0.64 ± 0.08** (SO₂ preferentially at T_eq ≲ 1200 K, M_p ≲ 0.3 M_J); SO₂-L vs bulk Z r = 0.54 ± 0.10 (T_eq < 1400 K). Population favors super-solar [M/H] (>3×) + low C/O (<0.7) + mass-metallicity correlation. Introduces SO₂-L vs CO₂-L "color-color" diagram; presents new NIRSpec G395H spectrum of WASP-127 b
+- [[2025_RoyPerez_WASP39b]] — Roy-Perez, Pérez-Hoyos, Barrado-Izagirre, Chen-Chen 2025, A&A 694:A249 (arXiv:2505.02081) — re-analysis of [[WASP-39b]] NIRSpec/PRISM (FIREFLy reduction) focused on **cloud particle properties**. Four cloud-extinction models via [[PSG]]/PUMAS + [[MultiNest]] + [[MOPSMAP]]: flat, free-slope, Ångström, MOPSMAP. Ångström (ln B = 8.02) and MOPSMAP (ln B = 5.57) **decisively favored** over flat clouds; best-fit MOPSMAP r_eff = 0.55⁺⁰·⁰³₋₀·⁰³ μm with spherical aerosols (n_r = 1.4); μ_atm ≈ 2.60 g mol⁻¹. **Molecular abundances shift up to 4 dex** between cloud parameterizations (H₂S: −2.23 vs −6.29); establishes cloud-extinction parameterization as a leading retrieval bias on JWST data
+- [[2025_Ohno_GJ1214b]] — Ohno, Schlawin, Bell, Murphy, Beatty, Welbanks, Greene, Fortney, Parmentier, Edelman, Mehta, Rieke 2025, ApJL 979:L7 (arXiv:2412.02681) — panchromatic HST/WFC3 + JWST/NIRSpec/G395H + JWST/MIRI/LRS transmission of the archetype thick-aerosol sub-Neptune [[GJ1214b]]; photochemical-microphysical (PM) haze grid retrieval ([[VULCAN]] + [[CHIMERA]] + Ohno-Okuzumi two-moment microphysics + PyMultiNest); concludes **[M/H] ≈ 3.5–3.8 (~3000–6000× solar) — metal-dominated atmosphere where H₂ is no longer main constituent**; haze production rate F_haze ≈ 10⁻⁸ g cm⁻² s⁻¹ (5–6 dex above Solar System hazes); robust against 4 haze refractive-index choices and chemically-consistent cross-check
+- [[2025_Schmidt_K2-18b]] — Schmidt, MacDonald, Tsai, Radica, Wang, Ahrer, Bell, Fisher, Thorngren, Wogan, May, Ferrari, Bennett, Rustamkulov, López-Morales, Sing 2025, AAS submitted (arXiv:2501.18477) — comprehensive reanalysis of [[K2-18b]] JWST NIRISS SOSS + NIRSpec G395H ([[JWST-GO-2722]]); **first analysis of NIRISS SOSS 2nd order**; 2 NIRISS + 4 NIRSpec reductions × 2 retrievals ([[POSEIDON]] + new [[BeAR]]) across 60 data combinations, >250 retrievals; CH₄ at **4.2σ** (log VMR = −1.15⁺⁰·⁴⁰₋₀·₅₂); CO₂ max 2.3σ (log CO₂ < −1.70); DMS max 2.2σ (log C₂H₆S < −3.70); 5⁺³₋₂% cool starspot coverage from 2nd-order data; **oxygen-poor mini-Neptune (C/O ≈ 3.25)** explains all constraints without invoking life or a liquid water ocean; formalizes ensemble-posterior methodology over data-level choices
+- [[2025_Taylor_K2-18b-MIRI]] — Taylor 2025, arXiv:2504.15916 — model-agnostic Gaussian-feature analysis of the [[2025_Madhusudhan_K2-18b-MIRI]] MIRI/LRS spectrum; 5 of 6 Gaussian tests give "no evidence" (Δln Z < 1) over a flat line; only dual-Gaussian fixed at 7 + 8.8 μm reaches weak evidence (Δln Z = 1.21, ~2σ); argues M25 detection is inflated by curated 2-molecule canonical model + non-nested comparison
+- [[2025_Luque_K2-18b]] — Luque, Piaulet-Ghorayeb, Radica, Xue, Zhang, Bean, Samra, Steinrueck 2025, A&A Letter (arXiv:2505.13407) — joint **panchromatic** (0.6–12 μm) NIRISS+NIRSpec+MIRI retrieval of [[K2-18b]] across three reductions ([[exoTEDRF]] v2.3.0 first MIRI support, [[Eureka]], [[SPARTA]]) and two retrieval frameworks ([[PLATON]], [[SCARLET]]); **DMS+DMDS never preferred at Δln Z ≥ 5** (range −0.3 to +2.8); ethane (C₂H₆) provides an equally good fit; MIRI-retrieved T_p exceeds energy-balance bound (382 K) implying features are systematic; ~26 MIRI transits needed for 3σ flat-line rejection
+- [[2025_PicaCiamarra_K2-18b]] — Pica-Ciamarra, Madhusudhan, Cooke, Constantinou, Binet 2025, arXiv:2505.10539 — **650-molecule agnostic search** for trace gases in [[K2-18b]] across NIRISS+NIRSpec+MIRI using three retrieval codes (POSEIDON, petitRADTRANS, VIRA); 11 species reach ≥2.5σ in MIRI (DMDS, chloroethane, propyne, bromoethane, 2-butene, dichloromethane, cyclohexane, butane, allyl chloride, cyclopentane, trans-2-pentene); only 3 (DMS, diethyl sulfide, methacrylonitrile) reach ≥2.5σ in NIR no-offset case — **DMS no longer spectroscopically unique** in the present data
+- [[2025_Madhusudhan_K2-18b-MIRI]] — Madhusudhan, Constantinou, Holmberg, Sarkar, Piette, Moses 2025, ApJL 983:L40 — first **MIRI/LRS** (~5–12 μm) transmission spectrum of [[K2-18b]] (2024 April; under [[JWST-GO-2722]]); 2-pipeline (JExoRES + JexoPipe) consistent within 1σ; canonical 16-parameter retrieval favors DMS+DMDS over a flat spectrum at 3.4σ; DMDS-only 3.2σ; DMS-only 2.9σ; log X ≈ −3.5 for both; presented as "new independent evidence" for the previously-tentative DMS biosignature on K2-18 b — claim contested in same week by [[2025_Luque_K2-18b]] and [[2025_PicaCiamarra_K2-18b]]
+- [[2025_Carter_NIRISS-jump-ramp]] — Carter, Espinoza, Albert, Brandt, Baines, Filippazzo, Volk 2025, JWST Technical Report STScI-008975 — methodology paper. Compares default JWST pipeline (Anderson-Gordon 2018 + Fixsen 2000) vs LIKELY method (Brandt 2024) for jump detection and ramp fitting on NIRISS/SOSS time-series, using WASP-39 b ERS visit + 23-realization simulations. Differences at ~50 ppm on-sky and 12–18% improvement on simulated data in 1/f and All-noise cases; group-level 1/f correction emerges as the dominant unaddressed systematic
+- [[2025_LibbyRoberts_Kepler51d]] — Libby-Roberts et al. 2025, arXiv:2505.21358 — NIRSpec/PRISM 0.6–5.3 μm transmission of the [[super-puff]] [[Kepler-51d]]; sloped near-featureless spectrum; high-altitude photochemical haze (1–100 μbar, sub-micron particles) atop H/He envelope; tilted-ring alternative ruled out as steady state on Pointing–Robertson grounds; tentative 2.2σ CH₄ at ppb level
+- [[2025_Gapp_WASP121b]] — Gapp et al. 2025, arXiv:2506.02199 — NIRSpec/G395H transit-only extraction from GO-1729 phase curve of ultra-hot Jupiter [[WASP-121b]]; **first definitive [[SiO]] identification** at 5.2σ; evidence for [[thermal-dissociation]] of H₂O + H₂ on dayside; custom dayside/nightside split [[NEMESISPY]] retrieval introduced
+- [[2025_Ahrer_WASP94Ab]] — Ahrer et al. 2025, MNRAS (arXiv:2505.11224) — JWST/NIRSpec G395H transmission of misaligned retrograde hot Jupiter WASP-94 Ab; CO₂ at 11σ + H₂O at 4σ + tentative CO + H₂S; substellar C/O = 0.49 vs host C/O★ = 0.68; favors pebble/planetesimal accretion + large-distance migration
+- [[2025_Ahrer_GJ3090b]] — Ahrer et al. 2025, ApJL 985:L10 — JWST NIRISS/SOSS + NIRSpec/G395H transmission of warm sub-Neptune GJ 3090 b; **first JWST sub-Neptune He I detection** (5.5σ at 1083 nm); muted features → high metallicity (>100× solar at 3σ; >700× solar at 2σ irrespective of clouds; best-fit grid >1000× solar); CH₄ confidently absent; NIRISS dominated by inter-visit-variable TLS
 - [[2019_Rackham_TLS-FGK]] — Rackham, Apai, Giampapa 2019, AJ 157:96 — extends [[2018_Rackham_TLS]] to FGK dwarfs; reference activity-level spot fractions per spectral type (0.1 % F → 1.5–2.1 % K); demonstrates K-dwarf TLS produces visible blueward slopes at the magnitude observed for HD 189733 b; explicitly cites the McCullough 2014 reinterpretation; band-averaged molecular-feature contamination not detectable for typically active FGK dwarfs (exceptions: TiO/VO on active late-K, atomic line wings).
 - [[2018_Rackham_TLS]] — Rackham, Apai, Giampapa 2018, ApJ 853:122 — foundational [[stellar-contamination]] (transit-light-source-effect) theory paper; rotating-photosphere forward models for M0V–M9V; A ∝ f_spot^0.5 calibration; M-dwarf TLS contamination is 1–15× the planetary atmospheric signal for rocky targets; biases TRAPPIST-1 densities by Δ(ρ) ≈ −8 %.
 - [[2014_McCullough_HD189733b]] — McCullough, Crouzet, Deming, Madhusudhan 2014, ApJ 791:55 — single HST/WFC3 G141 spatial-scan transit of HD 189733 b; first H₂O detection (200 ± 47 ppm at 1.4 μm + 83 ± 53 ppm at 1.15 μm); reinterprets the [[2008_Pont_HD189733b]] / [[2013_Pont_HD189733b]] panchromatic Rayleigh slope as unocculted-starspot contamination + clear atmosphere; alkali condensation onto KCl/Na₂S explains missing Na/K wings.
